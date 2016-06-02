@@ -1,0 +1,21 @@
+* Meetings
+** 1st June 2016
+*** Discussion focused on-
+- Whether to use metaprogramming approach or to modify the parser itself.
+  We decided to modify the parser because it is cleaner and we were not
+  sure if metaprogramming would work.
+- What types to support?
+  To begin with, we will support basic nonparametric types, numeric,
+  boolean etc. as described by R language. We will use the `Function'
+  type for functions.
+- What should be the syntax for types?
+  We decided to use '::' to specify types. R already uses ':', so using
+  '::' seems more appropriate.
+- What would be the next step after adding types?
+  Once we have a mechanism (rudimentary) to annotate code with types, we
+  can use existing R tools to automatically annotate large codebases,
+  based on the type of values being passed to functions in test cases.
+*** TODO Modify parser to parse basic non parametric types.          :aviral:
+DEADLINE: <2016-06-06 Mon>
+1. Use :: for specifying types
+2. Support basic [[https://cran.r-project.org/doc/manuals/r-release/R-lang.html][R types]]
