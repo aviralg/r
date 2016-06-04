@@ -69,10 +69,10 @@ typedef struct yyltype
   int last_line;
   int last_column;
   int last_byte;
-  
+
   int first_parsed;
   int last_parsed;
-  
+
   int id;
 } yyltype;
 
@@ -150,7 +150,7 @@ static void setId( SEXP expr, yyltype loc){
 	} 								\
     } while (0)
 
-		
+
 # define YY_LOCATION_PRINT(Loc)					\
  fprintf ( stderr, "%d.%d.%d-%d.%d.%d (%d)",				\
  	(Loc).first_line, (Loc).first_column,	(Loc).first_byte, 	\
@@ -179,7 +179,7 @@ static int 	processLineDirective();
 static SEXP	mkComplex(const char *);
 SEXP		mkFalse(void);
 static SEXP     mkFloat(const char *);
-static SEXP 	mkInt(const char *); 
+static SEXP 	mkInt(const char *);
 static SEXP	mkNA(void);
 SEXP		mkTrue(void);
 
@@ -305,6 +305,7 @@ static int	xxvalue(SEXP, int, YYLTYPE *);
 %token		SYMBOL_PACKAGE
 %token		COLON_ASSIGN
 %token		SLOT
+%token    TYPE_ANNOTATION
 
 /* This is the precedence table, low to high */
 %left		'?'
@@ -326,7 +327,7 @@ static int	xxvalue(SEXP, int, YYLTYPE *);
 %left		UMINUS UPLUS
 %right		'^'
 %left		'$' '@'
-%left		NS_GET NS_GET_INT
+%left		NS_GET NS_GET_INT TYPE_ANNOTATION
 %nonassoc	'(' '[' LBB
 
 %%
@@ -345,19 +346,17 @@ expr_or_assign  :    expr                       { $$ = $1; }
 equal_assign    :    expr EQ_ASSIGN expr_or_assign              { $$ = xxbinary($2,$1,$3); }
                 ;
 
-expr	: 	NUM_CONST			{ $$ = $1;	setId( $$, @$); }
-	|	STR_CONST			{ $$ = $1;	setId( $$, @$); }
-	|	NULL_CONST			{ $$ = $1;	setId( $$, @$); }          
-	|	SYMBOL				{ $$ = $1;	setId( $$, @$); }
-
-	|	'{' exprlist '}'		{ $$ = xxexprlist($1,&@1,$2); setId( $$, @$); }
-	|	'(' expr_or_assign ')'		{ $$ = xxparen($1,$2);	setId( $$, @$); }
-
-	|	'-' expr %prec UMINUS		{ $$ = xxunary($1,$2);	setId( $$, @$); }
-	|	'+' expr %prec UMINUS		{ $$ = xxunary($1,$2);	setId( $$, @$); }
-	|	'!' expr %prec UNOT		{ $$ = xxunary($1,$2);	setId( $$, @$); }
-	|	'~' expr %prec TILDE		{ $$ = xxunary($1,$2);	setId( $$, @$); }
-	|	'?' expr			{ $$ = xxunary($1,$2);	setId( $$, @$); }
+expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
+	    | STR_CONST			{ $$ = $1;	setId( $$, @$); }
+      |	NULL_CONST		{ $$ = $1;	setId( $$, @$); }
+	    |	SYMBOL				{ $$ = $1;	setId( $$, @$); }
+	    |	'{' exprlist '}'		{ $$ = xxexprlist($1,&@1,$2); setId( $$, @$); }
+      |	'(' expr_or_assign ')'		{ $$ = xxparen($1,$2);	setId( $$, @$); }
+	    |	'-' expr %prec UMINUS		{ $$ = xxunary($1,$2);	setId( $$, @$); }
+	    |	'+' expr %prec UMINUS		{ $$ = xxunary($1,$2);	setId( $$, @$); }
+	    |	'!' expr %prec UNOT		{ $$ = xxunary($1,$2);	setId( $$, @$); }
+	    |	'~' expr %prec TILDE		{ $$ = xxunary($1,$2);	setId( $$, @$); }
+	    |	'?' expr			{ $$ = xxunary($1,$2);	setId( $$, @$); }
 
 	|	expr ':'  expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr '+'  expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
@@ -394,6 +393,7 @@ expr	: 	NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	|	expr '[' sublist ']'		{ $$ = xxsubscript($1,$2,$3);	setId( $$, @$); }
 	|	SYMBOL NS_GET SYMBOL		{ $$ = xxbinary($2,$1,$3);      setId( $$, @$); modif_token( &@1, SYMBOL_PACKAGE ) ; }
 	|	SYMBOL NS_GET STR_CONST		{ $$ = xxbinary($2,$1,$3);      setId( $$, @$); modif_token( &@1, SYMBOL_PACKAGE ) ; }
+  | SYMBOL TYPE_ANNOTATION SYMBOL     { $$ = $1; setId( $$, @$); }
 	|	STR_CONST NS_GET SYMBOL		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	STR_CONST NS_GET STR_CONST	{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	SYMBOL NS_GET_INT SYMBOL	{ $$ = xxbinary($2,$1,$3);      setId( $$, @$); modif_token( &@1, SYMBOL_PACKAGE ) ;}
@@ -1884,6 +1884,7 @@ static void yyerror(const char *s)
 	"OR2",		"'||'",
 	"NS_GET",	"'::'",
 	"NS_GET_INT",	"':::'",
+  "TYPE_ANNOTATION",   "'<:'",
 	0
     };
     static char const yyunexpected[] = "syntax error, unexpected ";
@@ -1932,7 +1933,6 @@ static void yyerror(const char *s)
                            yytname_translations[i+1]);
                                 break;
                 }
-                
 		return;
 	    }
 	}
@@ -2780,25 +2780,29 @@ static int token(void)
     /* compound tokens */
 
     switch (c) {
-    case '<':
-	if (nextchar('=')) {
-	    yylval = install_and_save("<=");
-	    return LE;
-	}
-	if (nextchar('-')) {
-	    yylval = install_and_save("<-");
-	    return LEFT_ASSIGN;
-	}
-	if (nextchar('<')) {
-	    if (nextchar('-')) {
-		yylval = install_and_save("<<-");
-		return LEFT_ASSIGN;
-	    }
-	    else
-		return ERROR;
-	}
-	yylval = install_and_save("<");
-	return LT;
+        case '<':
+          if (nextchar(':')) {
+            yylval = install_and_save("<:");
+            return TYPE_ANNOTATION;
+          }
+          if (nextchar('=')) {
+            yylval = install_and_save("<=");
+            return LE;
+          }
+          if (nextchar('-')) {
+            yylval = install_and_save("<-");
+            return LEFT_ASSIGN;
+          }
+          if (nextchar('<')) {
+            if (nextchar('-')) {
+              yylval = install_and_save("<<-");
+              return LEFT_ASSIGN;
+            }
+            else
+              return ERROR;
+          }
+          yylval = install_and_save("<");
+          return LT;
     case '-':
 	if (nextchar('>')) {
 	    if (nextchar('>')) {
@@ -3075,6 +3079,7 @@ static int yylex(void)
     case '*':
     case '/':
     case '^':
+    case TYPE_ANNOTATION:
     case LT:
     case LE:
     case GE:
