@@ -62,6 +62,7 @@ SEXP do_asatomic(SEXP, SEXP, SEXP, SEXP);
 SEXP do_asfunction(SEXP, SEXP, SEXP, SEXP);
 SEXP do_asmatrixdf(SEXP, SEXP, SEXP, SEXP);
 SEXP do_assign(SEXP, SEXP, SEXP, SEXP);
+SEXP do_annotate_type(SEXP, SEXP, SEXP, SEXP);
 SEXP do_asvector(SEXP, SEXP, SEXP, SEXP);
 SEXP do_asCharacterFactor(SEXP, SEXP, SEXP, SEXP);
 SEXP do_AT(SEXP call, SEXP op, SEXP args, SEXP env);

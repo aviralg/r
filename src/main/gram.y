@@ -283,7 +283,7 @@ static SEXP	xxparen(SEXP, SEXP);
 static SEXP	xxsubscript(SEXP, SEXP, SEXP);
 static SEXP	xxexprlist(SEXP, YYLTYPE *, SEXP);
 static int	xxvalue(SEXP, int, YYLTYPE *);
-
+static SEXP xxannotatetype(SEXP, SEXP, SEXP, SEXP);
 #define YYSTYPE		SEXP
 
 %}
@@ -357,7 +357,6 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	    |	'!' expr %prec UNOT		{ $$ = xxunary($1,$2);	setId( $$, @$); }
 	    |	'~' expr %prec TILDE		{ $$ = xxunary($1,$2);	setId( $$, @$); }
 	    |	'?' expr			{ $$ = xxunary($1,$2);	setId( $$, @$); }
-
 	|	expr ':'  expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr '+'  expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr '-' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
@@ -380,6 +379,7 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	|	expr OR2 expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 
 	|	expr LEFT_ASSIGN expr 		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+  | SYMBOL TYPE_ANNOTATION datatype LEFT_ASSIGN expr { $$ = xxannotatetype($2, $1, $3, $5); setId( $$, @$); }
 	|	expr RIGHT_ASSIGN expr 		{ $$ = xxbinary($2,$3,$1);	setId( $$, @$); }
 	|	FUNCTION '(' formlist ')' cr expr_or_assign %prec LOW
 						{ $$ = xxdefun($1,$3,$6,&@$); 	setId( $$, @$); }
@@ -393,7 +393,6 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	|	expr '[' sublist ']'		{ $$ = xxsubscript($1,$2,$3);	setId( $$, @$); }
 	|	SYMBOL NS_GET SYMBOL		{ $$ = xxbinary($2,$1,$3);      setId( $$, @$); modif_token( &@1, SYMBOL_PACKAGE ) ; }
 	|	SYMBOL NS_GET STR_CONST		{ $$ = xxbinary($2,$1,$3);      setId( $$, @$); modif_token( &@1, SYMBOL_PACKAGE ) ; }
-  | SYMBOL TYPE_ANNOTATION SYMBOL     { $$ = $1; setId( $$, @$); }
 	|	STR_CONST NS_GET SYMBOL		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	STR_CONST NS_GET STR_CONST	{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	SYMBOL NS_GET_INT SYMBOL	{ $$ = xxbinary($2,$1,$3);      setId( $$, @$); modif_token( &@1, SYMBOL_PACKAGE ) ;}
@@ -408,6 +407,8 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	|	BREAK				{ $$ = xxnxtbrk($1);	setId( $$, @$); }
 	;
 
+datatype : SYMBOL  { $$ = $1; }
+         ;
 
 cond	:	'(' expr ')'			{ $$ = xxcond($2);   }
 	;
@@ -979,6 +980,21 @@ static SEXP xxbinary(SEXP n1, SEXP n2, SEXP n3)
     UNPROTECT_PTR(n2);
     UNPROTECT_PTR(n3);
     return ans;
+}
+
+static SEXP xxannotatetype(SEXP n1, SEXP n2, SEXP n3, SEXP n4)
+{
+  SEXP ans;
+  if (GenerateCode) {
+    PROTECT(ans = lang4(n1, n2, n3, n4));
+  }
+  else {
+    PROTECT(ans = R_NilValue);
+  }
+  UNPROTECT_PTR(n2);
+  UNPROTECT_PTR(n3);
+  UNPROTECT_PTR(n4);
+  return ans;
 }
 
 static SEXP xxparen(SEXP n1, SEXP n2)

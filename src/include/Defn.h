@@ -321,7 +321,8 @@ typedef enum {
     PP_UNARY 	= 17,
     PP_DOLLAR 	= 18,
     PP_FOREIGN 	= 19,
-    PP_REPEAT 	= 20
+    PP_REPEAT 	= 20,
+    PP_TYPE_ANNOTATION = 21
 } PPkind;
 
 typedef enum {
