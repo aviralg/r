@@ -1504,6 +1504,33 @@ static void check_slot_assign(SEXP obj, SEXP input, SEXP value, SEXP env)
 }
 
 
+/* This function adds type annotations to symbols after assigning values to it.
+ * Viewed as a rewrite rule -
+ * <symbol> <: <datatype>  <- <value> =>  <symbol> <- <value>
+ *                                        attr(<value>, "datatype") <- <datatype>
+ * So, first it binds the symbol to the value, and then attaches the type
+ * as an attribute to the *value*.
+ */
+SEXP do_annotate_type(SEXP call, SEXP op, SEXP args, SEXP env)
+{
+
+  SEXP value;
+  //SEXP datatype;
+  // make a call to set the value of the symbol first.
+  value = do_set(call,
+                         Rf_ScalarInteger(0),
+                         CONS(CAR(args),
+                              CONS(CADDR(args),
+                                   R_NilValue)), env);
+  // PROTECT(datatype = allocVector(STRSXP, 1));
+  // SET_STRING_ELT(datatype, 0, PRINTNAME(CADR(args)));
+  setAttrib(CAR(args), install("datatype"), CADR(args));
+  errorcall(getAttrib(CAR(args), install("datatype")), _("This was the parsed type!"));
+  //  UNPROTECT(1);
+  return value;
+}
+
+
 /* attr(obj, which = "<name>")  <-  value    (op == 0)  and
         obj @ <name>            <-  value    (op == 1)
 */

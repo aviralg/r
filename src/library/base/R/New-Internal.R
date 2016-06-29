@@ -190,7 +190,11 @@ sprintf <- function(fmt, ...) .Internal(sprintf(fmt, ...))
 
 t.default <- function(x) .Internal(t.default(x))
 typeof <- function(x) .Internal(typeof(x))
-
+datatype <- function(var)
+{
+  typeinfo <- .Internal(datatype(substitute(var)))
+  paste(typeinfo, collapse=" ")
+}
 
 memory.profile <- function() .Internal(memory.profile())
 

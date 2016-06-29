@@ -283,7 +283,17 @@ static SEXP	xxparen(SEXP, SEXP);
 static SEXP	xxsubscript(SEXP, SEXP, SEXP);
 static SEXP	xxexprlist(SEXP, YYLTYPE *, SEXP);
 static int	xxvalue(SEXP, int, YYLTYPE *);
-
+static SEXP xxannotatetype(SEXP, SEXP);
+static SEXP xxarraytype(SEXP n1, SEXP n2);
+static SEXP xxfunctiontype(SEXP n1, SEXP n2);
+static SEXP	xxtypeseq0();
+static SEXP	xxtypeseq1(SEXP, YYLTYPE *);
+static SEXP	xxtypeseqn(SEXP, SEXP, YYLTYPE *);
+static SEXP xxlisttype(SEXP n1);
+static SEXP xxdataframetype(SEXP n1);
+static SEXP	xxunion2(SEXP, SEXP);
+static SEXP	xxunionn(SEXP, SEXP, YYLTYPE *);
+static SEXP xxparametrictype(SEXP n1);
 #define YYSTYPE		SEXP
 
 %}
@@ -291,7 +301,7 @@ static int	xxvalue(SEXP, int, YYLTYPE *);
 %token-table
 
 %token		END_OF_INPUT ERROR
-%token		STR_CONST NUM_CONST NULL_CONST SYMBOL FUNCTION 
+%token		STR_CONST NUM_CONST NULL_CONST SYMBOL FUNCTION
 %token		INCOMPLETE_STRING
 %token		LEFT_ASSIGN EQ_ASSIGN RIGHT_ASSIGN LBB
 %token		FOR IN IF ELSE WHILE NEXT BREAK REPEAT
@@ -306,8 +316,10 @@ static int	xxvalue(SEXP, int, YYLTYPE *);
 %token		COLON_ASSIGN
 %token		SLOT
 %token    TYPE_ANNOTATION
-
+%token    FUNCTION_OPERATOR
 /* This is the precedence table, low to high */
+
+%right   FUNCTION_OPERATOR
 %left		'?'
 %left		LOW WHILE FOR REPEAT
 %right		IF
@@ -357,14 +369,13 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	    |	'!' expr %prec UNOT		{ $$ = xxunary($1,$2);	setId( $$, @$); }
 	    |	'~' expr %prec TILDE		{ $$ = xxunary($1,$2);	setId( $$, @$); }
 	    |	'?' expr			{ $$ = xxunary($1,$2);	setId( $$, @$); }
-
-	|	expr ':'  expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr '+'  expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr '-' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr '*' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr '/' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr '^' expr 			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr SPECIAL expr		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+     	|	expr ':'  expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr '+'  expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr '-' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr '*' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr '/' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr '^' expr 			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr SPECIAL expr		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr '%' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr '~' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr '?' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
@@ -378,10 +389,11 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	|	expr OR expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr AND2 expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr OR2 expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-
-	|	expr LEFT_ASSIGN expr 		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	|	expr LEFT_ASSIGN expr { $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+  | typed_symbol LEFT_ASSIGN expr { $$ = xxbinary($2, $1, $3); setId( $$, @$); }
 	|	expr RIGHT_ASSIGN expr 		{ $$ = xxbinary($2,$3,$1);	setId( $$, @$); }
-	|	FUNCTION '(' formlist ')' cr expr_or_assign %prec LOW
+  | typed_symbol RIGHT_ASSIGN expr { $$ = xxbinary($2, $1, $3); setId( $$, @$); }
+  |	FUNCTION '(' formlist ')' cr expr_or_assign %prec LOW
 						{ $$ = xxdefun($1,$3,$6,&@$); 	setId( $$, @$); }
 	|	expr '(' sublist ')'		{ $$ = xxfuncall($1,$3);  setId( $$, @$); modif_token( &@1, SYMBOL_FUNCTION_CALL ) ; }
 	|	IF ifcond expr_or_assign 	{ $$ = xxif($1,$2,$3);	setId( $$, @$); }
@@ -393,7 +405,6 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	|	expr '[' sublist ']'		{ $$ = xxsubscript($1,$2,$3);	setId( $$, @$); }
 	|	SYMBOL NS_GET SYMBOL		{ $$ = xxbinary($2,$1,$3);      setId( $$, @$); modif_token( &@1, SYMBOL_PACKAGE ) ; }
 	|	SYMBOL NS_GET STR_CONST		{ $$ = xxbinary($2,$1,$3);      setId( $$, @$); modif_token( &@1, SYMBOL_PACKAGE ) ; }
-  | SYMBOL TYPE_ANNOTATION SYMBOL     { $$ = $1; setId( $$, @$); }
 	|	STR_CONST NS_GET SYMBOL		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	STR_CONST NS_GET STR_CONST	{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	SYMBOL NS_GET_INT SYMBOL	{ $$ = xxbinary($2,$1,$3);      setId( $$, @$); modif_token( &@1, SYMBOL_PACKAGE ) ;}
@@ -408,6 +419,80 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	|	BREAK				{ $$ = xxnxtbrk($1);	setId( $$, @$); }
 	;
 
+typed_symbol: SYMBOL TYPE_ANNOTATION datatype { $$ = xxannotatetype($1, $3); setId($$, @$);}
+            ;
+
+basetype: SYMBOL { $$ = $1; setId($$, @$); }
+        ;
+
+/*
+NUMERIC_TYPE 			{ $$ = $1;	setId( $$, @$); }
+        | INTEGER_TYPE			{ $$ = $1;	setId( $$, @$); }
+        | COMPLEX_TYPE			{ $$ = $1;	setId( $$, @$); }
+        | LOGICAL_TYPE			{ $$ = $1;	setId( $$, @$); }
+        | CHARACTER_TYPE		{ $$ = $1;	setId( $$, @$); }
+        ;
+          */
+
+// TODO -> parameterized types
+
+datatype: arraytype  			   { $$ = $1;	setId($$, @$); }
+        | functiontype       { $$ = $1; setId($$, @$); }
+        | datatype LT typeseq GT { $$ = xxunary($1, $3); setId($$, @$); }
+        | listtype           { $$ = $1; setId($$, @$); }
+        | dataframetype      { $$ = $1; setId($$, @$); }
+        | uniontype          { $$ = $1; setId($$, @$); }
+        | parametrictype     { $$ = $1; setId($$, @$); }
+        | '(' datatype ')'   { $$ = $2; setId($$, @$); }
+        | anytype			       { $$ = $1;	setId($$, @$); }
+//        | '(' datatype ')'   { $$ = xxparen($1, $2); setId( $$, @$); }
+        ;
+
+//functiontype: '(' typeseq ')' FUNCTION_OPERATOR datatype { $$ = xxfunctiontype($2, $5); setId($$, @$); }
+//            ;
+
+functiontype: funintypeseq FUNCTION_OPERATOR funouttypes { $$ = xxfunctiontype($1, $3); setId($$, @$); }
+            ;
+
+funintypeseq: '(' ')'          { $$ = R_NilValue;          setId($$, @$); }
+            | '(' typeseq1 ')' { $$ = $2;                  setId($$, @$); }
+            | datatype         { $$ = xxtypeseq1($1, &@1); setId($$, @$); }
+            ;
+
+funouttypes: '(' ')'  { $$ = R_NilValue; setId($$, @$); }
+           | datatype { $$ = $1;         setId($$, @$); }
+           ;
+
+arraytype: basetype '[' sizesequence ']' { $$ = xxarraytype($1, $3); setId($$, @$); }
+         ;
+
+sizesequence: NUM_CONST                    { $$ = xxtypeseq1($1, &@1);     setId($$, @$); }
+            | sizesequence ',' NUM_CONST   { $$ = xxtypeseqn($1, $3, &@3); setId($$, @$); }
+            ;
+
+typeseq:          { $$ = xxtypeseq0(); setId($$, @$); }
+       | typeseq1 { $$ = $1; setId($$, @$); }
+       ;
+
+typeseq1: datatype                 { $$ = xxtypeseq1($1, &@1); setId($$, @$);     }
+        | typeseq1 ',' datatype    { $$ = xxtypeseqn($1, $3, &@3); setId($$, @$); }
+        ;
+
+uniontype: datatype OR datatype  { $$ = xxunion2($1, $3); setId($$, @$);     }
+         | uniontype OR datatype { $$ = xxunionn($1, $3, &@3); setId($$, @$); }
+         ;
+
+anytype: SYMBOL			{ $$ = $1;	setId( $$, @$); }
+       ;
+
+listtype: LT typeseq GT { $$ = xxlisttype($2); setId($$, @$); }
+        ;
+
+parametrictype: AND SYMBOL   { $$ = xxparametrictype($2); setId($$, @$); }
+              ;
+
+dataframetype: '{' typeseq '}' { $$ = xxdataframetype($2); setId($$, @$); }
+             ;
 
 cond	:	'(' expr ')'			{ $$ = xxcond($2);   }
 	;
@@ -417,7 +502,6 @@ ifcond	:	'(' expr ')'			{ $$ = xxifcond($2); }
 
 forcond :	'(' SYMBOL IN expr ')' 		{ $$ = xxforcond($2,$4);	setId( $$, @$); }
 	;
-
 
 exprlist:					{ $$ = xxexprlist0();	setId( $$, @$); }
 	|	expr_or_assign			{ $$ = xxexprlist1($1, &@1); }
@@ -442,6 +526,7 @@ sub	:					{ $$ = xxsub0();	 }
 	;
 
 formlist:					{ $$ = xxnullformal(); }
+  | typed_symbol  { $$ = xxfirstformal0($1); 	modif_token( &@1, SYMBOL_FORMALS ) ; }
 	|	SYMBOL				{ $$ = xxfirstformal0($1); 	modif_token( &@1, SYMBOL_FORMALS ) ; }
 	|	SYMBOL EQ_ASSIGN expr		{ $$ = xxfirstformal1($1,$3); 	modif_token( &@1, SYMBOL_FORMALS ) ; modif_token( &@2, EQ_FORMALS ) ; }
 	|	formlist ',' SYMBOL		{ $$ = xxaddformal0($1,$3, &@3);   modif_token( &@3, SYMBOL_FORMALS ) ; }
@@ -452,7 +537,6 @@ formlist:					{ $$ = xxnullformal(); }
 cr	:					{ EatLines = 1; }
 	;
 %%
-
 
 /*----------------------------------------------------------------------------*/
 
@@ -980,6 +1064,175 @@ static SEXP xxbinary(SEXP n1, SEXP n2, SEXP n3)
     UNPROTECT_PTR(n3);
     return ans;
 }
+
+static SEXP xxarraytype(SEXP n1, SEXP n2)
+{
+  SEXP ans;
+  if (GenerateCode)
+    PROTECT(ans = list3(install("array"), n1, n2));
+  else
+    PROTECT(ans = R_NilValue);
+  UNPROTECT_PTR(n2);
+  return ans;
+}
+
+static SEXP xxfunctiontype(SEXP n1, SEXP n2)
+{
+  SEXP ans;
+  if (GenerateCode)
+    PROTECT(ans = list3(install("function"), n1, n2));
+  else
+    PROTECT(ans = R_NilValue);
+  // UNPROTECT_PTR(n2);
+  return ans;
+}
+
+static SEXP xxtypeseq0(void)
+{
+    SEXP ans;
+    if (GenerateCode) {
+      PROTECT(ans = R_NilValue); //list1(install("unit")));
+	if (ParseState.keepSrcRefs) {
+	    setAttrib(ans, R_SrcrefSymbol, SrcRefs);
+	    REPROTECT(SrcRefs = R_NilValue, srindex);
+	}
+    }
+    else
+	PROTECT(ans = R_NilValue);
+    return ans;
+}
+
+static SEXP xxtypeseq1(SEXP expr, YYLTYPE *lloc)
+{
+    SEXP ans;
+    if (GenerateCode) {
+	PROTECT(ans = list1(expr));
+	if (ParseState.keepSrcRefs) {
+	    setAttrib(ans, R_SrcrefSymbol, SrcRefs);
+	    REPROTECT(SrcRefs = list1(makeSrcref(lloc, ParseState.SrcFile)), srindex);
+	}
+    }
+    else
+	PROTECT(ans = R_NilValue);
+    UNPROTECT_PTR(expr);
+    return ans;
+}
+
+static SEXP xxtypeseqn(SEXP exprlist, SEXP expr, YYLTYPE *lloc)
+{
+    SEXP ans;
+    if (GenerateCode) {
+	if (ParseState.keepSrcRefs)
+	    REPROTECT(SrcRefs = listAppend(SrcRefs, list1(makeSrcref(lloc, ParseState.SrcFile))), srindex);
+	PROTECT(ans = listAppend(exprlist, list1(expr)));
+    }
+    else
+	PROTECT(ans = R_NilValue);
+    UNPROTECT_PTR(expr);
+    UNPROTECT_PTR(exprlist);
+    return ans;
+}
+
+
+static SEXP xxlisttype(SEXP n1)
+{
+  SEXP ans;
+  if (GenerateCode)
+    PROTECT(ans = list2(install("list"), n1));
+  else
+    PROTECT(ans = R_NilValue);
+  return ans;
+}
+
+static SEXP xxdataframetype(SEXP n1)
+{
+  SEXP ans;
+  if (GenerateCode)
+    PROTECT(ans = list2(install("dataframe"), n1));
+  else
+    PROTECT(ans = R_NilValue);
+  return ans;
+}
+
+
+static SEXP xxunion2(SEXP n1, SEXP n2)
+{
+  SEXP ans,tmp;
+  if (GenerateCode)
+    PROTECT(ans = list3(install("union"), n1, n2));
+  else
+    PROTECT(ans = R_NilValue);
+  return ans;
+}
+
+static SEXP xxunionn(SEXP exprlist, SEXP expr, YYLTYPE *lloc)
+{
+  SEXP ans;
+  if (GenerateCode) {
+    if (ParseState.keepSrcRefs)
+	    REPROTECT(SrcRefs = listAppend(SrcRefs, list1(makeSrcref(lloc, ParseState.SrcFile))), srindex);
+    PROTECT(ans = listAppend(exprlist, list1(expr)));
+  }
+  else
+    PROTECT(ans = R_NilValue);
+  //UNPROTECT_PTR(expr);
+  //UNPROTECT_PTR(exprlist);
+  return ans;
+}
+
+
+static SEXP xxparametrictype(SEXP n1)
+{
+  SEXP ans;
+  if (GenerateCode) {
+    PROTECT(ans = list2(install("parametric"), n1));
+    if (ParseState.keepSrcRefs) {
+	    setAttrib(ans, R_SrcrefSymbol, SrcRefs);
+	    REPROTECT(SrcRefs = R_NilValue, srindex);
+    }
+  }
+  else
+    PROTECT(ans = R_NilValue);
+  return ans;
+}
+
+static SEXP xxannotatetype(SEXP n1, SEXP n2) {
+  SEXP ans;
+  if (GenerateCode) {
+    setAttrib(n1, install("datatype"), n2);
+    //warningcall(n2, _("parsed type!"));
+    //printf("Variable has type: %s\n", sexptype2char(TYPEOF(n1)));
+    //printf("Type has type %s\n", sexptype2char(TYPEOF(n2)));
+    //errorcall(n2, _("Parsed type!"));
+    ans = n1;
+  }
+  else {
+    PROTECT(ans = R_NilValue);
+  }
+  UNPROTECT_PTR(n2);
+  return ans;
+
+  //SET_TAG(n1, n2);
+}
+
+/*
+static SEXP xxannotatetype(SEXP n1, SEXP n2, SEXP n3, SEXP n4)
+{
+  SEXP sym;
+  SEXP ans;
+  if (GenerateCode) {
+    PROTECT(ans = xxbinary(n4, n1, n5));
+    PROTECT(ans = list4(n1, n2, n3, n4));
+  }
+  else {
+    PROTECT(ans = R_NilValue);
+  }
+  UNPROTECT_PTR(n2);
+  UNPROTECT_PTR(n3);
+  UNPROTECT_PTR(n4);
+  return ans;
+}
+*/
 
 static SEXP xxparen(SEXP n1, SEXP n2)
 {
@@ -1885,6 +2138,7 @@ static void yyerror(const char *s)
 	"NS_GET",	"'::'",
 	"NS_GET_INT",	"':::'",
   "TYPE_ANNOTATION",   "'<:'",
+  "FUNCTION_OPERATOR", "'=>'",
 	0
     };
     static char const yyunexpected[] = "syntax error, unexpected ";
@@ -2835,6 +3089,10 @@ static int token(void)
 	    yylval = install_and_save("==");
 	    return EQ;
 	}
+  if (nextchar('>')) {
+    yylval = install_and_save("=>");
+    return FUNCTION_OPERATOR;
+  }
 	yylval = install_and_save("=");
 	return EQ_ASSIGN;
     case ':':
@@ -3080,6 +3338,7 @@ static int yylex(void)
     case '/':
     case '^':
     case TYPE_ANNOTATION:
+    case FUNCTION_OPERATOR:
     case LT:
     case LE:
     case GE:

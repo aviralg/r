@@ -1755,6 +1755,22 @@ SEXP attribute_hidden do_typeof(SEXP call, SEXP op, SEXP args, SEXP rho)
     return type2rstr(TYPEOF(CAR(args)));
 }
 
+SEXP attribute_hidden do_datatype(SEXP call, SEXP op, SEXP args, SEXP rho)
+{
+  checkArity(op, args);
+  SEXP datatype = getAttrib(CAR(args), install("datatype"));
+  //printf("%s\n", CHAR(PRINTNAME(CAR(args))));
+  //if(datatype != R_NilValue)
+  //{
+  //    warningcall(datatype, _("This was the annotated type!"));
+  //}
+  //printf("Address of type is %p and it is %s\n", getAttrib(e, install("datatype"));
+  //errorcall(getAttrib(e, install("datatype")), _("This was the parsed type!"));
+  return eval(LCONS(R_QuoteSymbol, LCONS(datatype, R_NilValue)), R_GlobalEnv);
+}
+
+
+
 /* Define many of the <primitive> "is.xxx" functions :
    Note that  isNull, isNumeric, etc are defined in util.c or ../include/Rinlinedfuns.h
 */
