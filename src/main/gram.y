@@ -276,7 +276,7 @@ static SEXP	xxwhile(SEXP, SEXP, SEXP);
 static SEXP	xxrepeat(SEXP, SEXP);
 static SEXP	xxnxtbrk(SEXP);
 static SEXP	xxfuncall(SEXP, SEXP);
-static SEXP	xxdefun(SEXP, SEXP, SEXP, YYLTYPE *);
+static SEXP	xxdefun(SEXP, SEXP, SEXP, YYLTYPE *, SEXP);
 static SEXP	xxunary(SEXP, SEXP);
 static SEXP	xxbinary(SEXP, SEXP, SEXP);
 static SEXP	xxparen(SEXP, SEXP);
@@ -339,7 +339,9 @@ static SEXP xxparametrictype(SEXP n1);
 %left		UMINUS UPLUS
 %right		'^'
 %left		'$' '@'
-%left		NS_GET NS_GET_INT TYPE_ANNOTATION
+%left		NS_GET NS_GET_INT
+%left   TYPE_ANNOTATION
+%left   HIGHEST
 %nonassoc	'(' '[' LBB
 
 %%
@@ -356,6 +358,7 @@ expr_or_assign  :    expr                       { $$ = $1; }
                 ;
 
 equal_assign    :    expr EQ_ASSIGN expr_or_assign              { $$ = xxbinary($2,$1,$3); }
+                |    maybe_typed_symbol EQ_ASSIGN expr_or_assign { $$ = xxbinary($2, $1, $3); }
                 ;
 
 expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
@@ -376,15 +379,15 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	    |	expr '/' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	    |	expr '^' expr 			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	    |	expr SPECIAL expr		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr '%' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr '~' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr '?' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr LT expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr LE expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr EQ expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr NE expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr GE expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr GT expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr '%' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr '~' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr '?' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr LT expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr LE expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr EQ expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr NE expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr GE expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	    |	expr GT expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr AND expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr OR expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr AND2 expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
@@ -392,9 +395,11 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	|	expr LEFT_ASSIGN expr { $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
   | typed_symbol LEFT_ASSIGN expr { $$ = xxbinary($2, $1, $3); setId( $$, @$); }
 	|	expr RIGHT_ASSIGN expr 		{ $$ = xxbinary($2,$3,$1);	setId( $$, @$); }
-  | typed_symbol RIGHT_ASSIGN expr { $$ = xxbinary($2, $1, $3); setId( $$, @$); }
+  | expr RIGHT_ASSIGN typed_symbol { $$ = xxbinary($2, $3, $1); setId( $$, @$); }
   |	FUNCTION '(' formlist ')' cr expr_or_assign %prec LOW
-						{ $$ = xxdefun($1,$3,$6,&@$); 	setId( $$, @$); }
+     { $$ = xxdefun($1,$3,$6,&@$, R_NilValue); 	setId( $$, @$); }
+  |	FUNCTION '(' formlist ')' cr TYPE_ANNOTATION datatype expr_or_assign %prec LOW
+     { $$ = xxdefun($1,$3,$8,&@$, $7); 	setId( $$, @$); }
 	|	expr '(' sublist ')'		{ $$ = xxfuncall($1,$3);  setId( $$, @$); modif_token( &@1, SYMBOL_FUNCTION_CALL ) ; }
 	|	IF ifcond expr_or_assign 	{ $$ = xxif($1,$2,$3);	setId( $$, @$); }
 	|	IF ifcond expr_or_assign ELSE expr_or_assign	{ $$ = xxifelse($1,$2,$3,$5);	setId( $$, @$); }
@@ -421,6 +426,10 @@ expr	: NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 
 typed_symbol: SYMBOL TYPE_ANNOTATION datatype { $$ = xxannotatetype($1, $3); setId($$, @$);}
             ;
+
+maybe_typed_symbol: typed_symbol  { $$ = $1; setId($$, @$); }
+                  | SYMBOL        { $$ = $1; setId($$, @$); }
+                  ;
 
 basetype: SYMBOL { $$ = $1; setId($$, @$); }
         ;
@@ -478,8 +487,8 @@ typeseq1: datatype                 { $$ = xxtypeseq1($1, &@1); setId($$, @$);   
         | typeseq1 ',' datatype    { $$ = xxtypeseqn($1, $3, &@3); setId($$, @$); }
         ;
 
-uniontype: datatype OR datatype  { $$ = xxunion2($1, $3); setId($$, @$);     }
-         | uniontype OR datatype { $$ = xxunionn($1, $3, &@3); setId($$, @$); }
+uniontype: datatype OR datatype  %prec HIGHEST { $$ = xxunion2($1, $3); setId($$, @$);     }
+         | uniontype OR datatype %prec HIGHEST { $$ = xxunionn($1, $3, &@3); setId($$, @$); }
          ;
 
 anytype: SYMBOL			{ $$ = $1;	setId( $$, @$); }
@@ -517,7 +526,7 @@ sublist	:	sub				{ $$ = xxsublist1($1);	  }
 
 sub	:					{ $$ = xxsub0();	 }
 	|	expr				{ $$ = xxsub1($1, &@1);  }
-	|	SYMBOL EQ_ASSIGN 		{ $$ = xxsymsub0($1, &@1); 	modif_token( &@2, EQ_SUB ) ; modif_token( &@1, SYMBOL_SUB ) ; }
+	|	SYMBOL EQ_ASSIGN 		    { $$ = xxsymsub0($1, &@1); 	modif_token( &@2, EQ_SUB ) ; modif_token( &@1, SYMBOL_SUB ) ; }
 	|	SYMBOL EQ_ASSIGN expr		{ $$ = xxsymsub1($1,$3, &@1); 	modif_token( &@2, EQ_SUB ) ; modif_token( &@1, SYMBOL_SUB ) ; }
 	|	STR_CONST EQ_ASSIGN 		{ $$ = xxsymsub0($1, &@1); 	modif_token( &@2, EQ_SUB ) ; }
 	|	STR_CONST EQ_ASSIGN expr	{ $$ = xxsymsub1($1,$3, &@1); 	modif_token( &@2, EQ_SUB ) ; }
@@ -526,11 +535,10 @@ sub	:					{ $$ = xxsub0();	 }
 	;
 
 formlist:					{ $$ = xxnullformal(); }
-  | typed_symbol  { $$ = xxfirstformal0($1); 	modif_token( &@1, SYMBOL_FORMALS ) ; }
-	|	SYMBOL				{ $$ = xxfirstformal0($1); 	modif_token( &@1, SYMBOL_FORMALS ) ; }
-	|	SYMBOL EQ_ASSIGN expr		{ $$ = xxfirstformal1($1,$3); 	modif_token( &@1, SYMBOL_FORMALS ) ; modif_token( &@2, EQ_FORMALS ) ; }
-	|	formlist ',' SYMBOL		{ $$ = xxaddformal0($1,$3, &@3);   modif_token( &@3, SYMBOL_FORMALS ) ; }
-	|	formlist ',' SYMBOL EQ_ASSIGN expr	
+	|	maybe_typed_symbol				         { $$ = xxfirstformal0($1); 	modif_token( &@1, SYMBOL_FORMALS ) ; }
+  |	maybe_typed_symbol EQ_ASSIGN expr  { $$ = xxfirstformal1($1,$3); 	modif_token( &@1, SYMBOL_FORMALS ) ; modif_token( &@2, EQ_FORMALS ) ; }
+	|	formlist ',' maybe_typed_symbol		 { $$ = xxaddformal0($1,$3, &@3);   modif_token( &@3, SYMBOL_FORMALS ) ; }
+	|	formlist ',' maybe_typed_symbol EQ_ASSIGN expr
 						{ $$ = xxaddformal1($1,$3,$5,&@3); modif_token( &@3, SYMBOL_FORMALS ) ; modif_token( &@4, EQ_FORMALS ) ;}
 	;
 
@@ -1023,9 +1031,8 @@ static SEXP mkString2(const char *s, size_t len, Rboolean escaped)
     return t;
 }
 
-static SEXP xxdefun(SEXP fname, SEXP formals, SEXP body, YYLTYPE *lloc)
+static SEXP xxdefun(SEXP fname, SEXP formals, SEXP body, YYLTYPE *lloc, SEXP rettype)
 {
-
     SEXP ans, srcref;
 
     if (GenerateCode) {
@@ -1035,6 +1042,7 @@ static SEXP xxdefun(SEXP fname, SEXP formals, SEXP body, YYLTYPE *lloc)
     	} else
     	    srcref = R_NilValue;
 	PROTECT(ans = lang4(fname, CDR(formals), body, srcref));
+  setAttrib(CADDR(ans), install("datatype"), rettype);
     } else
 	PROTECT(ans = R_NilValue);
     UNPROTECT_PTR(body);

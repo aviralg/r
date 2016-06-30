@@ -1758,7 +1758,30 @@ SEXP attribute_hidden do_typeof(SEXP call, SEXP op, SEXP args, SEXP rho)
 SEXP attribute_hidden do_datatype(SEXP call, SEXP op, SEXP args, SEXP rho)
 {
   checkArity(op, args);
-  SEXP datatype = getAttrib(CAR(args), install("datatype"));
+  SEXP object = CAR(args);
+  SEXP datatype = install("unknown type");
+  SEXP result;
+  //printf("Type of SEXP is %d\n", TYPEOF(object));
+  switch(TYPEOF(object)) {
+  case SYMSXP: datatype = getAttrib(CAR(args), install("datatype"));
+    break;
+  case LANGSXP: datatype = getAttrib(CADDR(CAR(args)), install("datatype"));
+    break;
+    //SEXP inptype =
+    //            SEXP formals = CADR(object);
+    //            SEXP r, s, t;
+    //            if (s == R_NilValue)
+    //              return t;
+    //            r = s;
+    //            while (CDR(r) != R_NilValue)
+    //              r = CDR(r);
+    //            SETCDR(r, t);
+    //            return s;
+    //printf("\n CLOSXP\n");
+    //break;
+    //default: datatype = R_NilValue;
+    //break;
+  }
   //printf("%s\n", CHAR(PRINTNAME(CAR(args))));
   //if(datatype != R_NilValue)
   //{

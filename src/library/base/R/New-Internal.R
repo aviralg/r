@@ -192,6 +192,7 @@ t.default <- function(x) .Internal(t.default(x))
 typeof <- function(x) .Internal(typeof(x))
 datatype <- function(var)
 {
+  # print(substitute(var))
   typeinfo <- .Internal(datatype(substitute(var)))
   paste(typeinfo, collapse=" ")
 }
