@@ -296,3 +296,10 @@ lengths <- function(x, use.names=TRUE) .Internal(lengths(x, use.names))
 
 ## base has no S4 generics
 .noGenerics <- TRUE
+
+annotation <- function(var)
+{
+  # print(substitute(var))
+  annotation_info <- .Internal(annotation(substitute(var)))
+  paste(annotation_info, collapse=" ")
+}

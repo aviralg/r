@@ -1881,3 +1881,41 @@ R_getS4DataSlot(SEXP obj, SEXPTYPE type)
   else
      return R_NilValue;
 }
+
+SEXP attribute_hidden do_annotation(SEXP call, SEXP op, SEXP args, SEXP rho)
+{
+  checkArity(op, args);
+  SEXP object = CAR(args);
+  SEXP annotation = install("no annotation");
+  SEXP result;
+  //printf("Type of SEXP is %d\n", TYPEOF(object));
+  switch(TYPEOF(object)) {
+  case SYMSXP: annotation = getAttrib(CAR(args), install("annotation"));
+    break;
+  case LANGSXP: annotation = getAttrib(CADDR(CAR(args)), install("annotation"));
+    break;
+    //SEXP inptype =
+    //            SEXP formals = CADR(object);
+    //            SEXP r, s, t;
+    //            if (s == R_NilValue)
+    //              return t;
+    //            r = s;
+    //            while (CDR(r) != R_NilValue)
+    //              r = CDR(r);
+    //            SETCDR(r, t);
+    //            return s;
+    //printf("\n CLOSXP\n");
+    //break;
+    //default: datatype = R_NilValue;
+    //break;
+  }
+  //printf("%s\n", CHAR(PRINTNAME(CAR(args))));
+  //if(datatype != R_NilValue)
+  //{
+  //    warningcall(datatype, _("This was the annotated type!"));
+  //}
+  //printf("Address of type is %p and it is %s\n", getAttrib(e, install("datatype"));
+  //errorcall(getAttrib(e, install("datatype")), _("This was the parsed type!"));
+  return annotation;
+  //return eval(LCONS(R_QuoteSymbol, LCONS(annotation, R_NilValue)), R_GlobalEnv);
+}

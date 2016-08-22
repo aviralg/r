@@ -69,10 +69,10 @@ typedef struct yyltype
   int last_line;
   int last_column;
   int last_byte;
-  
+
   int first_parsed;
   int last_parsed;
-  
+
   int id;
 } yyltype;
 
@@ -111,9 +111,9 @@ static int _current_token ;
  *
  * @param expr expression we want to record and flag with the next id
  * @param loc the location of the expression
- */   
+ */
 static void setId( SEXP expr, yyltype loc){
-    record_( 
+    record_(
 	    (loc).first_parsed, (loc).first_column, (loc).last_parsed, (loc).last_column, 
 	    _current_token, (loc).id, 0 ) ;
 }
@@ -276,13 +276,20 @@ static SEXP	xxwhile(SEXP, SEXP, SEXP);
 static SEXP	xxrepeat(SEXP, SEXP);
 static SEXP	xxnxtbrk(SEXP);
 static SEXP	xxfuncall(SEXP, SEXP);
-static SEXP	xxdefun(SEXP, SEXP, SEXP, YYLTYPE *);
+static SEXP	xxdefun(SEXP, SEXP, SEXP, SEXP, YYLTYPE *);
 static SEXP	xxunary(SEXP, SEXP);
 static SEXP	xxbinary(SEXP, SEXP, SEXP);
 static SEXP	xxparen(SEXP, SEXP);
 static SEXP	xxsubscript(SEXP, SEXP, SEXP);
 static SEXP	xxexprlist(SEXP, YYLTYPE *, SEXP);
 static int	xxvalue(SEXP, int, YYLTYPE *);
+static SEXP xxannotatesymbol(SEXP, SEXP);
+static SEXP xxannotatesymbol0(SEXP, SEXP);
+static SEXP xxannotation(SEXP, SEXP);
+static SEXP xxannotation0(SEXP);
+static SEXP xxannotation1(SEXP);
+static SEXP xxannotationargs1(SEXP);
+static SEXP xxannotationargs2(SEXP, SEXP);
 
 #define YYSTYPE		SEXP
 
@@ -291,7 +298,7 @@ static int	xxvalue(SEXP, int, YYLTYPE *);
 %token-table
 
 %token		END_OF_INPUT ERROR
-%token		STR_CONST NUM_CONST NULL_CONST SYMBOL FUNCTION 
+%token		STR_CONST NUM_CONST NULL_CONST SYMBOL FUNCTION
 %token		INCOMPLETE_STRING
 %token		LEFT_ASSIGN EQ_ASSIGN RIGHT_ASSIGN LBB
 %token		FOR IN IF ELSE WHILE NEXT BREAK REPEAT
@@ -304,6 +311,9 @@ static int	xxvalue(SEXP, int, YYLTYPE *);
 %token		SYMBOL_FUNCTION_CALL
 %token		SYMBOL_PACKAGE
 %token		COLON_ASSIGN
+%token    ANNOTATION_OPERATOR
+%token    DELIMITED_ANNOTATION_BEGIN
+%token    DELIMITED_ANNOTATION_END
 %token		SLOT
 
 /* This is the precedence table, low to high */
@@ -327,6 +337,7 @@ static int	xxvalue(SEXP, int, YYLTYPE *);
 %right		'^'
 %left		'$' '@'
 %left		NS_GET NS_GET_INT
+%left   ANNOTATION_OPERATOR DELIMITED_ANNOTATION_BEGIN DELIMITED_ANNOTATION_END
 %nonassoc	'(' '[' LBB
 
 %%
@@ -346,21 +357,19 @@ equal_assign    :    expr EQ_ASSIGN expr_or_assign              { $$ = xxbinary(
                 ;
 
 expr	: 	NUM_CONST			{ $$ = $1;	setId( $$, @$); }
-	|	STR_CONST			{ $$ = $1;	setId( $$, @$); }
-	|	NULL_CONST			{ $$ = $1;	setId( $$, @$); }          
-	|	SYMBOL				{ $$ = $1;	setId( $$, @$); }
-
+	|	STR_CONST			   { $$ = $1;	setId( $$, @$); }
+	|	NULL_CONST			 { $$ = $1;	setId( $$, @$); }
+	|	SYMBOL				   { $$ = $1;	setId( $$, @$); }
+  | annotated_symbol { $$ = $1; setId($$, @$);  }
 	|	'{' exprlist '}'		{ $$ = xxexprlist($1,&@1,$2); setId( $$, @$); }
 	|	'(' expr_or_assign ')'		{ $$ = xxparen($1,$2);	setId( $$, @$); }
-
 	|	'-' expr %prec UMINUS		{ $$ = xxunary($1,$2);	setId( $$, @$); }
 	|	'+' expr %prec UMINUS		{ $$ = xxunary($1,$2);	setId( $$, @$); }
 	|	'!' expr %prec UNOT		{ $$ = xxunary($1,$2);	setId( $$, @$); }
 	|	'~' expr %prec TILDE		{ $$ = xxunary($1,$2);	setId( $$, @$); }
 	|	'?' expr			{ $$ = xxunary($1,$2);	setId( $$, @$); }
-
-	|	expr ':'  expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr '+'  expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	|	expr ':' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	|	expr '+' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr '-' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr '*' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr '/' expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
@@ -377,19 +386,22 @@ expr	: 	NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	|	expr GT expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr AND expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr OR expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-	|	expr AND2 expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
+	|	expr AND2 expr		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr OR2 expr			{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
-
 	|	expr LEFT_ASSIGN expr 		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	expr RIGHT_ASSIGN expr 		{ $$ = xxbinary($2,$3,$1);	setId( $$, @$); }
-	|	FUNCTION '(' formlist ')' cr expr_or_assign %prec LOW
-						{ $$ = xxdefun($1,$3,$6,&@$); 	setId( $$, @$); }
+  | FUNCTION '(' formlist ')' cr expr_or_assign %prec LOW
+              { $$ = xxdefun($1,$3,$6, NULL, &@$); setId( $$, @$);    }
+  | FUNCTION '(' formlist ')' cr ANNOTATION_OPERATOR annotation cr expr_or_assign %prec LOW
+              { $$ = xxdefun($1, $3, $9, $7, &@$); setId( $$, @$); }
+  |	FUNCTION '(' formlist ')' cr DELIMITED_ANNOTATION_BEGIN multiline_annotation DELIMITED_ANNOTATION_END cr expr_or_assign %prec LOW
+              { $$ = xxdefun($1, $3, $10, $7, &@$); setId( $$, @$); }
 	|	expr '(' sublist ')'		{ $$ = xxfuncall($1,$3);  setId( $$, @$); modif_token( &@1, SYMBOL_FUNCTION_CALL ) ; }
 	|	IF ifcond expr_or_assign 	{ $$ = xxif($1,$2,$3);	setId( $$, @$); }
 	|	IF ifcond expr_or_assign ELSE expr_or_assign	{ $$ = xxifelse($1,$2,$3,$5);	setId( $$, @$); }
 	|	FOR forcond expr_or_assign %prec FOR 	{ $$ = xxfor($1,$2,$3);	setId( $$, @$); }
 	|	WHILE cond expr_or_assign	{ $$ = xxwhile($1,$2,$3);	setId( $$, @$); }
-	|	REPEAT expr_or_assign			{ $$ = xxrepeat($1,$2);	setId( $$, @$); }
+	|	REPEAT expr_or_assign			{ $$ = xxrepeat($1,$2);	setId( $$, @$);   }
 	|	expr LBB sublist ']' ']'	{ $$ = xxsubscript($1,$2,$3);	setId( $$, @$); }
 	|	expr '[' sublist ']'		{ $$ = xxsubscript($1,$2,$3);	setId( $$, @$); }
 	|	SYMBOL NS_GET SYMBOL		{ $$ = xxbinary($2,$1,$3);      setId( $$, @$); modif_token( &@1, SYMBOL_PACKAGE ) ; }
@@ -406,51 +418,110 @@ expr	: 	NUM_CONST			{ $$ = $1;	setId( $$, @$); }
 	|	expr '@' STR_CONST		{ $$ = xxbinary($2,$1,$3);	setId( $$, @$); }
 	|	NEXT				{ $$ = xxnxtbrk($1);	setId( $$, @$); }
 	|	BREAK				{ $$ = xxnxtbrk($1);	setId( $$, @$); }
+  |	expr LEFT_ASSIGN ANNOTATION_OPERATOR annotation  { $$ = xxbinary($2,$1,$4);	setId( $$, @$); }
+  | expr LEFT_ASSIGN DELIMITED_ANNOTATION_BEGIN multiline_annotation DELIMITED_ANNOTATION_END { $$ = xxbinary($2,$1,$4);	setId( $$, @$); }
 	;
 
-
-cond	:	'(' expr ')'			{ $$ = xxcond($2);   }
-	;
+cond:	'(' expr ')'			{ $$ = xxcond($2);   }
+	  ;
 
 ifcond	:	'(' expr ')'			{ $$ = xxifcond($2); }
-	;
+	      ;
 
 forcond :	'(' SYMBOL IN expr ')' 		{ $$ = xxforcond($2,$4);	setId( $$, @$); }
-	;
+	      ;
 
-
-exprlist:					{ $$ = xxexprlist0();	setId( $$, @$); }
-	|	expr_or_assign			{ $$ = xxexprlist1($1, &@1); }
-	|	exprlist ';' expr_or_assign	{ $$ = xxexprlist2($1, $3, &@3); }
-	|	exprlist ';'			{ $$ = $1;		setId( $$, @$); }
-	|	exprlist '\n' expr_or_assign	{ $$ = xxexprlist2($1, $3, &@3); }
-	|	exprlist '\n'			{ $$ = $1;}
+exprlist:					                { $$ = xxexprlist0();	setId( $$, @$);    }
+	|	expr_or_assign			          { $$ = xxexprlist1($1, &@1);             }
+	|	exprlist ';' expr_or_assign	  { $$ = xxexprlist2($1, $3, &@3);         }
+	|	exprlist ';'			            { $$ = $1;		setId( $$, @$);            }
+	|	exprlist '\n' expr_or_assign	{ $$ = xxexprlist2($1, $3, &@3);         }
+	|	exprlist '\n'			            { $$ = $1;}
 	;
 
 sublist	:	sub				{ $$ = xxsublist1($1);	  }
-	|	sublist cr ',' sub		{ $$ = xxsublist2($1,$4); }
+	      |	sublist cr ',' sub		{ $$ = xxsublist2($1,$4); }
+	      ;
+
+sub	:					                      { $$ = xxsub0();	 }
+	|	expr				                    { $$ = xxsub1($1, &@1);  }
+  | SYMBOL EQ_ASSIGN 		            { $$ = xxsymsub0($1, &@1); 	modif_token( &@2, EQ_SUB ) ; modif_token( &@1, SYMBOL_SUB ) ;     }
+  | SYMBOL EQ_ASSIGN expr		 		    { $$ = xxsymsub1($1,$3, &@1); 	modif_token( &@2, EQ_SUB ) ; modif_token( &@1, SYMBOL_SUB ) ; }
+	|	annotated_symbol EQ_ASSIGN 		  { $$ = xxsymsub0($1, &@1); 	modif_token( &@2, EQ_SUB ) ; modif_token( &@1, SYMBOL_SUB ) ;     }
+	|	annotated_symbol EQ_ASSIGN expr	{ $$ = xxsymsub1($1,$3, &@1); 	modif_token( &@2, EQ_SUB ) ; modif_token( &@1, SYMBOL_SUB ) ; }
+	|	STR_CONST EQ_ASSIGN 		        { $$ = xxsymsub0($1, &@1); 	modif_token( &@2, EQ_SUB ) ; }
+	|	STR_CONST EQ_ASSIGN expr	      { $$ = xxsymsub1($1,$3, &@1); 	modif_token( &@2, EQ_SUB ) ; }
+	|	NULL_CONST EQ_ASSIGN 		        { $$ = xxnullsub0(&@1); 	modif_token( &@2, EQ_SUB ) ;       }
+	|	NULL_CONST EQ_ASSIGN expr	      { $$ = xxnullsub1($3, &@1); 	modif_token( &@2, EQ_SUB ) ;   }
 	;
 
-sub	:					{ $$ = xxsub0();	 }
-	|	expr				{ $$ = xxsub1($1, &@1);  }
-	|	SYMBOL EQ_ASSIGN 		{ $$ = xxsymsub0($1, &@1); 	modif_token( &@2, EQ_SUB ) ; modif_token( &@1, SYMBOL_SUB ) ; }
-	|	SYMBOL EQ_ASSIGN expr		{ $$ = xxsymsub1($1,$3, &@1); 	modif_token( &@2, EQ_SUB ) ; modif_token( &@1, SYMBOL_SUB ) ; }
-	|	STR_CONST EQ_ASSIGN 		{ $$ = xxsymsub0($1, &@1); 	modif_token( &@2, EQ_SUB ) ; }
-	|	STR_CONST EQ_ASSIGN expr	{ $$ = xxsymsub1($1,$3, &@1); 	modif_token( &@2, EQ_SUB ) ; }
-	|	NULL_CONST EQ_ASSIGN 		{ $$ = xxnullsub0(&@1); 	modif_token( &@2, EQ_SUB ) ; }
-	|	NULL_CONST EQ_ASSIGN expr	{ $$ = xxnullsub1($3, &@1); 	modif_token( &@2, EQ_SUB ) ; }
-	;
-
-formlist:					{ $$ = xxnullformal(); }
-	|	SYMBOL				{ $$ = xxfirstformal0($1); 	modif_token( &@1, SYMBOL_FORMALS ) ; }
-	|	SYMBOL EQ_ASSIGN expr		{ $$ = xxfirstformal1($1,$3); 	modif_token( &@1, SYMBOL_FORMALS ) ; modif_token( &@2, EQ_FORMALS ) ; }
-	|	formlist ',' SYMBOL		{ $$ = xxaddformal0($1,$3, &@3);   modif_token( &@3, SYMBOL_FORMALS ) ; }
-	|	formlist ',' SYMBOL EQ_ASSIGN expr	
+formlist:					                          { $$ = xxnullformal(); }
+	|	maybe_annotated_symbol	                { $$ = xxfirstformal0($1); 	modif_token( &@1, SYMBOL_FORMALS ) ; }
+	|	maybe_annotated_symbol EQ_ASSIGN expr		{ $$ = xxfirstformal1($1,$3); modif_token( &@1, SYMBOL_FORMALS ) ; modif_token( &@2, EQ_FORMALS ) ; }
+	|	formlist ',' maybe_annotated_symbol		  { $$ = xxaddformal0($1,$3, &@3);   modif_token( &@3, SYMBOL_FORMALS ) ; }
+	|	formlist ',' maybe_annotated_symbol EQ_ASSIGN expr
 						{ $$ = xxaddformal1($1,$3,$5,&@3); modif_token( &@3, SYMBOL_FORMALS ) ; modif_token( &@4, EQ_FORMALS ) ;}
 	;
 
-cr	:					{ EatLines = 1; }
+cr:	{ EatLines = 1; }
 	;
+
+exprseq:					                { $$ = xxexprlist0();	setId( $$, @$);    }
+  |	expr_or_assign			          { $$ = xxexprlist1($1, &@1);             }
+  |	exprlist ',' expr_or_assign	  { $$ = xxexprlist2($1, $3, &@3);         }
+  |	exprlist ','			            { $$ = $1;		setId( $$, @$);            }
+  |	exprlist '\n' expr_or_assign	{ $$ = xxexprlist2($1, $3, &@3);         }
+  |	exprlist '\n'			            { $$ = $1;                               }
+  ;
+
+
+maybe_annotated_symbol: SYMBOL           { $$ = $1; setId($$, @$); }
+                      | annotated_symbol { $$ = $1; setId($$, @$); }
+                      ;
+
+annotated_symbol: SYMBOL ANNOTATION_OPERATOR annotation           { $$ = xxannotatesymbol0($1, $3); setId($$, @$); }
+                | annotated_symbol ANNOTATION_OPERATOR annotation { $$ = xxannotatesymbol($1, $3); setId($$, @$);  }
+                | SYMBOL DELIMITED_ANNOTATION_BEGIN multiline_annotation DELIMITED_ANNOTATION_END { $$ = xxannotatesymbol0($1, $3); setId($$, @$); }
+                | annotated_symbol DELIMITED_ANNOTATION_BEGIN multiline_annotation DELIMITED_ANNOTATION_END { $$ = xxannotatesymbol($1, $3); setId($$, @$);  }
+                ;
+
+annotation: /*expr                   { $$ = xxannotation0($1); setId($$, @$);    }*/
+          | SYMBOL                 { $$ = xxannotation0($1); setId($$, @$);    }
+          | SYMBOL '(' sublist ')' { $$ = xxannotation($1, $3); setId($$, @$); }
+//        | SYMBOL '{' sublist '}' { $$ = xxannotation($1, $3); setId($$, @$); }
+          | SYMBOL '[' sublist ']' { $$ = xxannotation($1, $3); setId($$, @$); }
+          | '(' sublist ')'        { $$ = xxannotation1($2); setId($$, @$);    }
+//| '{' sublist '}'        { $$ = xxannotation1($2); setId($$, @$);    }
+          | '[' sublist ']'        { $$ = xxannotation1($2); setId($$, @$);    }
+          ;
+
+multiline_annotation: annotation { $$ = $1; setId($$, @$); }
+                    | exprlist   { $$ = $1; setId($$, @$); }
+                    | function_type { $$ = $1; setId($$, @$); }
+//| '(' exprseq ')' RIGHT_ASSIGN expr { $$ = xxbinary($4,$5,$2); setId($$, @$); }
+                    ;
+
+function_type: '(' exprseq ')' RIGHT_ASSIGN expr          { $$ = xxbinary($4,$5,$2); setId($$, @$); }
+             | '(' exprseq ')' RIGHT_ASSIGN function_type { $$ = xxbinary($4,$5,$2); setId($$, @$); }
+             | '(' function_type ')'                      { $$ = $2; setId($$, @$); }
+             ;
+
+annotationargs:	sub				                  { $$ = xxannotationargs1($1);	   }
+              |	annotationargs cr ',' sub		{ $$ = xxannotationargs2($1,$4); }
+              ;
+
+/*
+attrlist:           { $$ = xxattrlist0(); setId($$, @$); }
+        | attrlist1 { $$ = $1; setId($$, @$);            }
+        ;
+
+attrlist1: attribute               { $$ = xxattrlist1($1, &@1); setId($$, @$); }
+         | attrlist1 ',' attribute { $$ = xxattrlistn($1, $3, &@3); setId($$, @3); }
+         ;
+
+attribute: SYMBOL EQ_ASSIGN expr { $$ = xxattribute($1, $3); setId($$, @$); }
+         ;
+*/
 %%
 
 
@@ -939,7 +1010,7 @@ static SEXP mkString2(const char *s, size_t len, Rboolean escaped)
     return t;
 }
 
-static SEXP xxdefun(SEXP fname, SEXP formals, SEXP body, YYLTYPE *lloc)
+static SEXP xxdefun(SEXP fname, SEXP formals, SEXP body, SEXP annotations, YYLTYPE *lloc)
 {
 
     SEXP ans, srcref;
@@ -950,6 +1021,11 @@ static SEXP xxdefun(SEXP fname, SEXP formals, SEXP body, YYLTYPE *lloc)
     	    ParseState.didAttach = TRUE;
     	} else
     	    srcref = R_NilValue;
+      if (annotations) {
+        setAttrib(body,
+                  install("annotation"),
+                  annotations);
+      }
 	PROTECT(ans = lang4(fname, CDR(formals), body, srcref));
     } else
 	PROTECT(ans = R_NilValue);
@@ -1035,6 +1111,171 @@ static SEXP xxexprlist(SEXP a1, YYLTYPE *lloc, SEXP a2)
     UNPROTECT_PTR(a2);
     return ans;
 }
+
+static SEXP xxannotatesymbol0(SEXP symbol, SEXP annotation) {
+  SEXP ans;
+  SEXP annotations;
+  if (GenerateCode) {
+    PROTECT(annotations=list1(annotation));
+    setAttrib(symbol,
+              install("annotation"),
+              annotations);
+    PROTECT(ans = symbol);
+  }
+  else {
+    PROTECT(ans = R_NilValue);
+  }
+  UNPROTECT_PTR(symbol);
+  return ans;
+}
+
+static SEXP xxannotatesymbol(SEXP symbol, SEXP annotation) {
+  SEXP ans;
+  SEXP annotations;
+  if (GenerateCode) {
+    annotations = PROTECT(list1(annotation));
+    setAttrib(symbol,
+              install("annotation"),
+              listAppend(getAttrib(symbol, install("annotation")), annotations));
+    PROTECT(ans = symbol);
+  }
+  else {
+    PROTECT(ans = R_NilValue);
+  }
+  UNPROTECT_PTR(symbol);
+  return ans;
+}
+
+
+static SEXP xxannotation0(SEXP name) {
+  SEXP ans;
+  SEXP arguments;
+  if (GenerateCode) {
+    //PROTECT(arguments = R_NilValue);
+    PROTECT(ans = list2(name, R_NilValue));
+    //UNPROTECT_PTR(arguments);
+  } else {
+    PROTECT(ans = R_NilValue);
+  }
+  return ans;
+}
+
+
+static SEXP xxannotation1(SEXP arguments) {
+  SEXP ans;
+  SEXP name;
+  if (GenerateCode) {
+    PROTECT(name = install(" ")); //empty string for name of annotation
+    PROTECT(ans = list2(name, arguments));
+  } else {
+    PROTECT(ans = R_NilValue);
+  }
+  //UNPROTECT_PTR(attributes);
+  return ans;
+}
+
+static SEXP xxannotation(SEXP name, SEXP arguments) {
+  SEXP ans;
+  if (GenerateCode) {
+    PROTECT(ans = list2(name, arguments));
+  }
+  else {
+    PROTECT(ans = R_NilValue);
+  }
+  //UNPROTECT_PTR(attributes);
+  return ans;
+}
+
+static SEXP xxannotationargs1(SEXP sub)
+{
+  SEXP ans;
+  if (GenerateCode) {
+    PROTECT(sub);
+    PROTECT(CAR(sub));
+    PROTECT(CADR(sub));
+    SET_TAG(CAR(sub), CADR(sub));
+    PROTECT(ans = list1(CAR(sub)));
+  } else {
+    PROTECT(ans = R_NilValue);
+  }
+  UNPROTECT_PTR(sub);
+  return ans;
+}
+
+static SEXP xxannotationargs2(SEXP sublist, SEXP sub)
+{
+  SEXP ans;
+  if (GenerateCode) {
+    PROTECT(sub);
+    PROTECT(CAR(sub));
+    PROTECT(CADR(sub));
+    SET_TAG(CAR(sub), CADR(sub));
+    PROTECT(ans=listAppend(sublist, list1(CAR(sub))));
+  }
+  else
+    PROTECT(ans = R_NilValue);
+  UNPROTECT_PTR(sub);
+  UNPROTECT_PTR(sublist);
+  return ans;
+}
+
+/*
+static SEXP xxattrlist0(void)
+{
+    SEXP ans;
+    if (GenerateCode) {
+      PROTECT(ans = R_NilValue); //list1(install("unit")));
+	if (ParseState.keepSrcRefs) {
+	    setAttrib(ans, R_SrcrefSymbol, SrcRefs);
+	    REPROTECT(SrcRefs = R_NilValue, srindex);
+	}
+    }
+    else
+	PROTECT(ans = R_NilValue);
+    return ans;
+}
+
+static SEXP xxattrlist1(SEXP expr, YYLTYPE *lloc)
+{
+    SEXP ans;
+    if (GenerateCode) {
+	PROTECT(ans = list1(expr));
+	if (ParseState.keepSrcRefs) {
+	    setAttrib(ans, R_SrcrefSymbol, SrcRefs);
+	    REPROTECT(SrcRefs = list1(makeSrcref(lloc, ParseState.SrcFile)), srindex);
+	}
+    }
+    else
+	PROTECT(ans = R_NilValue);
+    UNPROTECT_PTR(expr);
+    return ans;
+}
+
+static SEXP xxattrlistn(SEXP attrlist, SEXP attribute, YYLTYPE *lloc)
+{
+    SEXP ans;
+    if (GenerateCode) {
+	if (ParseState.keepSrcRefs)
+	    REPROTECT(SrcRefs = listAppend(SrcRefs, list1(makeSrcref(lloc, ParseState.SrcFile))), srindex);
+	PROTECT(ans = listAppend(attrlist, list1(attribute)));
+    }
+    else
+	PROTECT(ans = R_NilValue);
+    UNPROTECT_PTR(attribute);
+    UNPROTECT_PTR(attrlist);
+    return ans;
+}
+
+SEXP attribute(SEXP symbol, SEXP expression) {
+  SEXP ans;
+  if (GenerateCode) {
+    PROTECT(ans = symbol);
+    setAttrib()
+  }
+  else {
+  }
+}
+*/
 
 /*--------------------------------------------------------------------------*/
 
@@ -1884,6 +2125,9 @@ static void yyerror(const char *s)
 	"OR2",		"'||'",
 	"NS_GET",	"'::'",
 	"NS_GET_INT",	"':::'",
+  "ANNOTATION_OPERATOR", "@:",
+  "DELIMITED_ANNOTATION_BEGIN", "@|",
+  "DELIMITED_ANNOTATION_END", "|@",
 	0
     };
     static char const yyunexpected[] = "syntax error, unexpected ";
@@ -2861,9 +3105,13 @@ static int token(void)
 	if (nextchar('|')) {
 	    yylval = install_and_save("||");
 	    return OR2;
-	}
-	yylval = install_and_save("|");
-	return OR;
+	} else if (nextchar('@')) {
+    yylval = install_and_save("|@");
+    return DELIMITED_ANNOTATION_END;
+  } else {
+    yylval = install_and_save("|");
+    return OR;
+  }
     case LBRACE:
 	yylval = install_and_save("{");
 	return c;
@@ -2907,10 +3155,18 @@ static int token(void)
     case '~':
     case '$':
     case '@':
-	yytext[0] = (char) c;
-	yytext[1] = '\0';
-	yylval = install(yytext);
-	return c;
+      if (nextchar(':')) {
+        yylval = install_and_save("@:");
+        return ANNOTATION_OPERATOR;
+      } else if (nextchar('|')) {
+        yylval = install_and_save("@|");
+        return DELIMITED_ANNOTATION_BEGIN;
+      } else {
+        yytext[0] = (char) c;
+        yytext[1] = '\0';
+        yylval = install(yytext);
+        return c;
+      }
     default:
         yytext[0] = (char) c;
         yytext[1] = '\0';
