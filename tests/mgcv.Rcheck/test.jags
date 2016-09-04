@@ -1,0 +1,23 @@
+model {
+  eta <- X %*% b ## linear predictor
+  for (i in 1:n) { mu[i] <-  exp(eta[i]) } ## expected response
+  for (i in 1:n) { y[i] ~ dgamma(r,r/mu[i]) } ## response 
+  r ~ dgamma(.05,.005) ## scale parameter prior 
+  scale <- 1/r ## convert r to standard GLM scale
+  ## Parametric effect priors CHECK tau=1/38^2 is appropriate!
+  for (i in 1:1) { b[i] ~ dnorm(0,0.00068) }
+  ## prior for s(x0)... 
+  K1 <- S1[1:9,1:9] * lambda[1]  + S1[1:9,10:18] * lambda[2]
+  b[2:10] ~ dmnorm(zero[2:10],K1) 
+  ## prior for te(x1,x2)... 
+  K2 <- S2[1:24,1:24] * lambda[3]  + S2[1:24,25:48] * lambda[4] + S2[1:24,49:72] * lambda[5]
+  b[11:34] ~ dmnorm(zero[11:34],K2) 
+  ## prior for s(x3)... 
+  K3 <- S3[1:9,1:9] * lambda[6]  + S3[1:9,10:18] * lambda[7]
+  b[35:43] ~ dmnorm(zero[35:43],K3) 
+  ## smoothing parameter priors CHECK...
+  for (i in 1:7) {
+    rho[i] ~ dunif(-12,12)
+    lambda[i] <- exp(rho[i])
+  }
+}

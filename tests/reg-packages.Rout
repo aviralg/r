@@ -1,0 +1,315 @@
+
+R version 3.3.0 (2016-05-03) -- "Supposedly Educational"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ## PR 1271  detach("package:base") crashes R.
+> tools::assertError(detach("package:base"))
+> 
+> 
+> ## invalid 'lib.loc'
+> stopifnot(length(installed.packages("mgcv")) == 0)
+> ## gave a low-level error message
+> 
+> 
+> ## package.skeleton() with metadata-only code
+> ## work in current (= ./tests/ directory):
+> tmp <- tempfile()
+> writeLines(c('setClass("foo", contains="numeric")',
++              'setMethod("show", "foo",',
++              '          function(object) cat("I am a \\"foo\\"\\n"))'),
++            tmp)
+> if(file.exists("myTst")) unlink("myTst", recursive=TRUE)
+> package.skeleton("myTst", code_files = tmp)# with a file name warning
+Creating directories ...
+Creating DESCRIPTION ...
+Creating NAMESPACE ...
+Creating Read-and-delete-me ...
+Copying code files ...
+Making help files ...
+Done.
+Further steps are described in './myTst/Read-and-delete-me'.
+Warning message:
+In package.skeleton("myTst", code_files = tmp) :
+  Invalid file name(s) for R code in ./myTst/R:
+  'file31c75b433ee7'
+ are now renamed to 'z<name>.R'
+> file.copy(tmp, (tm2 <- paste(tmp,".R", sep="")))
+[1] TRUE
+> unlink("myTst", recursive=TRUE)
+> op <- options(warn=2) # *NO* "invalid file name" warning {failed in 2.7.[01]}:
+> package.skeleton("myTst", code_files = tm2)
+Creating directories ...
+Creating DESCRIPTION ...
+Creating NAMESPACE ...
+Creating Read-and-delete-me ...
+Copying code files ...
+Making help files ...
+Done.
+Further steps are described in './myTst/Read-and-delete-me'.
+> options(op)
+> ##_2_ only a class, no generics/methods:
+> writeLines(c('setClass("DocLink",',
++              'representation(name="character",',
++              '               desc="character"))'), tmp)
+> if(file.exists("myTst2")) unlink("myTst2", recursive=TRUE)
+> package.skeleton("myTst2", code_files = tmp)
+Creating directories ...
+Creating DESCRIPTION ...
+Creating NAMESPACE ...
+Creating Read-and-delete-me ...
+Copying code files ...
+Making help files ...
+Done.
+Further steps are described in './myTst2/Read-and-delete-me'.
+Warning message:
+In package.skeleton("myTst2", code_files = tmp) :
+  Invalid file name(s) for R code in ./myTst2/R:
+  'file31c75b433ee7'
+ are now renamed to 'z<name>.R'
+> ##- end_2_ # failed in R 2.11.0
+> stopifnot(1 == grep("setClass",
++ 	  readLines(list.files("myTst/R", full.names=TRUE))),
++ 	  c("foo-class.Rd","show-methods.Rd") %in% list.files("myTst/man"))
+> ## failed for several reasons in R < 2.7.0
+> ##
+> ## Part 2: -- build, install, load and "inspect" the package:
+> build.pkg <- function(dir) {
++     stopifnot(dir.exists(dir))
++     patt <- paste(basename(dir), ".*tar\\.gz$", sep="_")
++     unlink(dir('.', pattern = patt))
++     Rcmd <- paste(file.path(R.home("bin"), "R"), "CMD")
++     r <- tail(system(paste(Rcmd, "build --keep-empty-dirs", shQuote(dir)),
++                      intern = TRUE), 3)
++     ## return name of tar file built
++     dir('.', pattern = patt)
++ }
+> build.pkg("myTst")
+
+[1] "myTst_1.0.tar.gz"
+> ## clean up any previous attempt (which might have left a 00LOCK)
+> unlink("myLib", recursive = TRUE)
+> dir.create("myLib")
+> install.packages("myTst", lib = "myLib", repos=NULL, type = "source") # with warnings
+* installing *source* package 'myTst' ...
+** R
+** preparing package for lazy loading
+** help
+Warning: /home/aviral/projects/r/tests/myTst/man/myTst-package.Rd:27: All text must be in a section
+Warning: /home/aviral/projects/r/tests/myTst/man/myTst-package.Rd:28: All text must be in a section
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (myTst)
+> print(installed.packages(lib.loc= "myLib", priority= "NA"))## (PR#13332)
+      Package LibPath Version Priority Depends   Imports LinkingTo Suggests
+myTst "myTst" "myLib" "1.0"   NA       "methods" NA      NA        NA      
+      Enhances License                     License_is_FOSS
+myTst NA       "What license is it under?" NA             
+      License_restricts_use OS_type MD5sum NeedsCompilation Built  
+myTst NA                    NA      NA     NA               "3.3.0"
+> stopifnot(require("myTst",lib = "myLib"))
+Loading required package: myTst
+> sm <- findMethods(show, where= as.environment("package:myTst"))
+> stopifnot(names(sm@names) == "foo")
+> unlink("myTst_*")
+> 
+> ## getPackageName()  for "package:foo":
+> require('methods')
+> library(tools)
+> oo <- options(warn=2)
+> detach("package:tools", unload=TRUE)
+> options(oo)
+> ## gave warning (-> Error) about creating package name
+> 
+> ## --- keep this at end --- so we do not need a large if(.) { .. }
+> ## More building & installing packages
+> ## NB: tests were added here for 2.11.0.
+> ## NB^2: do not do this in the R sources!
+> ## and this testdir is not installed.
+> if(interactive() && Sys.getenv("USER") == "maechler")
++     Sys.setenv(SRCDIR = normalizePath("~/R/D/r-devel/R/tests"))
+> (pkgSrcPath <- file.path(Sys.getenv("SRCDIR"), "Pkgs"))
+[1] "./Pkgs"
+> if(!file_test("-d", pkgSrcPath) && !interactive()) {
++     unlink("myTst", recursive=TRUE)
++     print(proc.time())
++     q("no")
++ }
+> 
+> ## else w/o clause:
+> ## file.copy(pkgSrcPath, tempdir(), recursive = TRUE) - not ok: replaces symlink by copy
+> system(paste('cp -R', shQuote(pkgSrcPath), shQuote(tempdir())))
+> pkgPath <- file.path(tempdir(), "Pkgs")
+> ## pkgB tests an empty R directory
+> dir.create(file.path(pkgPath, "pkgB", "R"), recursive = TRUE,
++ 	   showWarnings = FALSE)
+> p.lis <- if("Matrix" %in% row.names(installed.packages(.Library)))
++ 	     c("pkgA", "pkgB", "exNSS4") else "exNSS4"
+> pkgApath <- file.path(pkgPath, "pkgA")
+> if("pkgA" %in% p.lis && !dir.exists(d <- pkgApath)) {
++     cat("symlink 'pkgA' does not exist as directory ",d,"; copying it\n", sep='')
++     file.copy(file.path(pkgPath, "xDir", "pkg"), to = d, recursive=TRUE)
++     ## if even the copy failed (NB: pkgB depends on pkgA)
++     if(!dir.exists(d)) p.lis <- p.lis[!(p.lis %in% c("pkgA", "pkgB"))]
++ }
+> for(p. in p.lis) {
++     cat("building package", p., "...\n")
++     r <- build.pkg(file.path(pkgPath, p.))
++     cat("installing package", p., "using file", r, "...\n")
++     ## we could install the tar file ... (see build.pkg()'s definition)
++     install.packages(r, lib = "myLib", repos=NULL, type = "source")
++     stopifnot(require(p.,lib = "myLib", character.only=TRUE))
++     detach(pos = match(p., sub("^package:","", search())))
++ }
+building package pkgA ...
+
+installing package pkgA using file pkgA_1.2.tar.gz ...
+* installing *source* package 'pkgA' ...
+** R
+** data
+*** moving datasets to lazyload DB
+** preparing package for lazy loading
+Creating a generic function for 'plot' from package 'graphics' in package 'pkgA'
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (pkgA)
+Loading required package: pkgA
+
+Attaching package: 'pkgA'
+
+The following object is masked from 'package:base':
+
+    search
+
+building package pkgB ...
+
+installing package pkgB using file pkgB_1.0.tar.gz ...
+* installing *source* package 'pkgB' ...
+** help
+No man pages found in package  'pkgB' 
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (pkgB)
+Loading required package: pkgB
+building package exNSS4 ...
+
+installing package exNSS4 using file exNSS4_1.1.tar.gz ...
+* installing *source* package 'exNSS4' ...
+** R
+** preparing package for lazy loading
+Creating a generic function for 'plot' from package 'graphics' in package 'exNSS4'
+** help
+No man pages found in package  'exNSS4' 
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (exNSS4)
+Loading required package: exNSS4
+> (res <- installed.packages(lib.loc = "myLib", priority = "NA"))
+       Package  LibPath Version Priority Depends   Imports                  
+exNSS4 "exNSS4" "myLib" "1.1"   NA       "methods" NA                       
+myTst  "myTst"  "myLib" "1.0"   NA       "methods" NA                       
+pkgA   "pkgA"   "myLib" "1.2"   NA       "methods" "Matrix"                 
+pkgB   "pkgB"   "myLib" "1.0"   NA       NA        "methods, graphics, pkgA"
+       LinkingTo Suggests Enhances License                     License_is_FOSS
+exNSS4 NA        NA       NA       "GPL (>= 2)"                NA             
+myTst  NA        NA       NA       "What license is it under?" NA             
+pkgA   NA        NA       NA       "GPL (>= 2)"                NA             
+pkgB   NA        NA       NA       "GPL (>= 2)"                NA             
+       License_restricts_use OS_type MD5sum NeedsCompilation Built  
+exNSS4 NA                    NA      NA     "no"             "3.3.0"
+myTst  NA                    NA      NA     NA               "3.3.0"
+pkgA   NA                    NA      NA     "no"             "3.3.0"
+pkgB   NA                    NA      NA     "no"             "3.3.0"
+> stopifnot(identical(res[,"Package"], setNames(,sort(c(p.lis, "myTst")))),
++ 	  res[,"LibPath"] == "myLib")
+> ### Specific Tests on our "special" packages: ------------------------------
+> 
+> ## These used to fail because of the sym.link in pkgA
+> if("pkgA" %in% p.lis && dir.exists(pkgApath)) {
++     cat("undoc(pkgA):\n"); print(uA <- tools::undoc(dir = pkgApath))
++     cat("codoc(pkgA):\n"); print(cA <- tools::codoc(dir = pkgApath))
++     stopifnot(identical(uA$`code objects`, c("nil", "search")),
++               identical(uA$`data sets`,    "nilData"))
++ }
+undoc(pkgA):
+Undocumented code objects:
+  'nil' 'search'
+Undocumented data sets:
+  'nilData'
+codoc(pkgA):
+Functions or methods with usage in documentation object 'f' but not in code:
+  f
+
+> 
+> ## - Check conflict message.
+> ## - Find objects which are NULL via "::" -- not to be expected often
+> ##   we have one in our pkgA, but only if Matrix is present.
+> if(dir.exists(file.path("myLib", "pkgA"))) {
++   msgs <- capture.output(require(pkgA, lib="myLib"), type = "message")
++   writeLines(msgs)
++   stopifnot(length(msgs) > 2,
++             length(grep("The following object is masked.*package:base", msgs)) > 0,
++             length(grep("\\bsearch\\b", msgs)) > 0)
++   data(package = "pkgA") # -> nilData
++   stopifnot(is.null( pkgA::  nil),
++ 	    is.null( pkgA::: nil),
++ 	    is.null( pkgA::  nilData)) # <-
++   ## R-devel (pre 3.2.0) wrongly errored for NULL lazy data
++   ## ::: does not apply to data sets:
++   tools::assertError(is.null(pkgA:::nilData))
++ }
+Loading required package: pkgA
+
+Attaching package: 'pkgA'
+
+The following object is masked from 'package:base':
+
+    search
+
+> 
+> ## tests here should *NOT* assume recommended packages,
+> ## let alone where they are installed
+> if(dir.exists(file.path("myLib", "exNSS4")) &&
++    dir.exists(file.path(.Library, "Matrix"))) {
++     for(ns in c(rev(p.lis), "Matrix")) unloadNamespace(ns)
++     ## Both exNSS4 and Matrix define "atomicVector" *the same*,
++     ## but  'exNSS4'  has it extended - and hence *both* are registered in cache -> "conflicts"
++     requireNamespace("exNSS4", lib= "myLib")
++     requireNamespace("Matrix", lib= .Library)
++     tools::assertCondition( ## condition, because this *still* uses message():
++         acl <- getClass("atomicVector")
++     ) ## gave an Error: “atomicVector” is not a defined class
++     ##   ... because it was found non-uniquely
++     stopifnot(is(acl, "classRepresentation"), isVirtualClass(acl))
++ }
+Loading required namespace: exNSS4
+Loading required namespace: Matrix
+Found more than one class "atomicVector" in cache; using the first, from namespace 'exNSS4'
+Found more than one class "atomicVector" in cache; using the first, from namespace 'exNSS4'
+> 
+> ## clean up
+> unlink("myLib", recursive = TRUE)
+> unlink(file.path(pkgPath), recursive = TRUE)
+> unlink("myTst", recursive = TRUE)
+> 
+> proc.time()
+   user  system elapsed 
+  5.648   0.380   6.147 
+> 

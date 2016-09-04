@@ -1,3 +1,34 @@
+
+
+* Questions
+** What types to support and how should they look?
+*** Atomic Types
+**** integer or int 
+- Numbers without decimals
+- `class' of these numbers is "integer" 
+- Example: 
+  1. 12L
+  2. -23L
+**** numeric or number or num
+- Decimal numbers or numbers without an L suffix
+- `class' of these numbers is "numeric"
+- Example:
+  1. 12.0
+  2. -3.0
+  3. 0.0
+  4. 12
+  5. -13
+  6. 0
+**** logical or boolean or bool
+- boolean values
+- `class' of these values is "logical"
+- Example:
+  1. TRUE
+  2. FALSE
+  3. T
+  4. F
+**** 
+
 * Meetings
 ** 1st June 2016
 *** Discussion focused on-
@@ -19,3 +50,4 @@
 DEADLINE: <2016-06-06 Mon>
 1. Use :: for specifying types
 2. Support basic [[https://cran.r-project.org/doc/manuals/r-release/R-lang.html][R types]]
+** 

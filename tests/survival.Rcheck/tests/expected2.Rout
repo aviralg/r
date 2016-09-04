@@ -1,0 +1,38 @@
+
+R version 3.3.0 (2016-05-03) -- "Supposedly Educational"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(survival)
+> #
+> # A Cox model with a factor, followed by survexp.  
+> #
+> pfit2 <- coxph(Surv(time, status > 0) ~ trt + log(bili) +
++           log(protime) + age + platelet + sex, data = pbc)
+> esurv <- survexp(~ trt, ratetable = pfit2, data = pbc)
+> 
+> temp <- pbc
+> temp$sex2 <- factor(as.numeric(pbc$sex), levels=2:0,
++                     labels=c("f", "m", "unknown"))
+> esurv2 <- survexp(~ trt, ratetable = pfit2, data = temp, 
++                   rmap=list(sex=sex2))
+> 
+> # The call components won't match, which happen to be first
+> all.equal(unclass(esurv)[-1], unclass(esurv2)[-1])
+[1] TRUE
+> 
+> proc.time()
+   user  system elapsed 
+  0.748   0.036   0.782 

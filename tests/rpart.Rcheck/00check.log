@@ -1,0 +1,89 @@
+* using log directory ‘/home/aviral/projects/r/tests/rpart.Rcheck’
+* using R version 3.3.0 (2016-05-03)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* checking for file ‘rpart/DESCRIPTION’ ... OK
+* this is package ‘rpart’ version ‘4.1-10’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* skipping installation test
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... NOTE
+Package unavailable to check Rd xrefs: ‘tree’
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking compiled code ... NOTE
+Note: information on .o files is not available
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... OK
+* checking differences from ‘rpart-Ex.Rout’ to ‘rpart-Ex.Rout.save’ ... OK
+* checking for unstated dependencies in ‘tests’ ... OK
+* checking tests ... OK
+  Running ‘backticks.R’
+  Comparing ‘backticks.Rout’ to ‘backticks.Rout.save’ ... OK
+  Running ‘cost.R’
+  Comparing ‘cost.Rout’ to ‘cost.Rout.save’ ... OK
+  Running ‘cptest.R’
+  Comparing ‘cptest.Rout’ to ‘cptest.Rout.save’ ... OK
+  Running ‘priors.R’
+  Comparing ‘priors.Rout’ to ‘priors.Rout.save’ ... OK
+  Running ‘rescale.R’
+  Comparing ‘rescale.Rout’ to ‘rescale.Rout.save’ ... OK
+  Running ‘testall.R’
+  Comparing ‘testall.Rout’ to ‘testall.Rout.save’ ... OK
+  Running ‘treble.R’
+  Comparing ‘treble.Rout’ to ‘treble.Rout.save’ ... OK
+  Running ‘treble2.R’
+  Comparing ‘treble2.Rout’ to ‘treble2.Rout.save’ ... OK
+  Running ‘treble3.R’
+  Comparing ‘treble3.Rout’ to ‘treble3.Rout.save’ ... OK
+  Running ‘treble4.R’
+  Comparing ‘treble4.Rout’ to ‘treble4.Rout.save’ ... OK
+  Running ‘usersplits.R’
+  Comparing ‘usersplits.Rout’ to ‘usersplits.Rout.save’ ... OK
+  Running ‘xpred1.R’
+  Comparing ‘xpred1.Rout’ to ‘xpred1.Rout.save’ ... OK
+  Running ‘xpred2.R’
+  Comparing ‘xpred2.Rout’ to ‘xpred2.Rout.save’ ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... OK
+* DONE
+Status: 2 NOTEs

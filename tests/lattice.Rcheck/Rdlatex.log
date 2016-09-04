@@ -1,0 +1,2200 @@
+Hmm ... looks like a package
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo))
+(/home/aviral/projects/r/share/texmf/tex/latex/Rd.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/latin1.def))
+Writing index file Rd2.idx
+No file Rd2.aux.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [1{/usr/local/texl
+ive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [4]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd) [5]
+Underfull \vbox (badness 10000) has occurred while \output is active [6]
+Overfull \hbox (61.48842pt too wide) in paragraph at lines 397--409
+[]\T1/ptm/m/n/10 For the func-tions doc-u-mented here, the for-mula is gen-er-a
+lly of the form \T1/zi4/m/n/10 y ~ x | g1 * g2 * ...
+[7]
+Overfull \hbox (11.75822pt too wide) in paragraph at lines 519--524
+[]\T1/ptm/m/n/10 A po-ten-tially use-ful com-po-nent of \T1/zi4/m/n/10 scales \
+T1/ptm/m/n/10 in this case may be \T1/zi4/m/n/10 abbreviate = TRUE\T1/ptm/m/n/1
+0 ,
+[8]
+Overfull \hbox (8.879pt too wide) in paragraph at lines 597--606
+\T1/zi4/m/n/10 groups \T1/ptm/m/n/10 re-mains un-af-fected by any sub-set-ting 
+op-er-a-tions, so \T1/zi4/m/n/10 groups[subscripts]
+[9] [10] [11] [12]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+Overfull \hbox (5.46011pt too wide) in paragraph at lines 932--944
+\T1/zi4/m/n/10 scales=list(x = list(log = 2)) \T1/ptm/m/n/10 is equiv-a-lent to
+ \T1/zi4/m/n/10 y ~           log2(x)\T1/ptm/m/n/10 . 
+[13]
+Overfull \hbox (0.15851pt too wide) in paragraph at lines 1000--1008
+[]\T1/ptm/m/n/10 An ex-pres-sion that eval-u-ates to a log-i-cal or in-te-ger i
+n-dex-ing vec-tor. Like \T1/zi4/m/n/10 groups\T1/ptm/m/n/10 ,
+[14] [15] [16]
+Overfull \hbox (1.07782pt too wide) in paragraph at lines 1227--1234
+[]\T1/ptm/m/n/10 Logical flag, de-faults to \T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 .
+ By de-fault, it is as-sumed that all columns
+[17]
+Overfull \hbox (13.23837pt too wide) in paragraph at lines 1269--1273
+\T1/ptm/m/n/10 and ver-ti-cal jus-ti-fi-ca-tion for the place-ment of the leg-e
+nd. See [][]\T1/zi4/m/n/10 grid.layout[][][]
+
+Overfull \hbox (2.8599pt too wide) in paragraph at lines 1294--1304
+\T1/ptm/m/n/10 Each com-po-nent must be named one of \T1/zi4/m/n/10 "left"\T1/p
+tm/m/n/10 , \T1/zi4/m/n/10 "right"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "top"\T1/ptm/
+m/n/10 , \T1/zi4/m/n/10 "bottom"\T1/ptm/m/n/10 ,
+[18] [19]
+Overfull \hbox (84.17886pt too wide) in paragraph at lines 1438--1442
+\T1/ptm/m/n/10 no-ta-tion for the x and y axes re-spec-tively. See doc-u-men-ta
+-tion for [][]\T1/zi4/m/n/10 xscale.components.default[][][]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (20.36934pt too wide) in paragraph at lines 1500--1507
+\T1/ptm/m/n/10 more typ-i-cal to use \T1/zi4/m/n/10 perm.cond \T1/ptm/m/n/10 an
+d \T1/zi4/m/n/10 index.cond \T1/ptm/m/n/10 to up-date an ex-ist-ing \T1/zi4/m/n
+/10 "trellis"
+
+Overfull \hbox (8.98828pt too wide) in paragraph at lines 1500--1507
+\T1/ptm/m/n/10 re-calculating the data sub-sets that go into each panel. In the
+ [][]\T1/zi4/m/n/10 update.trellis[][][]
+[20] [21]
+Overfull \hbox (34.401pt too wide) in paragraph at lines 1606--1623
+[][]\T1/zi4/m/n/10 banking[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 reshape[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.xyplot[][][]\T1/ptm/m/n/10 , [][]\T
+1/zi4/m/n/10 panel.bwplot[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.barcha
+rt[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.dotplot[][][]\T1/ptm/m/n/10 ,
+ [][]\T1/zi4/m/n/10 panel.stripplot[][][]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (4.76099pt too wide) in paragraph at lines 1606--1623
+[][]\T1/zi4/m/n/10 panel.superpose[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pan
+el.loess[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.average[][][]\T1/ptm/m/
+n/10 , [][]\T1/zi4/m/n/10 strip.default[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/1
+0 simpleKey[][][] [][]trellis.par.set[][][] 
+[22]
+Underfull \vbox (badness 10000) has occurred while \output is active [23]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (10.64871pt too wide) in paragraph at lines 1766--1768
+[]\T1/ptm/m/n/10 additional ar-gu-ments passed to [][]\T1/zi4/m/n/10 xyplot[][]
+[]\T1/ptm/m/n/10 , which may pass them on to [][]\T1/zi4/m/n/10 panel.xyplot[][
+][]\T1/ptm/m/n/10 . 
+[24]
+Overfull \hbox (9.17854pt too wide) in paragraph at lines 1796--1800
+[]\T1/ptm/m/n/10 graphical ar-gu-ments, which are pro-cessed and even-tu-ally p
+assed to [][]\T1/zi4/m/n/10 panel.xyplot[][][]\T1/ptm/m/n/10 .
+[25] [26] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [27]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [28]
+Underfull \vbox (badness 10000) has occurred while \output is active [29]
+Overfull \hbox (3.38753pt too wide) in paragraph at lines 2157--2162
+[]\T1/ptm/m/n/10 A char-ac-ter string in-di-cat-ing the type of his-togram that
+ is to be drawn. \T1/zi4/m/n/10 "percent"
+
+Overfull \hbox (5.37842pt too wide) in paragraph at lines 2168--2171
+[]\T1/ptm/m/n/10 An in-te-ger spec-i-fy-ing the num-ber of his-togram bins, ap-
+pli-ca-ble only when \T1/zi4/m/n/10 breaks
+
+Overfull \hbox (31.02982pt too wide) in paragraph at lines 2184--2187
+[]\T1/ptm/m/n/10 When \T1/zi4/m/n/10 breaks \T1/ptm/m/n/10 is un-spec-i-fied, t
+he value of \T1/zi4/m/n/10 lattice.getOption("histogram.breaks")
+[30] [31] [32] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[33]
+Overfull \hbox (16.12961pt too wide) in paragraph at lines 2408--2412
+[]\T1/ptm/m/n/10 For the \T1/zi4/m/n/10 "formula" \T1/ptm/m/n/10 method, \T1/zi
+4/m/n/10 x \T1/ptm/m/n/10 should be a for-mula of the form \T1/zi4/m/n/10 ~ x |
+ g1 * g2 * ...\T1/ptm/m/n/10 ,
+[34] [35] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [36]
+Overfull \hbox (25.12961pt too wide) in paragraph at lines 2594--2601
+[]\T1/ptm/m/n/10 For the \T1/zi4/m/n/10 "formula" \T1/ptm/m/n/10 method, \T1/zi
+4/m/n/10 x \T1/ptm/m/n/10 should be a for-mula of the form \T1/zi4/m/n/10 y ~ x
+ | g1 * g2 * ...\T1/ptm/m/n/10 ,
+[37] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [38]
+Underfull \vbox (badness 10000) has occurred while \output is active [39]
+Overfull \hbox (8.23973pt too wide) in paragraph at lines 2809--2814
+[]\T1/ptm/m/n/10 for the \T1/zi4/m/n/10 formula \T1/ptm/m/n/10 method, a for-mu
+la of the form \T1/zi4/m/n/10 z ~ x * y       | g1 * g2 * ...\T1/ptm/m/n/10 ,
+[40]
+Overfull \hbox (14.56844pt too wide) in paragraph at lines 2896--2898
+[]\T1/ptm/m/n/10 A color ramp spec-i-fi-ca-tion, as in the \T1/zi4/m/n/10 col.r
+egions \T1/ptm/m/n/10 ar-gu-ment in [][]\T1/zi4/m/n/10 level.colors[][][] 
+[41]
+Overfull \hbox (60.95883pt too wide) in paragraph at lines 2983--2989
+\T1/zi4/m/n/10 TRUE \T1/ptm/m/n/10 changes the de-fault panel func-tion from []
+[]\T1/zi4/m/n/10 panel.levelplot[][][] \T1/ptm/m/n/10 to [][]\T1/zi4/m/n/10 pan
+el.levelplot.raster[][][]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (12.13792pt too wide) in paragraph at lines 3007--3011
+[]\T1/ptm/m/n/10 Other use-ful ar-gu-ments are men-tioned in the help page for 
+the de-fault panel func-tion [][]\T1/zi4/m/n/10 panel.levelplot[][][]
+[42] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [43]
+Underfull \vbox (badness 10000) has occurred while \output is active [44]
+Overfull \hbox (24.2097pt too wide) in paragraph at lines 3159--3167
+[]\T1/ptm/m/n/10 For the \T1/zi4/m/n/10 "formula" \T1/ptm/m/n/10 meth-ods, a fo
+r-mula of the form \T1/zi4/m/n/10 z ~ x       * y | g1 * g2 * ...\T1/ptm/m/n/10
+ ,
+
+Overfull \hbox (13.5191pt too wide) in paragraph at lines 3200--3206
+[]\T1/ptm/m/n/10 These ar-gu-ments are doc-u-mented in the help page for [][]\T
+1/zi4/m/n/10 xyplot[][][]\T1/ptm/m/n/10 . For the \T1/zi4/m/n/10 cloud.table
+[45]
+Overfull \hbox (4.34898pt too wide) in paragraph at lines 3238--3247
+\T1/ptm/m/n/10 Both can be sup-pressed by \T1/zi4/m/n/10 draw=FALSE\T1/ptm/m/n/
+10 . An-other spe-cial com-po-nent is \T1/zi4/m/n/10 distance\T1/ptm/m/n/10 ,
+
+Overfull \hbox (12.81784pt too wide) in paragraph at lines 3255--3259
+\T1/ptm/m/n/10 is spe-cific to par-tic-u-lar pan-els. If you re-ally need that,
+ con-sider us-ing the \T1/zi4/m/n/10 scales.3d
+
+Overfull \hbox (3.87817pt too wide) in paragraph at lines 3261--3267
+[]\T1/ptm/m/n/10 Unlike 2-D dis-play func-tions, \T1/zi4/m/n/10 cloud \T1/ptm/m
+/n/10 does not ex-pand the bound-ing box to slightly
+[46] [47] [48] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[49] [50]
+Overfull \hbox (1.08768pt too wide) in paragraph at lines 3616--3618
+[]\T1/ptm/m/n/10 logical in-di-cat-ing whether the par-al-lel axes should be la
+id out hor-i-zon-tally (\T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 )
+
+Overfull \hbox (6.60829pt too wide) in paragraph at lines 3631--3640
+[]\T1/zi4/m/n/10 splom \T1/ptm/m/n/10 pro-duces Scat-ter Plot Ma-tri-ces. The r
+ole usu-ally played by \T1/zi4/m/n/10 panel \T1/ptm/m/n/10 is taken over by \T1
+/zi4/m/n/10 superpanel\T1/ptm/m/n/10 ,
+[51] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [52] [53]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [54]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [55]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [56]
+Overfull \hbox (8.48994pt too wide) in paragraph at lines 3976--3980
+\T1/zi4/m/n/10 lattice.options(default.theme = "col.whitebg")\T1/ptm/m/n/10 . F
+or back-compatibility,
+[57]
+Overfull \hbox (22.87723pt too wide) in paragraph at lines 4049--4055
+[]\T1/zi4/m/n/10 col.whitebg \T1/ptm/m/n/10 re-turns a sim-i-lar (but smaller) 
+list that is suit-able as the \T1/zi4/m/n/10 theme \T1/ptm/m/n/10 ar-gu-ment to
+ \T1/zi4/m/n/10 trellis.device
+[58] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (38.87796pt too wide) in paragraph at lines 4116--4120
+[]\T1/ptm/m/n/10 A char-ac-ter string giv-ing the name of a com-po-nent. If un-
+spec-i-fied in \T1/zi4/m/n/10 trellis.par.get()\T1/ptm/m/n/10 ,
+
+Overfull \hbox (54.04779pt too wide) in paragraph at lines 4127--4133
+[]\T1/ptm/m/n/10 a list de-crib-ing how to change the set-tings, sim-i-lar to w
+hat is re-turned by \T1/zi4/m/n/10 trellis.par.get()\T1/ptm/m/n/10 .
+
+Overfull \hbox (22.09807pt too wide) in paragraph at lines 4143--4145
+[]\T1/ptm/m/n/10 A log-i-cal flag, in-di-cat-ing whether a warn-ing should be i
+s-sued when \T1/zi4/m/n/10 trellis.par.get
+[59]
+Overfull \hbox (1.82768pt too wide) in paragraph at lines 4147--4153
+[]\T1/ptm/m/n/10 Usually a log-i-cal flag, in-di-cat-ing whether the \T1/zi4/m/
+n/10 value \T1/ptm/m/n/10 should be in-ter-preted strictly.
+[60] [61] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (6.07858pt too wide) in paragraph at lines 4340--4350
+[]\T1/ptm/m/n/10 A color spec-i-fi-ca-tion. \T1/zi4/m/n/10 col \T1/ptm/m/n/10 i
+s used for com-po-nents \T1/zi4/m/n/10 "plot.symbol"\T1/ptm/m/n/10 , \T1/zi4/m/
+n/10 "plot.line"\T1/ptm/m/n/10 ,
+
+Overfull \hbox (49.4509pt too wide) in paragraph at lines 4340--4350
+\T1/zi4/m/n/10 "plot.polygon"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "superpose.symbol"
+\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "superpose.line"\T1/ptm/m/n/10 , and \T1/zi4/m/
+n/10 "superpose.polygon"\T1/ptm/m/n/10 .
+
+Overfull \hbox (44.54019pt too wide) in paragraph at lines 4340--4350
+\T1/zi4/m/n/10 col.points \T1/ptm/m/n/10 over-rides \T1/zi4/m/n/10 col\T1/ptm/m
+/n/10 , but is used only for \T1/zi4/m/n/10 "plot.symbol" \T1/ptm/m/n/10 and \T
+1/zi4/m/n/10 "superpose.symbol"\T1/ptm/m/n/10 .
+[62]
+Overfull \hbox (33.06953pt too wide) in paragraph at lines 4365--4368
+[]\T1/ptm/m/n/10 fill color, ap-pli-ca-ble for com-po-nents \T1/zi4/m/n/10 plot
+.symbol\T1/ptm/m/n/10 , \T1/zi4/m/n/10 plot.polygon\T1/ptm/m/n/10 , \T1/zi4/m/n
+/10 superpose.symbol\T1/ptm/m/n/10 ,
+
+Overfull \hbox (7.24962pt too wide) in paragraph at lines 4368--4370
+[]\T1/ptm/m/n/10 border color, ap-pli-ca-ble for com-po-nents \T1/zi4/m/n/10 pl
+ot.polygon \T1/ptm/m/n/10 and \T1/zi4/m/n/10 superpose.polygon\T1/ptm/m/n/10 . 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [63] [64]
+Overfull \hbox (37.40785pt too wide) in paragraph at lines 4519--4522
+[]\T1/ptm/m/n/10 A list giv-ing ar-gu-ments to [][]\T1/zi4/m/n/10 gpar[][][] \T
+1/ptm/m/n/10 used to high-light a view-port cho-sen us-ing [][]\T1/zi4/m/n/10 t
+rellis.focus[][][]\T1/ptm/m/n/10 . 
+
+Overfull \hbox (0.27873pt too wide) in paragraph at lines 4527--4532
+[]\T1/ptm/m/n/10 List with com-po-nents named \T1/zi4/m/n/10 "numeric" \T1/ptm/
+m/n/10 and \T1/zi4/m/n/10 "factor"\T1/ptm/m/n/10 , both scalar num-bers. Panel
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [65] [66] [67]
+[68] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [69] [70]
+[71] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [72]
+Overfull \hbox (6.68881pt too wide) in paragraph at lines 5095--5098
+[]\T1/zi4/m/n/10 plot.shingle \T1/ptm/m/n/10 dis-plays the ranges of shin-gles 
+via rect-an-gles. \T1/zi4/m/n/10 print.shingle \T1/ptm/m/n/10 and \T1/zi4/m/n/1
+0 summary.shingle
+[73] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [74]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [75] [76]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [77] [78]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [79]
+Overfull \hbox (38.07863pt too wide) in paragraph at lines 5527--5531
+\T1/ptm/m/n/10 rent level of a fac-tor is en-coded. Ig-nored for shin-gles (ac-
+tu-ally, when \T1/zi4/m/n/10 shingle.intervals
+
+Overfull \hbox (10.22824pt too wide) in paragraph at lines 5552--5555
+[]\T1/ptm/m/n/10 logical, spec-i-fy-ing whether the la-bels etc should be hor-i
+-zon-tal. \T1/zi4/m/n/10 horizontal=FALSE
+[80] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (7.84106pt too wide) in paragraph at lines 5622--5631
+\T1/zi4/m/n/10 prepanel\T1/ptm/m/n/10 , \T1/zi4/m/n/10 main\T1/ptm/m/n/10 , \T1
+/zi4/m/n/10 sub\T1/ptm/m/n/10 , \T1/zi4/m/n/10 par.strip.text\T1/ptm/m/n/10 , \
+T1/zi4/m/n/10 strip\T1/ptm/m/n/10 , \T1/zi4/m/n/10 skip\T1/ptm/m/n/10 , \T1/zi4
+/m/n/10 xlab ylab\T1/ptm/m/n/10 , \T1/zi4/m/n/10 par.settings\T1/ptm/m/n/10 , \
+T1/zi4/m/n/10 lattice.options
+[81]
+Overfull \hbox (11.82808pt too wide) in paragraph at lines 5663--5665
+[]\T1/ptm/m/n/10 a list con-tain-ing the ar-gu-ments com-mon to all the panel f
+unc-tions in \T1/zi4/m/n/10 name=value
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [82] [83] [84]
+Overfull \hbox (10.68889pt too wide) in paragraph at lines 5865--5870
+[]\T1/ptm/m/n/10 logical, whether clip-ping should be off, rel-e-vant when \T1/
+zi4/m/n/10 name \T1/ptm/m/n/10 is \T1/zi4/m/n/10 "panel" \T1/ptm/m/n/10 or \T1/
+zi4/m/n/10 "strip"\T1/ptm/m/n/10 .
+
+Overfull \hbox (17.19879pt too wide) in paragraph at lines 5914--5918
+\T1/zi4/m/n/10 trellis.focus\T1/ptm/m/n/10 , the de-fault is \T1/zi4/m/n/10 TRU
+E \T1/ptm/m/n/10 in in-ter-ac-tive mode, and \T1/zi4/m/n/10 trellis.switchFocus
+
+[85]
+Overfull \hbox (11.46964pt too wide) in paragraph at lines 5925--5932
+[]\T1/ptm/m/n/10 For \T1/zi4/m/n/10 panel.identify.qqmath\T1/ptm/m/n/10 , ex-tr
+a pa-ram-e-ters are passed on to \T1/zi4/m/n/10 panel.identify\T1/ptm/m/n/10 .
+
+Overfull \hbox (27.83829pt too wide) in paragraph at lines 5925--5932
+\T1/ptm/m/n/10 view-port if so re-quested. Graph-i-cal pa-ram-e-ters can be sup
+-plied for \T1/zi4/m/n/10 panel.link.splom\T1/ptm/m/n/10 . 
+
+Overfull \hbox (19.18883pt too wide) in paragraph at lines 5945--5951
+[]\T1/zi4/m/n/10 panel.link.splom \T1/ptm/m/n/10 is meant for use with [][]\T1/
+zi4/m/n/10 splom[][][]\T1/ptm/m/n/10 , and re-quires a panel to be cho-sen us-i
+ng \T1/zi4/m/n/10 trellis.focus
+
+Overfull \hbox (8.02872pt too wide) in paragraph at lines 5959--5972
+[]\T1/ptm/m/n/10 One way in which \T1/zi4/m/n/10 panel.identify \T1/ptm/m/n/10 
+etc. are dif-fer-ent from [][]\T1/zi4/m/n/10 identify[][][] \T1/ptm/m/n/10 is i
+n how it uses the \T1/zi4/m/n/10 subscripts
+[86] [87] [88] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[89]
+Overfull \hbox (5.32771pt too wide) in paragraph at lines 6226--6231
+[]\T1/ptm/m/n/10 Graphical pa-ram-e-ters for the bars. By de-fault, the trel-li
+s pa-ram-e-ter \T1/zi4/m/n/10 plot.polygon
+[90] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [91]
+Overfull \hbox (4.84883pt too wide) in paragraph at lines 6343--6348
+[]\T1/ptm/m/n/10 Creates Box and Whisker plot of \T1/zi4/m/n/10 x \T1/ptm/m/n/1
+0 for ev-ery level of \T1/zi4/m/n/10 y \T1/ptm/m/n/10 (or the other way round i
+f \T1/zi4/m/n/10 horizontal=FALSE\T1/ptm/m/n/10 ).
+[92] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [93] [94]
+[95] [96] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [97]
+[98] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [99]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [100] [101]
+[102] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [103]
+Overfull \hbox (11.76834pt too wide) in paragraph at lines 7121--7124
+[]\T1/ptm/m/n/10 The panel func-tion used to dis-play each pair of vari-ables. 
+If spec-i-fied, \T1/zi4/m/n/10 lower.panel
+
+Overfull \hbox (24.96814pt too wide) in paragraph at lines 7143--7145
+[]\T1/ptm/m/n/10 logical spec-i-fy-ing whether the panel func-tion ac-cepts an 
+ar-gu-ment named \T1/zi4/m/n/10 subscripts\T1/ptm/m/n/10 . 
+[104] [105]
+Overfull \hbox (24.42984pt too wide) in paragraph at lines 7235--7238
+[]\T1/ptm/m/n/10 Further ar-gu-ments, passed on to \T1/zi4/m/n/10 panel\T1/ptm/
+m/n/10 , \T1/zi4/m/n/10 lower.panel\T1/ptm/m/n/10 , \T1/zi4/m/n/10 upper.panel\
+T1/ptm/m/n/10 , and \T1/zi4/m/n/10 diag.panel
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [106]
+Overfull \hbox (1.08768pt too wide) in paragraph at lines 7331--7333
+[]\T1/ptm/m/n/10 logical in-di-cat-ing whether the par-al-lel axes should be la
+id out hor-i-zon-tally (\T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 )
+[107] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (25.13821pt too wide) in paragraph at lines 7403--7406
+[]\T1/ptm/m/n/10 Further ar-gu-ments, of-ten graph-i-cal pa-ram-e-ters, even-tu
+-ally passed on to [][]\T1/zi4/m/n/10 panel.xyplot[][][]\T1/ptm/m/n/10 .
+[108] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [109]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [110]
+Overfull \hbox (21.8392pt too wide) in paragraph at lines 7566--7570
+[]\T1/ptm/m/n/10 Type \T1/zi4/m/n/10 "s" \T1/ptm/m/n/10 (and \T1/zi4/m/n/10 "S"
+\T1/ptm/m/n/10 ) sorts the val-ues along one of the axes (de-pend-ing on \T1/zi
+4/m/n/10 horizontal\T1/ptm/m/n/10 );
+
+Overfull \hbox (35.95944pt too wide) in paragraph at lines 7577--7579
+[]\T1/ptm/m/n/10 default colours are ob-tained from \T1/zi4/m/n/10 plot.symbol 
+\T1/ptm/m/n/10 and \T1/zi4/m/n/10 plot.line \T1/ptm/m/n/10 us-ing [][]\T1/zi4/m
+/n/10 trellis.par.get[][][]\T1/ptm/m/n/10 . 
+[111] [112] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[113] [114]
+Overfull \hbox (2.90889pt too wide) in paragraph at lines 7837--7841
+\T1/ptm/m/n/10 strip in-for-ma-tion added to it. Typ-i-cally ei-ther \T1/zi4/m/
+n/10 "panel"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "strip"\T1/ptm/m/n/10 , \T1/zi4/m/n
+/10 "strip.left"\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [115] [116]
+Overfull \hbox (23.65733pt too wide) in paragraph at lines 7989--7995
+[]\T1/ptm/m/n/10 A log-i-cal flag de-ter-min-ing whether the de-fault graph-i-c
+al pa-ram-e-ters for \T1/zi4/m/n/10 panel.abline
+[117]
+Overfull \hbox (0.13797pt too wide) in paragraph at lines 8024--8028
+[]\T1/ptm/m/n/10 Usually ig-nored by the panel func-tions doc-u-mented here; th
+e ar-gu-ment is present
+
+Overfull \hbox (0.81764pt too wide) in paragraph at lines 8041--8043
+[]\T1/ptm/m/n/10 A vec-tor-ized func-tion that pro-duces den-sity val-ues given
+ a nu-meric vec-tor named
+[118] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [119]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [120]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [121] [122]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [123]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [124]
+Overfull \hbox (20.37881pt too wide) in paragraph at lines 8488--8490
+[]\T1/ptm/m/n/10 The panel func-tion to be used for each sub-group of points. D
+e-faults to \T1/zi4/m/n/10 panel.xyplot\T1/ptm/m/n/10 . 
+
+Overfull \hbox (15.52928pt too wide) in paragraph at lines 8507--8512
+\T1/ptm/m/n/10 cal pa-ram-e-ters are ob-tained from the \T1/zi4/m/n/10 "superpo
+se.symbol" \T1/ptm/m/n/10 and \T1/zi4/m/n/10 "superpose.line"
+[125]
+Overfull \hbox (0.74974pt too wide) in paragraph at lines 8552--8555
+[]\T1/ptm/m/n/10 Extra ar-gu-ments. Passed down to \T1/zi4/m/n/10 panel.superpo
+se \T1/ptm/m/n/10 from \T1/zi4/m/n/10 panel.superpose.2\T1/ptm/m/n/10 ,
+
+Overfull \hbox (46.9787pt too wide) in paragraph at lines 8564--8573
+[]\T1/zi4/m/n/10 panel.superpose \T1/ptm/m/n/10 di-vides up the \T1/zi4/m/n/10 
+x \T1/ptm/m/n/10 (and op-tion-ally \T1/zi4/m/n/10 y\T1/ptm/m/n/10 ) vari-able(s
+) by the unique val-ues of \T1/zi4/m/n/10 groups[subscripts]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (7.92946pt too wide) in paragraph at lines 8598--8600
+[]\T1/ptm/m/n/10 Deepayan Sarkar \T1/zi4/m/n/10 <Deepayan.Sarkar@R-project.org>
+ \T1/ptm/m/n/10 (\T1/zi4/m/n/10 panel.superpose.2 \T1/ptm/m/n/10 orig-i-nally c
+on-tributed
+
+Overfull \hbox (25.70819pt too wide) in paragraph at lines 8603--8607
+[]\T1/ptm/m/n/10 Different func-tions when used as \T1/zi4/m/n/10 panel.groups 
+\T1/ptm/m/n/10 gives dif-fer-ent types of plots, for ex-am-ple [][]\T1/zi4/m/n/
+10 panel.xyplot[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [126]
+Overfull \hbox (34.28773pt too wide) in paragraph at lines 8658--8660
+[]\T1/ptm/m/n/10 graphical pa-ram-e-ters con-trol-ling the vi-o-lin. De-faults 
+are taken from the \T1/zi4/m/n/10 "plot.polygon"
+[127] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [128]
+Overfull \hbox (1.08768pt too wide) in paragraph at lines 8755--8758
+[]\T1/ptm/m/n/10 logical in-di-cat-ing whether the par-al-lel axes should be la
+id out hor-i-zon-tally (\T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 )
+
+Overfull \hbox (55.92805pt too wide) in paragraph at lines 8761--8764
+[]\T1/ptm/m/n/10 details of his-togram cal-cu-la-tions. \T1/zi4/m/n/10 type \T1
+/ptm/m/n/10 has a dif-fer-ent mean-ing in \T1/zi4/m/n/10 prepanel.default.xyplo
+t
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [129]
+Overfull \hbox (12.70819pt too wide) in paragraph at lines 8838--8842
+[]\T1/ptm/m/n/10 numeric vec-tor of length two, rep-re-sent-ing prob-a-bil-i-ti
+es. If used with \T1/zi4/m/n/10 aspect="xy"\T1/ptm/m/n/10 ,
+[130] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [131]
+Overfull \hbox (9.65884pt too wide) in paragraph at lines 8945--8950
+[]\T1/ptm/m/n/10 which packet (counted ac-cord-ing to the packet or-der, de-scr
+ibed in [][]\T1/zi4/m/n/10 print.trellis[][][]\T1/ptm/m/n/10 )
+
+Overfull \hbox (82.91939pt too wide) in paragraph at lines 8962--8965
+[]\T1/ptm/m/n/10 list, sim-i-lar to those pro-duced by \T1/zi4/m/n/10 xscale.co
+mponents.default \T1/ptm/m/n/10 and \T1/zi4/m/n/10 yscale.components.default\T1
+/ptm/m/n/10 . 
+[132] [133]
+Underfull \vbox (badness 10000) has occurred while \output is active [134]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [135]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [136]
+Overfull \hbox (29.94879pt too wide) in paragraph at lines 9252--9256
+[]\T1/ptm/m/n/10 returns a list with sev-eral com-po-nents, in-clud-ing \T1/zi4
+/m/n/10 left,    right, left.name, right.name, condition
+
+Overfull \hbox (20.63074pt too wide) in paragraph at lines 9252--9256
+\T1/ptm/m/n/10 for 2-D, and \T1/zi4/m/n/10 left,    right.x, right.y, left.name
+, right.x.name, right.y.name, condition
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [137]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [138] [139]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [140] [141]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [142]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [143]
+Overfull \hbox (19.57997pt too wide) in paragraph at lines 9716--9720
+[]\T1/ptm/m/n/10 Factor with lev-els \T1/zi4/m/n/10 "Svansota"\T1/ptm/m/n/10 , 
+\T1/zi4/m/n/10 "No. 462"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Manchuria"\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 "No. 475"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Velvet"\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 "Peatland"\T1/ptm/m/n/10 ,
+
+Overfull \hbox (15.18977pt too wide) in paragraph at lines 9721--9724
+[]\T1/ptm/m/n/10 Factor with 6 lev-els: \T1/zi4/m/n/10 "Grand Rapids"\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 "Duluth"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "University Farm"
+\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Morris"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Crooks
+ton"\T1/ptm/m/n/10 ,
+[144] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [145]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [146] [147]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (0.44821pt too wide) in paragraph at lines 9990--9993
+[]\T1/ptm/m/n/10 Houghton, A., E. W. Mun-ster, and M. V. Vi-ola. (1978). In-cre
+ased In-ci-dence of Ma-lig-nant Melanoma
+[148] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [149]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+No file Rd2.ind.
+[150] (./Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Rfn.immer} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.loess} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.smooth.spline} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.bkde2D} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.loess.smooth} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rug} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.curve} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dnorm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.coef} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.pretty} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.segments} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.text} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.rect} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rect} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.arrows} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.contourLines} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.jitter} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.boxplot.stats} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.boxplot} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.viewports} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.downViewport} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.seekViewport} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.current.vpTree} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.identify} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rbind} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.colorRampPalette} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.topo.colors} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.factor} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.co.intervals} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.options} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.unit} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.tryCatch} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Devices} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rasterGrob} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.raster} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.make.unique} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.quantile} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qt} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qunif} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qnorm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.density} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.hist} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.table} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as.data.frame} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.t} has been referenced but does not exist, repl
+aced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.xyplot.zoo} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.plot.ts} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ts} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.update} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.aperm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.par} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.gpar} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.textGrob} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.plotmath} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.layout} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.interaction} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.strptime} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.abbreviate} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.eval} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.reshape} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.points} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.lines} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.persp} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.image} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.while} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.for} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.plot} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.print} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.locator} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/us
+r/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive
+/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on Rd2.pdf (150 pages, 461997 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (908 entries accepted, 0 rejected).
+Sorting entries..........done (10164 comparisons).
+Generating output file Rd2.ind....done (948 lines written, 0 warnings).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo))
+(/home/aviral/projects/r/share/texmf/tex/latex/Rd.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/latin1.def))
+Writing index file Rd2.idx
+(./Rd2.aux) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./Rd2.out) (./Rd2.out)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [3] [4]
+[5] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd) [6]
+Underfull \vbox (badness 10000) has occurred while \output is active [7]
+Overfull \hbox (61.48842pt too wide) in paragraph at lines 397--409
+[]\T1/ptm/m/n/10 For the func-tions doc-u-mented here, the for-mula is gen-er-a
+lly of the form \T1/zi4/m/n/10 y ~ x | g1 * g2 * ...
+[8]
+Overfull \hbox (11.75822pt too wide) in paragraph at lines 519--524
+[]\T1/ptm/m/n/10 A po-ten-tially use-ful com-po-nent of \T1/zi4/m/n/10 scales \
+T1/ptm/m/n/10 in this case may be \T1/zi4/m/n/10 abbreviate = TRUE\T1/ptm/m/n/1
+0 ,
+[9]
+Overfull \hbox (8.879pt too wide) in paragraph at lines 597--606
+\T1/zi4/m/n/10 groups \T1/ptm/m/n/10 re-mains un-af-fected by any sub-set-ting 
+op-er-a-tions, so \T1/zi4/m/n/10 groups[subscripts]
+[10] [11] [12] [13]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+Overfull \hbox (5.46011pt too wide) in paragraph at lines 932--944
+\T1/zi4/m/n/10 scales=list(x = list(log = 2)) \T1/ptm/m/n/10 is equiv-a-lent to
+ \T1/zi4/m/n/10 y ~           log2(x)\T1/ptm/m/n/10 . 
+[14]
+Overfull \hbox (0.15851pt too wide) in paragraph at lines 1000--1008
+[]\T1/ptm/m/n/10 An ex-pres-sion that eval-u-ates to a log-i-cal or in-te-ger i
+n-dex-ing vec-tor. Like \T1/zi4/m/n/10 groups\T1/ptm/m/n/10 ,
+[15] [16]
+Underfull \vbox (badness 2894) has occurred while \output is active [17]
+Overfull \hbox (1.07782pt too wide) in paragraph at lines 1227--1234
+[]\T1/ptm/m/n/10 Logical flag, de-faults to \T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 .
+ By de-fault, it is as-sumed that all columns
+[18]
+Overfull \hbox (13.23837pt too wide) in paragraph at lines 1269--1273
+\T1/ptm/m/n/10 and ver-ti-cal jus-ti-fi-ca-tion for the place-ment of the leg-e
+nd. See [][]\T1/zi4/m/n/10 grid.layout[][][]
+
+Overfull \hbox (2.8599pt too wide) in paragraph at lines 1294--1304
+\T1/ptm/m/n/10 Each com-po-nent must be named one of \T1/zi4/m/n/10 "left"\T1/p
+tm/m/n/10 , \T1/zi4/m/n/10 "right"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "top"\T1/ptm/
+m/n/10 , \T1/zi4/m/n/10 "bottom"\T1/ptm/m/n/10 ,
+[19] [20]
+Overfull \hbox (84.17886pt too wide) in paragraph at lines 1438--1442
+\T1/ptm/m/n/10 no-ta-tion for the x and y axes re-spec-tively. See doc-u-men-ta
+-tion for [][]\T1/zi4/m/n/10 xscale.components.default[][][]\T1/ptm/m/n/10 ,
+[21]
+Overfull \hbox (20.36934pt too wide) in paragraph at lines 1500--1507
+\T1/ptm/m/n/10 more typ-i-cal to use \T1/zi4/m/n/10 perm.cond \T1/ptm/m/n/10 an
+d \T1/zi4/m/n/10 index.cond \T1/ptm/m/n/10 to up-date an ex-ist-ing \T1/zi4/m/n
+/10 "trellis"
+
+Overfull \hbox (8.98828pt too wide) in paragraph at lines 1500--1507
+\T1/ptm/m/n/10 re-calculating the data sub-sets that go into each panel. In the
+ [][]\T1/zi4/m/n/10 update.trellis[][][]
+[22]
+Overfull \hbox (34.401pt too wide) in paragraph at lines 1606--1623
+[][]\T1/zi4/m/n/10 banking[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 reshape[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.xyplot[][][]\T1/ptm/m/n/10 , [][]\T
+1/zi4/m/n/10 panel.bwplot[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.barcha
+rt[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.dotplot[][][]\T1/ptm/m/n/10 ,
+ [][]\T1/zi4/m/n/10 panel.stripplot[][][]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (4.76099pt too wide) in paragraph at lines 1606--1623
+[][]\T1/zi4/m/n/10 panel.superpose[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pan
+el.loess[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.average[][][]\T1/ptm/m/
+n/10 , [][]\T1/zi4/m/n/10 strip.default[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/1
+0 simpleKey[][][] [][]trellis.par.set[][][] 
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active [24]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [25]
+Overfull \hbox (10.64871pt too wide) in paragraph at lines 1766--1768
+[]\T1/ptm/m/n/10 additional ar-gu-ments passed to [][]\T1/zi4/m/n/10 xyplot[][]
+[]\T1/ptm/m/n/10 , which may pass them on to [][]\T1/zi4/m/n/10 panel.xyplot[][
+][]\T1/ptm/m/n/10 . 
+
+Overfull \hbox (9.17854pt too wide) in paragraph at lines 1796--1800
+[]\T1/ptm/m/n/10 graphical ar-gu-ments, which are pro-cessed and even-tu-ally p
+assed to [][]\T1/zi4/m/n/10 panel.xyplot[][][]\T1/ptm/m/n/10 .
+[26] [27] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [28]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [29] [30]
+Overfull \hbox (3.38753pt too wide) in paragraph at lines 2157--2162
+[]\T1/ptm/m/n/10 A char-ac-ter string in-di-cat-ing the type of his-togram that
+ is to be drawn. \T1/zi4/m/n/10 "percent"
+
+Overfull \hbox (5.37842pt too wide) in paragraph at lines 2168--2171
+[]\T1/ptm/m/n/10 An in-te-ger spec-i-fy-ing the num-ber of his-togram bins, ap-
+pli-ca-ble only when \T1/zi4/m/n/10 breaks
+
+Overfull \hbox (31.02982pt too wide) in paragraph at lines 2184--2187
+[]\T1/ptm/m/n/10 When \T1/zi4/m/n/10 breaks \T1/ptm/m/n/10 is un-spec-i-fied, t
+he value of \T1/zi4/m/n/10 lattice.getOption("histogram.breaks")
+[31] [32] [33] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[34]
+Overfull \hbox (16.12961pt too wide) in paragraph at lines 2408--2412
+[]\T1/ptm/m/n/10 For the \T1/zi4/m/n/10 "formula" \T1/ptm/m/n/10 method, \T1/zi
+4/m/n/10 x \T1/ptm/m/n/10 should be a for-mula of the form \T1/zi4/m/n/10 ~ x |
+ g1 * g2 * ...\T1/ptm/m/n/10 ,
+[35] [36] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [37]
+Overfull \hbox (25.12961pt too wide) in paragraph at lines 2594--2601
+[]\T1/ptm/m/n/10 For the \T1/zi4/m/n/10 "formula" \T1/ptm/m/n/10 method, \T1/zi
+4/m/n/10 x \T1/ptm/m/n/10 should be a for-mula of the form \T1/zi4/m/n/10 y ~ x
+ | g1 * g2 * ...\T1/ptm/m/n/10 ,
+[38] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [39] [40]
+Overfull \hbox (8.23973pt too wide) in paragraph at lines 2809--2814
+[]\T1/ptm/m/n/10 for the \T1/zi4/m/n/10 formula \T1/ptm/m/n/10 method, a for-mu
+la of the form \T1/zi4/m/n/10 z ~ x * y       | g1 * g2 * ...\T1/ptm/m/n/10 ,
+[41]
+Overfull \hbox (14.56844pt too wide) in paragraph at lines 2896--2898
+[]\T1/ptm/m/n/10 A color ramp spec-i-fi-ca-tion, as in the \T1/zi4/m/n/10 col.r
+egions \T1/ptm/m/n/10 ar-gu-ment in [][]\T1/zi4/m/n/10 level.colors[][][] 
+[42]
+Overfull \hbox (60.95883pt too wide) in paragraph at lines 2983--2989
+\T1/zi4/m/n/10 TRUE \T1/ptm/m/n/10 changes the de-fault panel func-tion from []
+[]\T1/zi4/m/n/10 panel.levelplot[][][] \T1/ptm/m/n/10 to [][]\T1/zi4/m/n/10 pan
+el.levelplot.raster[][][]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (12.13792pt too wide) in paragraph at lines 3007--3011
+[]\T1/ptm/m/n/10 Other use-ful ar-gu-ments are men-tioned in the help page for 
+the de-fault panel func-tion [][]\T1/zi4/m/n/10 panel.levelplot[][][]
+[43] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [44] [45]
+Overfull \hbox (24.2097pt too wide) in paragraph at lines 3159--3167
+[]\T1/ptm/m/n/10 For the \T1/zi4/m/n/10 "formula" \T1/ptm/m/n/10 meth-ods, a fo
+r-mula of the form \T1/zi4/m/n/10 z ~ x       * y | g1 * g2 * ...\T1/ptm/m/n/10
+ ,
+
+Overfull \hbox (13.5191pt too wide) in paragraph at lines 3200--3206
+[]\T1/ptm/m/n/10 These ar-gu-ments are doc-u-mented in the help page for [][]\T
+1/zi4/m/n/10 xyplot[][][]\T1/ptm/m/n/10 . For the \T1/zi4/m/n/10 cloud.table
+[46]
+Overfull \hbox (4.34898pt too wide) in paragraph at lines 3238--3247
+\T1/ptm/m/n/10 Both can be sup-pressed by \T1/zi4/m/n/10 draw=FALSE\T1/ptm/m/n/
+10 . An-other spe-cial com-po-nent is \T1/zi4/m/n/10 distance\T1/ptm/m/n/10 ,
+
+Overfull \hbox (12.81784pt too wide) in paragraph at lines 3255--3259
+\T1/ptm/m/n/10 is spe-cific to par-tic-u-lar pan-els. If you re-ally need that,
+ con-sider us-ing the \T1/zi4/m/n/10 scales.3d
+
+Overfull \hbox (3.87817pt too wide) in paragraph at lines 3261--3267
+[]\T1/ptm/m/n/10 Unlike 2-D dis-play func-tions, \T1/zi4/m/n/10 cloud \T1/ptm/m
+/n/10 does not ex-pand the bound-ing box to slightly
+[47] [48] [49] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[50]
+Underfull \vbox (badness 10000) has occurred while \output is active [51]
+Overfull \hbox (1.08768pt too wide) in paragraph at lines 3616--3618
+[]\T1/ptm/m/n/10 logical in-di-cat-ing whether the par-al-lel axes should be la
+id out hor-i-zon-tally (\T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 )
+
+Overfull \hbox (6.60829pt too wide) in paragraph at lines 3631--3640
+[]\T1/zi4/m/n/10 splom \T1/ptm/m/n/10 pro-duces Scat-ter Plot Ma-tri-ces. The r
+ole usu-ally played by \T1/zi4/m/n/10 panel \T1/ptm/m/n/10 is taken over by \T1
+/zi4/m/n/10 superpanel\T1/ptm/m/n/10 ,
+[52] [53] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [54]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [55]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [56]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [57]
+Overfull \hbox (8.48994pt too wide) in paragraph at lines 3976--3980
+\T1/zi4/m/n/10 lattice.options(default.theme = "col.whitebg")\T1/ptm/m/n/10 . F
+or back-compatibility,
+[58]
+Overfull \hbox (22.87723pt too wide) in paragraph at lines 4049--4055
+[]\T1/zi4/m/n/10 col.whitebg \T1/ptm/m/n/10 re-turns a sim-i-lar (but smaller) 
+list that is suit-able as the \T1/zi4/m/n/10 theme \T1/ptm/m/n/10 ar-gu-ment to
+ \T1/zi4/m/n/10 trellis.device
+[59] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (38.87796pt too wide) in paragraph at lines 4116--4120
+[]\T1/ptm/m/n/10 A char-ac-ter string giv-ing the name of a com-po-nent. If un-
+spec-i-fied in \T1/zi4/m/n/10 trellis.par.get()\T1/ptm/m/n/10 ,
+
+Overfull \hbox (54.04779pt too wide) in paragraph at lines 4127--4133
+[]\T1/ptm/m/n/10 a list de-crib-ing how to change the set-tings, sim-i-lar to w
+hat is re-turned by \T1/zi4/m/n/10 trellis.par.get()\T1/ptm/m/n/10 .
+
+Overfull \hbox (22.09807pt too wide) in paragraph at lines 4143--4145
+[]\T1/ptm/m/n/10 A log-i-cal flag, in-di-cat-ing whether a warn-ing should be i
+s-sued when \T1/zi4/m/n/10 trellis.par.get
+[60]
+Overfull \hbox (1.82768pt too wide) in paragraph at lines 4147--4153
+[]\T1/ptm/m/n/10 Usually a log-i-cal flag, in-di-cat-ing whether the \T1/zi4/m/
+n/10 value \T1/ptm/m/n/10 should be in-ter-preted strictly.
+[61] [62] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (6.07858pt too wide) in paragraph at lines 4340--4350
+[]\T1/ptm/m/n/10 A color spec-i-fi-ca-tion. \T1/zi4/m/n/10 col \T1/ptm/m/n/10 i
+s used for com-po-nents \T1/zi4/m/n/10 "plot.symbol"\T1/ptm/m/n/10 , \T1/zi4/m/
+n/10 "plot.line"\T1/ptm/m/n/10 ,
+
+Overfull \hbox (49.4509pt too wide) in paragraph at lines 4340--4350
+\T1/zi4/m/n/10 "plot.polygon"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "superpose.symbol"
+\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "superpose.line"\T1/ptm/m/n/10 , and \T1/zi4/m/
+n/10 "superpose.polygon"\T1/ptm/m/n/10 .
+
+Overfull \hbox (44.54019pt too wide) in paragraph at lines 4340--4350
+\T1/zi4/m/n/10 col.points \T1/ptm/m/n/10 over-rides \T1/zi4/m/n/10 col\T1/ptm/m
+/n/10 , but is used only for \T1/zi4/m/n/10 "plot.symbol" \T1/ptm/m/n/10 and \T
+1/zi4/m/n/10 "superpose.symbol"\T1/ptm/m/n/10 .
+[63]
+Overfull \hbox (33.06953pt too wide) in paragraph at lines 4365--4368
+[]\T1/ptm/m/n/10 fill color, ap-pli-ca-ble for com-po-nents \T1/zi4/m/n/10 plot
+.symbol\T1/ptm/m/n/10 , \T1/zi4/m/n/10 plot.polygon\T1/ptm/m/n/10 , \T1/zi4/m/n
+/10 superpose.symbol\T1/ptm/m/n/10 ,
+
+Overfull \hbox (7.24962pt too wide) in paragraph at lines 4368--4370
+[]\T1/ptm/m/n/10 border color, ap-pli-ca-ble for com-po-nents \T1/zi4/m/n/10 pl
+ot.polygon \T1/ptm/m/n/10 and \T1/zi4/m/n/10 superpose.polygon\T1/ptm/m/n/10 . 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [64] [65]
+Overfull \hbox (37.40785pt too wide) in paragraph at lines 4519--4522
+[]\T1/ptm/m/n/10 A list giv-ing ar-gu-ments to [][]\T1/zi4/m/n/10 gpar[][][] \T
+1/ptm/m/n/10 used to high-light a view-port cho-sen us-ing [][]\T1/zi4/m/n/10 t
+rellis.focus[][][]\T1/ptm/m/n/10 . 
+
+Overfull \hbox (0.27873pt too wide) in paragraph at lines 4527--4532
+[]\T1/ptm/m/n/10 List with com-po-nents named \T1/zi4/m/n/10 "numeric" \T1/ptm/
+m/n/10 and \T1/zi4/m/n/10 "factor"\T1/ptm/m/n/10 , both scalar num-bers. Panel
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [66] [67] [68]
+[69] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [70] [71]
+[72] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [73]
+Overfull \hbox (6.68881pt too wide) in paragraph at lines 5095--5098
+[]\T1/zi4/m/n/10 plot.shingle \T1/ptm/m/n/10 dis-plays the ranges of shin-gles 
+via rect-an-gles. \T1/zi4/m/n/10 print.shingle \T1/ptm/m/n/10 and \T1/zi4/m/n/1
+0 summary.shingle
+[74] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [75]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [76] [77]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [78] [79]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [80]
+Overfull \hbox (38.07863pt too wide) in paragraph at lines 5527--5531
+\T1/ptm/m/n/10 rent level of a fac-tor is en-coded. Ig-nored for shin-gles (ac-
+tu-ally, when \T1/zi4/m/n/10 shingle.intervals
+
+Overfull \hbox (10.22824pt too wide) in paragraph at lines 5552--5555
+[]\T1/ptm/m/n/10 logical, spec-i-fy-ing whether the la-bels etc should be hor-i
+-zon-tal. \T1/zi4/m/n/10 horizontal=FALSE
+[81] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (7.84106pt too wide) in paragraph at lines 5622--5631
+\T1/zi4/m/n/10 prepanel\T1/ptm/m/n/10 , \T1/zi4/m/n/10 main\T1/ptm/m/n/10 , \T1
+/zi4/m/n/10 sub\T1/ptm/m/n/10 , \T1/zi4/m/n/10 par.strip.text\T1/ptm/m/n/10 , \
+T1/zi4/m/n/10 strip\T1/ptm/m/n/10 , \T1/zi4/m/n/10 skip\T1/ptm/m/n/10 , \T1/zi4
+/m/n/10 xlab ylab\T1/ptm/m/n/10 , \T1/zi4/m/n/10 par.settings\T1/ptm/m/n/10 , \
+T1/zi4/m/n/10 lattice.options
+[82]
+Overfull \hbox (11.82808pt too wide) in paragraph at lines 5663--5665
+[]\T1/ptm/m/n/10 a list con-tain-ing the ar-gu-ments com-mon to all the panel f
+unc-tions in \T1/zi4/m/n/10 name=value
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [83] [84] [85]
+Overfull \hbox (10.68889pt too wide) in paragraph at lines 5865--5870
+[]\T1/ptm/m/n/10 logical, whether clip-ping should be off, rel-e-vant when \T1/
+zi4/m/n/10 name \T1/ptm/m/n/10 is \T1/zi4/m/n/10 "panel" \T1/ptm/m/n/10 or \T1/
+zi4/m/n/10 "strip"\T1/ptm/m/n/10 .
+
+Overfull \hbox (17.19879pt too wide) in paragraph at lines 5914--5918
+\T1/zi4/m/n/10 trellis.focus\T1/ptm/m/n/10 , the de-fault is \T1/zi4/m/n/10 TRU
+E \T1/ptm/m/n/10 in in-ter-ac-tive mode, and \T1/zi4/m/n/10 trellis.switchFocus
+
+[86]
+Overfull \hbox (11.46964pt too wide) in paragraph at lines 5925--5932
+[]\T1/ptm/m/n/10 For \T1/zi4/m/n/10 panel.identify.qqmath\T1/ptm/m/n/10 , ex-tr
+a pa-ram-e-ters are passed on to \T1/zi4/m/n/10 panel.identify\T1/ptm/m/n/10 .
+
+Overfull \hbox (27.83829pt too wide) in paragraph at lines 5925--5932
+\T1/ptm/m/n/10 view-port if so re-quested. Graph-i-cal pa-ram-e-ters can be sup
+-plied for \T1/zi4/m/n/10 panel.link.splom\T1/ptm/m/n/10 . 
+
+Overfull \hbox (19.18883pt too wide) in paragraph at lines 5945--5951
+[]\T1/zi4/m/n/10 panel.link.splom \T1/ptm/m/n/10 is meant for use with [][]\T1/
+zi4/m/n/10 splom[][][]\T1/ptm/m/n/10 , and re-quires a panel to be cho-sen us-i
+ng \T1/zi4/m/n/10 trellis.focus
+
+Overfull \hbox (8.02872pt too wide) in paragraph at lines 5959--5972
+[]\T1/ptm/m/n/10 One way in which \T1/zi4/m/n/10 panel.identify \T1/ptm/m/n/10 
+etc. are dif-fer-ent from [][]\T1/zi4/m/n/10 identify[][][] \T1/ptm/m/n/10 is i
+n how it uses the \T1/zi4/m/n/10 subscripts
+[87] [88] [89] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[90]
+Overfull \hbox (5.32771pt too wide) in paragraph at lines 6226--6231
+[]\T1/ptm/m/n/10 Graphical pa-ram-e-ters for the bars. By de-fault, the trel-li
+s pa-ram-e-ter \T1/zi4/m/n/10 plot.polygon
+[91] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [92]
+Overfull \hbox (4.84883pt too wide) in paragraph at lines 6343--6348
+[]\T1/ptm/m/n/10 Creates Box and Whisker plot of \T1/zi4/m/n/10 x \T1/ptm/m/n/1
+0 for ev-ery level of \T1/zi4/m/n/10 y \T1/ptm/m/n/10 (or the other way round i
+f \T1/zi4/m/n/10 horizontal=FALSE\T1/ptm/m/n/10 ).
+[93] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [94] [95]
+[96] [97] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [98]
+[99] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [100]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [101] [102]
+[103] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [104]
+Overfull \hbox (11.76834pt too wide) in paragraph at lines 7121--7124
+[]\T1/ptm/m/n/10 The panel func-tion used to dis-play each pair of vari-ables. 
+If spec-i-fied, \T1/zi4/m/n/10 lower.panel
+
+Overfull \hbox (24.96814pt too wide) in paragraph at lines 7143--7145
+[]\T1/ptm/m/n/10 logical spec-i-fy-ing whether the panel func-tion ac-cepts an 
+ar-gu-ment named \T1/zi4/m/n/10 subscripts\T1/ptm/m/n/10 . 
+[105] [106]
+Overfull \hbox (24.42984pt too wide) in paragraph at lines 7235--7238
+[]\T1/ptm/m/n/10 Further ar-gu-ments, passed on to \T1/zi4/m/n/10 panel\T1/ptm/
+m/n/10 , \T1/zi4/m/n/10 lower.panel\T1/ptm/m/n/10 , \T1/zi4/m/n/10 upper.panel\
+T1/ptm/m/n/10 , and \T1/zi4/m/n/10 diag.panel
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [107]
+Overfull \hbox (1.08768pt too wide) in paragraph at lines 7331--7333
+[]\T1/ptm/m/n/10 logical in-di-cat-ing whether the par-al-lel axes should be la
+id out hor-i-zon-tally (\T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 )
+[108] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (25.13821pt too wide) in paragraph at lines 7403--7406
+[]\T1/ptm/m/n/10 Further ar-gu-ments, of-ten graph-i-cal pa-ram-e-ters, even-tu
+-ally passed on to [][]\T1/zi4/m/n/10 panel.xyplot[][][]\T1/ptm/m/n/10 .
+[109] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [110]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [111]
+Overfull \hbox (21.8392pt too wide) in paragraph at lines 7566--7570
+[]\T1/ptm/m/n/10 Type \T1/zi4/m/n/10 "s" \T1/ptm/m/n/10 (and \T1/zi4/m/n/10 "S"
+\T1/ptm/m/n/10 ) sorts the val-ues along one of the axes (de-pend-ing on \T1/zi
+4/m/n/10 horizontal\T1/ptm/m/n/10 );
+
+Overfull \hbox (35.95944pt too wide) in paragraph at lines 7577--7579
+[]\T1/ptm/m/n/10 default colours are ob-tained from \T1/zi4/m/n/10 plot.symbol 
+\T1/ptm/m/n/10 and \T1/zi4/m/n/10 plot.line \T1/ptm/m/n/10 us-ing [][]\T1/zi4/m
+/n/10 trellis.par.get[][][]\T1/ptm/m/n/10 . 
+[112] [113] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[114] [115]
+Overfull \hbox (2.90889pt too wide) in paragraph at lines 7837--7841
+\T1/ptm/m/n/10 strip in-for-ma-tion added to it. Typ-i-cally ei-ther \T1/zi4/m/
+n/10 "panel"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "strip"\T1/ptm/m/n/10 , \T1/zi4/m/n
+/10 "strip.left"\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [116] [117]
+Overfull \hbox (23.65733pt too wide) in paragraph at lines 7989--7995
+[]\T1/ptm/m/n/10 A log-i-cal flag de-ter-min-ing whether the de-fault graph-i-c
+al pa-ram-e-ters for \T1/zi4/m/n/10 panel.abline
+[118]
+Overfull \hbox (0.13797pt too wide) in paragraph at lines 8024--8028
+[]\T1/ptm/m/n/10 Usually ig-nored by the panel func-tions doc-u-mented here; th
+e ar-gu-ment is present
+
+Overfull \hbox (0.81764pt too wide) in paragraph at lines 8041--8043
+[]\T1/ptm/m/n/10 A vec-tor-ized func-tion that pro-duces den-sity val-ues given
+ a nu-meric vec-tor named
+[119] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [120]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [121]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [122] [123]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [124]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [125]
+Overfull \hbox (20.37881pt too wide) in paragraph at lines 8488--8490
+[]\T1/ptm/m/n/10 The panel func-tion to be used for each sub-group of points. D
+e-faults to \T1/zi4/m/n/10 panel.xyplot\T1/ptm/m/n/10 . 
+
+Overfull \hbox (15.52928pt too wide) in paragraph at lines 8507--8512
+\T1/ptm/m/n/10 cal pa-ram-e-ters are ob-tained from the \T1/zi4/m/n/10 "superpo
+se.symbol" \T1/ptm/m/n/10 and \T1/zi4/m/n/10 "superpose.line"
+[126]
+Overfull \hbox (0.74974pt too wide) in paragraph at lines 8552--8555
+[]\T1/ptm/m/n/10 Extra ar-gu-ments. Passed down to \T1/zi4/m/n/10 panel.superpo
+se \T1/ptm/m/n/10 from \T1/zi4/m/n/10 panel.superpose.2\T1/ptm/m/n/10 ,
+
+Overfull \hbox (46.9787pt too wide) in paragraph at lines 8564--8573
+[]\T1/zi4/m/n/10 panel.superpose \T1/ptm/m/n/10 di-vides up the \T1/zi4/m/n/10 
+x \T1/ptm/m/n/10 (and op-tion-ally \T1/zi4/m/n/10 y\T1/ptm/m/n/10 ) vari-able(s
+) by the unique val-ues of \T1/zi4/m/n/10 groups[subscripts]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (7.92946pt too wide) in paragraph at lines 8598--8600
+[]\T1/ptm/m/n/10 Deepayan Sarkar \T1/zi4/m/n/10 <Deepayan.Sarkar@R-project.org>
+ \T1/ptm/m/n/10 (\T1/zi4/m/n/10 panel.superpose.2 \T1/ptm/m/n/10 orig-i-nally c
+on-tributed
+
+Overfull \hbox (25.70819pt too wide) in paragraph at lines 8603--8607
+[]\T1/ptm/m/n/10 Different func-tions when used as \T1/zi4/m/n/10 panel.groups 
+\T1/ptm/m/n/10 gives dif-fer-ent types of plots, for ex-am-ple [][]\T1/zi4/m/n/
+10 panel.xyplot[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [127]
+Overfull \hbox (34.28773pt too wide) in paragraph at lines 8658--8660
+[]\T1/ptm/m/n/10 graphical pa-ram-e-ters con-trol-ling the vi-o-lin. De-faults 
+are taken from the \T1/zi4/m/n/10 "plot.polygon"
+[128] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [129]
+Overfull \hbox (1.08768pt too wide) in paragraph at lines 8755--8758
+[]\T1/ptm/m/n/10 logical in-di-cat-ing whether the par-al-lel axes should be la
+id out hor-i-zon-tally (\T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 )
+
+Overfull \hbox (55.92805pt too wide) in paragraph at lines 8761--8764
+[]\T1/ptm/m/n/10 details of his-togram cal-cu-la-tions. \T1/zi4/m/n/10 type \T1
+/ptm/m/n/10 has a dif-fer-ent mean-ing in \T1/zi4/m/n/10 prepanel.default.xyplo
+t
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [130]
+Overfull \hbox (12.70819pt too wide) in paragraph at lines 8838--8842
+[]\T1/ptm/m/n/10 numeric vec-tor of length two, rep-re-sent-ing prob-a-bil-i-ti
+es. If used with \T1/zi4/m/n/10 aspect="xy"\T1/ptm/m/n/10 ,
+[131] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [132]
+Overfull \hbox (9.65884pt too wide) in paragraph at lines 8945--8950
+[]\T1/ptm/m/n/10 which packet (counted ac-cord-ing to the packet or-der, de-scr
+ibed in [][]\T1/zi4/m/n/10 print.trellis[][][]\T1/ptm/m/n/10 )
+
+Overfull \hbox (82.91939pt too wide) in paragraph at lines 8962--8965
+[]\T1/ptm/m/n/10 list, sim-i-lar to those pro-duced by \T1/zi4/m/n/10 xscale.co
+mponents.default \T1/ptm/m/n/10 and \T1/zi4/m/n/10 yscale.components.default\T1
+/ptm/m/n/10 . 
+[133] [134]
+Underfull \vbox (badness 10000) has occurred while \output is active [135]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [136]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [137]
+Overfull \hbox (29.94879pt too wide) in paragraph at lines 9252--9256
+[]\T1/ptm/m/n/10 returns a list with sev-eral com-po-nents, in-clud-ing \T1/zi4
+/m/n/10 left,    right, left.name, right.name, condition
+
+Overfull \hbox (20.63074pt too wide) in paragraph at lines 9252--9256
+\T1/ptm/m/n/10 for 2-D, and \T1/zi4/m/n/10 left,    right.x, right.y, left.name
+, right.x.name, right.y.name, condition
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [138]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [139] [140]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [141] [142]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [143]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [144]
+Overfull \hbox (19.57997pt too wide) in paragraph at lines 9716--9720
+[]\T1/ptm/m/n/10 Factor with lev-els \T1/zi4/m/n/10 "Svansota"\T1/ptm/m/n/10 , 
+\T1/zi4/m/n/10 "No. 462"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Manchuria"\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 "No. 475"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Velvet"\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 "Peatland"\T1/ptm/m/n/10 ,
+
+Overfull \hbox (15.18977pt too wide) in paragraph at lines 9721--9724
+[]\T1/ptm/m/n/10 Factor with 6 lev-els: \T1/zi4/m/n/10 "Grand Rapids"\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 "Duluth"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "University Farm"
+\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Morris"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Crooks
+ton"\T1/ptm/m/n/10 ,
+[145] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [146]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [147] [148]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (0.44821pt too wide) in paragraph at lines 9990--9993
+[]\T1/ptm/m/n/10 Houghton, A., E. W. Mun-ster, and M. V. Vi-ola. (1978). In-cre
+ased In-ci-dence of Ma-lig-nant Melanoma
+[149] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [150]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) (./Rd2.ind
+[151]
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 79.
+
+[152] [153] [154] [155] [156] [157]) (./Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Rfn.immer} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.loess} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.smooth.spline} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.bkde2D} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.loess.smooth} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rug} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.curve} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dnorm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.coef} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.pretty} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.segments} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.text} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.rect} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rect} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.arrows} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.contourLines} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.jitter} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.boxplot.stats} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.boxplot} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.viewports} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.downViewport} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.seekViewport} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.current.vpTree} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.identify} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rbind} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.colorRampPalette} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.topo.colors} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.factor} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.co.intervals} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.options} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.unit} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.tryCatch} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Devices} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rasterGrob} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.raster} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.make.unique} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.quantile} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qt} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qunif} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qnorm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.density} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.hist} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.table} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as.data.frame} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.t} has been referenced but does not exist, repl
+aced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.xyplot.zoo} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.plot.ts} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ts} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.update} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.aperm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.par} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.gpar} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.textGrob} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.plotmath} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.layout} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.interaction} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.strptime} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.abbreviate} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.eval} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.reshape} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.points} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.lines} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.persp} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.image} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.while} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.for} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.plot} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.print} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.locator} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/us
+r/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive
+/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on Rd2.pdf (157 pages, 513390 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (908 entries accepted, 0 rejected).
+Sorting entries..........done (10306 comparisons).
+Generating output file Rd2.ind....done (945 lines written, 0 warnings).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo))
+(/home/aviral/projects/r/share/texmf/tex/latex/Rd.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/latin1.def))
+Writing index file Rd2.idx
+(./Rd2.aux) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./Rd2.out) (./Rd2.out)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [3] [4]
+[5] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd) [6]
+Underfull \vbox (badness 10000) has occurred while \output is active [7]
+Overfull \hbox (61.48842pt too wide) in paragraph at lines 397--409
+[]\T1/ptm/m/n/10 For the func-tions doc-u-mented here, the for-mula is gen-er-a
+lly of the form \T1/zi4/m/n/10 y ~ x | g1 * g2 * ...
+[8]
+Overfull \hbox (11.75822pt too wide) in paragraph at lines 519--524
+[]\T1/ptm/m/n/10 A po-ten-tially use-ful com-po-nent of \T1/zi4/m/n/10 scales \
+T1/ptm/m/n/10 in this case may be \T1/zi4/m/n/10 abbreviate = TRUE\T1/ptm/m/n/1
+0 ,
+[9]
+Overfull \hbox (8.879pt too wide) in paragraph at lines 597--606
+\T1/zi4/m/n/10 groups \T1/ptm/m/n/10 re-mains un-af-fected by any sub-set-ting 
+op-er-a-tions, so \T1/zi4/m/n/10 groups[subscripts]
+[10] [11] [12] [13]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+Overfull \hbox (5.46011pt too wide) in paragraph at lines 932--944
+\T1/zi4/m/n/10 scales=list(x = list(log = 2)) \T1/ptm/m/n/10 is equiv-a-lent to
+ \T1/zi4/m/n/10 y ~           log2(x)\T1/ptm/m/n/10 . 
+[14]
+Overfull \hbox (0.15851pt too wide) in paragraph at lines 1000--1008
+[]\T1/ptm/m/n/10 An ex-pres-sion that eval-u-ates to a log-i-cal or in-te-ger i
+n-dex-ing vec-tor. Like \T1/zi4/m/n/10 groups\T1/ptm/m/n/10 ,
+[15] [16]
+Underfull \vbox (badness 2894) has occurred while \output is active [17]
+Overfull \hbox (1.07782pt too wide) in paragraph at lines 1227--1234
+[]\T1/ptm/m/n/10 Logical flag, de-faults to \T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 .
+ By de-fault, it is as-sumed that all columns
+[18]
+Overfull \hbox (13.23837pt too wide) in paragraph at lines 1269--1273
+\T1/ptm/m/n/10 and ver-ti-cal jus-ti-fi-ca-tion for the place-ment of the leg-e
+nd. See [][]\T1/zi4/m/n/10 grid.layout[][][]
+
+Overfull \hbox (2.8599pt too wide) in paragraph at lines 1294--1304
+\T1/ptm/m/n/10 Each com-po-nent must be named one of \T1/zi4/m/n/10 "left"\T1/p
+tm/m/n/10 , \T1/zi4/m/n/10 "right"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "top"\T1/ptm/
+m/n/10 , \T1/zi4/m/n/10 "bottom"\T1/ptm/m/n/10 ,
+[19] [20]
+Overfull \hbox (84.17886pt too wide) in paragraph at lines 1438--1442
+\T1/ptm/m/n/10 no-ta-tion for the x and y axes re-spec-tively. See doc-u-men-ta
+-tion for [][]\T1/zi4/m/n/10 xscale.components.default[][][]\T1/ptm/m/n/10 ,
+[21]
+Overfull \hbox (20.36934pt too wide) in paragraph at lines 1500--1507
+\T1/ptm/m/n/10 more typ-i-cal to use \T1/zi4/m/n/10 perm.cond \T1/ptm/m/n/10 an
+d \T1/zi4/m/n/10 index.cond \T1/ptm/m/n/10 to up-date an ex-ist-ing \T1/zi4/m/n
+/10 "trellis"
+
+Overfull \hbox (8.98828pt too wide) in paragraph at lines 1500--1507
+\T1/ptm/m/n/10 re-calculating the data sub-sets that go into each panel. In the
+ [][]\T1/zi4/m/n/10 update.trellis[][][]
+[22]
+Overfull \hbox (34.401pt too wide) in paragraph at lines 1606--1623
+[][]\T1/zi4/m/n/10 banking[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 reshape[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.xyplot[][][]\T1/ptm/m/n/10 , [][]\T
+1/zi4/m/n/10 panel.bwplot[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.barcha
+rt[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.dotplot[][][]\T1/ptm/m/n/10 ,
+ [][]\T1/zi4/m/n/10 panel.stripplot[][][]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (4.76099pt too wide) in paragraph at lines 1606--1623
+[][]\T1/zi4/m/n/10 panel.superpose[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pan
+el.loess[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 panel.average[][][]\T1/ptm/m/
+n/10 , [][]\T1/zi4/m/n/10 strip.default[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/1
+0 simpleKey[][][] [][]trellis.par.set[][][] 
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active [24]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [25]
+Overfull \hbox (10.64871pt too wide) in paragraph at lines 1766--1768
+[]\T1/ptm/m/n/10 additional ar-gu-ments passed to [][]\T1/zi4/m/n/10 xyplot[][]
+[]\T1/ptm/m/n/10 , which may pass them on to [][]\T1/zi4/m/n/10 panel.xyplot[][
+][]\T1/ptm/m/n/10 . 
+
+Overfull \hbox (9.17854pt too wide) in paragraph at lines 1796--1800
+[]\T1/ptm/m/n/10 graphical ar-gu-ments, which are pro-cessed and even-tu-ally p
+assed to [][]\T1/zi4/m/n/10 panel.xyplot[][][]\T1/ptm/m/n/10 .
+[26] [27] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [28]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [29] [30]
+Overfull \hbox (3.38753pt too wide) in paragraph at lines 2157--2162
+[]\T1/ptm/m/n/10 A char-ac-ter string in-di-cat-ing the type of his-togram that
+ is to be drawn. \T1/zi4/m/n/10 "percent"
+
+Overfull \hbox (5.37842pt too wide) in paragraph at lines 2168--2171
+[]\T1/ptm/m/n/10 An in-te-ger spec-i-fy-ing the num-ber of his-togram bins, ap-
+pli-ca-ble only when \T1/zi4/m/n/10 breaks
+
+Overfull \hbox (31.02982pt too wide) in paragraph at lines 2184--2187
+[]\T1/ptm/m/n/10 When \T1/zi4/m/n/10 breaks \T1/ptm/m/n/10 is un-spec-i-fied, t
+he value of \T1/zi4/m/n/10 lattice.getOption("histogram.breaks")
+[31] [32] [33] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[34]
+Overfull \hbox (16.12961pt too wide) in paragraph at lines 2408--2412
+[]\T1/ptm/m/n/10 For the \T1/zi4/m/n/10 "formula" \T1/ptm/m/n/10 method, \T1/zi
+4/m/n/10 x \T1/ptm/m/n/10 should be a for-mula of the form \T1/zi4/m/n/10 ~ x |
+ g1 * g2 * ...\T1/ptm/m/n/10 ,
+[35] [36] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [37]
+Overfull \hbox (25.12961pt too wide) in paragraph at lines 2594--2601
+[]\T1/ptm/m/n/10 For the \T1/zi4/m/n/10 "formula" \T1/ptm/m/n/10 method, \T1/zi
+4/m/n/10 x \T1/ptm/m/n/10 should be a for-mula of the form \T1/zi4/m/n/10 y ~ x
+ | g1 * g2 * ...\T1/ptm/m/n/10 ,
+[38] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [39] [40]
+Overfull \hbox (8.23973pt too wide) in paragraph at lines 2809--2814
+[]\T1/ptm/m/n/10 for the \T1/zi4/m/n/10 formula \T1/ptm/m/n/10 method, a for-mu
+la of the form \T1/zi4/m/n/10 z ~ x * y       | g1 * g2 * ...\T1/ptm/m/n/10 ,
+[41]
+Overfull \hbox (14.56844pt too wide) in paragraph at lines 2896--2898
+[]\T1/ptm/m/n/10 A color ramp spec-i-fi-ca-tion, as in the \T1/zi4/m/n/10 col.r
+egions \T1/ptm/m/n/10 ar-gu-ment in [][]\T1/zi4/m/n/10 level.colors[][][] 
+[42]
+Overfull \hbox (60.95883pt too wide) in paragraph at lines 2983--2989
+\T1/zi4/m/n/10 TRUE \T1/ptm/m/n/10 changes the de-fault panel func-tion from []
+[]\T1/zi4/m/n/10 panel.levelplot[][][] \T1/ptm/m/n/10 to [][]\T1/zi4/m/n/10 pan
+el.levelplot.raster[][][]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (12.13792pt too wide) in paragraph at lines 3007--3011
+[]\T1/ptm/m/n/10 Other use-ful ar-gu-ments are men-tioned in the help page for 
+the de-fault panel func-tion [][]\T1/zi4/m/n/10 panel.levelplot[][][]
+[43] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [44] [45]
+Overfull \hbox (24.2097pt too wide) in paragraph at lines 3159--3167
+[]\T1/ptm/m/n/10 For the \T1/zi4/m/n/10 "formula" \T1/ptm/m/n/10 meth-ods, a fo
+r-mula of the form \T1/zi4/m/n/10 z ~ x       * y | g1 * g2 * ...\T1/ptm/m/n/10
+ ,
+
+Overfull \hbox (13.5191pt too wide) in paragraph at lines 3200--3206
+[]\T1/ptm/m/n/10 These ar-gu-ments are doc-u-mented in the help page for [][]\T
+1/zi4/m/n/10 xyplot[][][]\T1/ptm/m/n/10 . For the \T1/zi4/m/n/10 cloud.table
+[46]
+Overfull \hbox (4.34898pt too wide) in paragraph at lines 3238--3247
+\T1/ptm/m/n/10 Both can be sup-pressed by \T1/zi4/m/n/10 draw=FALSE\T1/ptm/m/n/
+10 . An-other spe-cial com-po-nent is \T1/zi4/m/n/10 distance\T1/ptm/m/n/10 ,
+
+Overfull \hbox (12.81784pt too wide) in paragraph at lines 3255--3259
+\T1/ptm/m/n/10 is spe-cific to par-tic-u-lar pan-els. If you re-ally need that,
+ con-sider us-ing the \T1/zi4/m/n/10 scales.3d
+
+Overfull \hbox (3.87817pt too wide) in paragraph at lines 3261--3267
+[]\T1/ptm/m/n/10 Unlike 2-D dis-play func-tions, \T1/zi4/m/n/10 cloud \T1/ptm/m
+/n/10 does not ex-pand the bound-ing box to slightly
+[47] [48] [49] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[50]
+Underfull \vbox (badness 10000) has occurred while \output is active [51]
+Overfull \hbox (1.08768pt too wide) in paragraph at lines 3616--3618
+[]\T1/ptm/m/n/10 logical in-di-cat-ing whether the par-al-lel axes should be la
+id out hor-i-zon-tally (\T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 )
+
+Overfull \hbox (6.60829pt too wide) in paragraph at lines 3631--3640
+[]\T1/zi4/m/n/10 splom \T1/ptm/m/n/10 pro-duces Scat-ter Plot Ma-tri-ces. The r
+ole usu-ally played by \T1/zi4/m/n/10 panel \T1/ptm/m/n/10 is taken over by \T1
+/zi4/m/n/10 superpanel\T1/ptm/m/n/10 ,
+[52] [53] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [54]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [55]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [56]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [57]
+Overfull \hbox (8.48994pt too wide) in paragraph at lines 3976--3980
+\T1/zi4/m/n/10 lattice.options(default.theme = "col.whitebg")\T1/ptm/m/n/10 . F
+or back-compatibility,
+[58]
+Overfull \hbox (22.87723pt too wide) in paragraph at lines 4049--4055
+[]\T1/zi4/m/n/10 col.whitebg \T1/ptm/m/n/10 re-turns a sim-i-lar (but smaller) 
+list that is suit-able as the \T1/zi4/m/n/10 theme \T1/ptm/m/n/10 ar-gu-ment to
+ \T1/zi4/m/n/10 trellis.device
+[59] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (38.87796pt too wide) in paragraph at lines 4116--4120
+[]\T1/ptm/m/n/10 A char-ac-ter string giv-ing the name of a com-po-nent. If un-
+spec-i-fied in \T1/zi4/m/n/10 trellis.par.get()\T1/ptm/m/n/10 ,
+
+Overfull \hbox (54.04779pt too wide) in paragraph at lines 4127--4133
+[]\T1/ptm/m/n/10 a list de-crib-ing how to change the set-tings, sim-i-lar to w
+hat is re-turned by \T1/zi4/m/n/10 trellis.par.get()\T1/ptm/m/n/10 .
+
+Overfull \hbox (22.09807pt too wide) in paragraph at lines 4143--4145
+[]\T1/ptm/m/n/10 A log-i-cal flag, in-di-cat-ing whether a warn-ing should be i
+s-sued when \T1/zi4/m/n/10 trellis.par.get
+[60]
+Overfull \hbox (1.82768pt too wide) in paragraph at lines 4147--4153
+[]\T1/ptm/m/n/10 Usually a log-i-cal flag, in-di-cat-ing whether the \T1/zi4/m/
+n/10 value \T1/ptm/m/n/10 should be in-ter-preted strictly.
+[61] [62] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (6.07858pt too wide) in paragraph at lines 4340--4350
+[]\T1/ptm/m/n/10 A color spec-i-fi-ca-tion. \T1/zi4/m/n/10 col \T1/ptm/m/n/10 i
+s used for com-po-nents \T1/zi4/m/n/10 "plot.symbol"\T1/ptm/m/n/10 , \T1/zi4/m/
+n/10 "plot.line"\T1/ptm/m/n/10 ,
+
+Overfull \hbox (49.4509pt too wide) in paragraph at lines 4340--4350
+\T1/zi4/m/n/10 "plot.polygon"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "superpose.symbol"
+\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "superpose.line"\T1/ptm/m/n/10 , and \T1/zi4/m/
+n/10 "superpose.polygon"\T1/ptm/m/n/10 .
+
+Overfull \hbox (44.54019pt too wide) in paragraph at lines 4340--4350
+\T1/zi4/m/n/10 col.points \T1/ptm/m/n/10 over-rides \T1/zi4/m/n/10 col\T1/ptm/m
+/n/10 , but is used only for \T1/zi4/m/n/10 "plot.symbol" \T1/ptm/m/n/10 and \T
+1/zi4/m/n/10 "superpose.symbol"\T1/ptm/m/n/10 .
+[63]
+Overfull \hbox (33.06953pt too wide) in paragraph at lines 4365--4368
+[]\T1/ptm/m/n/10 fill color, ap-pli-ca-ble for com-po-nents \T1/zi4/m/n/10 plot
+.symbol\T1/ptm/m/n/10 , \T1/zi4/m/n/10 plot.polygon\T1/ptm/m/n/10 , \T1/zi4/m/n
+/10 superpose.symbol\T1/ptm/m/n/10 ,
+
+Overfull \hbox (7.24962pt too wide) in paragraph at lines 4368--4370
+[]\T1/ptm/m/n/10 border color, ap-pli-ca-ble for com-po-nents \T1/zi4/m/n/10 pl
+ot.polygon \T1/ptm/m/n/10 and \T1/zi4/m/n/10 superpose.polygon\T1/ptm/m/n/10 . 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [64] [65]
+Overfull \hbox (37.40785pt too wide) in paragraph at lines 4519--4522
+[]\T1/ptm/m/n/10 A list giv-ing ar-gu-ments to [][]\T1/zi4/m/n/10 gpar[][][] \T
+1/ptm/m/n/10 used to high-light a view-port cho-sen us-ing [][]\T1/zi4/m/n/10 t
+rellis.focus[][][]\T1/ptm/m/n/10 . 
+
+Overfull \hbox (0.27873pt too wide) in paragraph at lines 4527--4532
+[]\T1/ptm/m/n/10 List with com-po-nents named \T1/zi4/m/n/10 "numeric" \T1/ptm/
+m/n/10 and \T1/zi4/m/n/10 "factor"\T1/ptm/m/n/10 , both scalar num-bers. Panel
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [66] [67] [68]
+[69] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [70] [71]
+[72] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [73]
+Overfull \hbox (6.68881pt too wide) in paragraph at lines 5095--5098
+[]\T1/zi4/m/n/10 plot.shingle \T1/ptm/m/n/10 dis-plays the ranges of shin-gles 
+via rect-an-gles. \T1/zi4/m/n/10 print.shingle \T1/ptm/m/n/10 and \T1/zi4/m/n/1
+0 summary.shingle
+[74] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [75]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [76] [77]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [78] [79]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [80]
+Overfull \hbox (38.07863pt too wide) in paragraph at lines 5527--5531
+\T1/ptm/m/n/10 rent level of a fac-tor is en-coded. Ig-nored for shin-gles (ac-
+tu-ally, when \T1/zi4/m/n/10 shingle.intervals
+
+Overfull \hbox (10.22824pt too wide) in paragraph at lines 5552--5555
+[]\T1/ptm/m/n/10 logical, spec-i-fy-ing whether the la-bels etc should be hor-i
+-zon-tal. \T1/zi4/m/n/10 horizontal=FALSE
+[81] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (7.84106pt too wide) in paragraph at lines 5622--5631
+\T1/zi4/m/n/10 prepanel\T1/ptm/m/n/10 , \T1/zi4/m/n/10 main\T1/ptm/m/n/10 , \T1
+/zi4/m/n/10 sub\T1/ptm/m/n/10 , \T1/zi4/m/n/10 par.strip.text\T1/ptm/m/n/10 , \
+T1/zi4/m/n/10 strip\T1/ptm/m/n/10 , \T1/zi4/m/n/10 skip\T1/ptm/m/n/10 , \T1/zi4
+/m/n/10 xlab ylab\T1/ptm/m/n/10 , \T1/zi4/m/n/10 par.settings\T1/ptm/m/n/10 , \
+T1/zi4/m/n/10 lattice.options
+[82]
+Overfull \hbox (11.82808pt too wide) in paragraph at lines 5663--5665
+[]\T1/ptm/m/n/10 a list con-tain-ing the ar-gu-ments com-mon to all the panel f
+unc-tions in \T1/zi4/m/n/10 name=value
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [83] [84] [85]
+Overfull \hbox (10.68889pt too wide) in paragraph at lines 5865--5870
+[]\T1/ptm/m/n/10 logical, whether clip-ping should be off, rel-e-vant when \T1/
+zi4/m/n/10 name \T1/ptm/m/n/10 is \T1/zi4/m/n/10 "panel" \T1/ptm/m/n/10 or \T1/
+zi4/m/n/10 "strip"\T1/ptm/m/n/10 .
+
+Overfull \hbox (17.19879pt too wide) in paragraph at lines 5914--5918
+\T1/zi4/m/n/10 trellis.focus\T1/ptm/m/n/10 , the de-fault is \T1/zi4/m/n/10 TRU
+E \T1/ptm/m/n/10 in in-ter-ac-tive mode, and \T1/zi4/m/n/10 trellis.switchFocus
+
+[86]
+Overfull \hbox (11.46964pt too wide) in paragraph at lines 5925--5932
+[]\T1/ptm/m/n/10 For \T1/zi4/m/n/10 panel.identify.qqmath\T1/ptm/m/n/10 , ex-tr
+a pa-ram-e-ters are passed on to \T1/zi4/m/n/10 panel.identify\T1/ptm/m/n/10 .
+
+Overfull \hbox (27.83829pt too wide) in paragraph at lines 5925--5932
+\T1/ptm/m/n/10 view-port if so re-quested. Graph-i-cal pa-ram-e-ters can be sup
+-plied for \T1/zi4/m/n/10 panel.link.splom\T1/ptm/m/n/10 . 
+
+Overfull \hbox (19.18883pt too wide) in paragraph at lines 5945--5951
+[]\T1/zi4/m/n/10 panel.link.splom \T1/ptm/m/n/10 is meant for use with [][]\T1/
+zi4/m/n/10 splom[][][]\T1/ptm/m/n/10 , and re-quires a panel to be cho-sen us-i
+ng \T1/zi4/m/n/10 trellis.focus
+
+Overfull \hbox (8.02872pt too wide) in paragraph at lines 5959--5972
+[]\T1/ptm/m/n/10 One way in which \T1/zi4/m/n/10 panel.identify \T1/ptm/m/n/10 
+etc. are dif-fer-ent from [][]\T1/zi4/m/n/10 identify[][][] \T1/ptm/m/n/10 is i
+n how it uses the \T1/zi4/m/n/10 subscripts
+[87] [88] [89] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[90]
+Overfull \hbox (5.32771pt too wide) in paragraph at lines 6226--6231
+[]\T1/ptm/m/n/10 Graphical pa-ram-e-ters for the bars. By de-fault, the trel-li
+s pa-ram-e-ter \T1/zi4/m/n/10 plot.polygon
+[91] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [92]
+Overfull \hbox (4.84883pt too wide) in paragraph at lines 6343--6348
+[]\T1/ptm/m/n/10 Creates Box and Whisker plot of \T1/zi4/m/n/10 x \T1/ptm/m/n/1
+0 for ev-ery level of \T1/zi4/m/n/10 y \T1/ptm/m/n/10 (or the other way round i
+f \T1/zi4/m/n/10 horizontal=FALSE\T1/ptm/m/n/10 ).
+[93] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [94] [95]
+[96] [97] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [98]
+[99] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [100]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [101] [102]
+[103] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [104]
+Overfull \hbox (11.76834pt too wide) in paragraph at lines 7121--7124
+[]\T1/ptm/m/n/10 The panel func-tion used to dis-play each pair of vari-ables. 
+If spec-i-fied, \T1/zi4/m/n/10 lower.panel
+
+Overfull \hbox (24.96814pt too wide) in paragraph at lines 7143--7145
+[]\T1/ptm/m/n/10 logical spec-i-fy-ing whether the panel func-tion ac-cepts an 
+ar-gu-ment named \T1/zi4/m/n/10 subscripts\T1/ptm/m/n/10 . 
+[105] [106]
+Overfull \hbox (24.42984pt too wide) in paragraph at lines 7235--7238
+[]\T1/ptm/m/n/10 Further ar-gu-ments, passed on to \T1/zi4/m/n/10 panel\T1/ptm/
+m/n/10 , \T1/zi4/m/n/10 lower.panel\T1/ptm/m/n/10 , \T1/zi4/m/n/10 upper.panel\
+T1/ptm/m/n/10 , and \T1/zi4/m/n/10 diag.panel
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [107]
+Overfull \hbox (1.08768pt too wide) in paragraph at lines 7331--7333
+[]\T1/ptm/m/n/10 logical in-di-cat-ing whether the par-al-lel axes should be la
+id out hor-i-zon-tally (\T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 )
+[108] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (25.13821pt too wide) in paragraph at lines 7403--7406
+[]\T1/ptm/m/n/10 Further ar-gu-ments, of-ten graph-i-cal pa-ram-e-ters, even-tu
+-ally passed on to [][]\T1/zi4/m/n/10 panel.xyplot[][][]\T1/ptm/m/n/10 .
+[109] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [110]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [111]
+Overfull \hbox (21.8392pt too wide) in paragraph at lines 7566--7570
+[]\T1/ptm/m/n/10 Type \T1/zi4/m/n/10 "s" \T1/ptm/m/n/10 (and \T1/zi4/m/n/10 "S"
+\T1/ptm/m/n/10 ) sorts the val-ues along one of the axes (de-pend-ing on \T1/zi
+4/m/n/10 horizontal\T1/ptm/m/n/10 );
+
+Overfull \hbox (35.95944pt too wide) in paragraph at lines 7577--7579
+[]\T1/ptm/m/n/10 default colours are ob-tained from \T1/zi4/m/n/10 plot.symbol 
+\T1/ptm/m/n/10 and \T1/zi4/m/n/10 plot.line \T1/ptm/m/n/10 us-ing [][]\T1/zi4/m
+/n/10 trellis.par.get[][][]\T1/ptm/m/n/10 . 
+[112] [113] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[114] [115]
+Overfull \hbox (2.90889pt too wide) in paragraph at lines 7837--7841
+\T1/ptm/m/n/10 strip in-for-ma-tion added to it. Typ-i-cally ei-ther \T1/zi4/m/
+n/10 "panel"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "strip"\T1/ptm/m/n/10 , \T1/zi4/m/n
+/10 "strip.left"\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [116] [117]
+Overfull \hbox (23.65733pt too wide) in paragraph at lines 7989--7995
+[]\T1/ptm/m/n/10 A log-i-cal flag de-ter-min-ing whether the de-fault graph-i-c
+al pa-ram-e-ters for \T1/zi4/m/n/10 panel.abline
+[118]
+Overfull \hbox (0.13797pt too wide) in paragraph at lines 8024--8028
+[]\T1/ptm/m/n/10 Usually ig-nored by the panel func-tions doc-u-mented here; th
+e ar-gu-ment is present
+
+Overfull \hbox (0.81764pt too wide) in paragraph at lines 8041--8043
+[]\T1/ptm/m/n/10 A vec-tor-ized func-tion that pro-duces den-sity val-ues given
+ a nu-meric vec-tor named
+[119] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [120]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [121]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [122] [123]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [124]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [125]
+Overfull \hbox (20.37881pt too wide) in paragraph at lines 8488--8490
+[]\T1/ptm/m/n/10 The panel func-tion to be used for each sub-group of points. D
+e-faults to \T1/zi4/m/n/10 panel.xyplot\T1/ptm/m/n/10 . 
+
+Overfull \hbox (15.52928pt too wide) in paragraph at lines 8507--8512
+\T1/ptm/m/n/10 cal pa-ram-e-ters are ob-tained from the \T1/zi4/m/n/10 "superpo
+se.symbol" \T1/ptm/m/n/10 and \T1/zi4/m/n/10 "superpose.line"
+[126]
+Overfull \hbox (0.74974pt too wide) in paragraph at lines 8552--8555
+[]\T1/ptm/m/n/10 Extra ar-gu-ments. Passed down to \T1/zi4/m/n/10 panel.superpo
+se \T1/ptm/m/n/10 from \T1/zi4/m/n/10 panel.superpose.2\T1/ptm/m/n/10 ,
+
+Overfull \hbox (46.9787pt too wide) in paragraph at lines 8564--8573
+[]\T1/zi4/m/n/10 panel.superpose \T1/ptm/m/n/10 di-vides up the \T1/zi4/m/n/10 
+x \T1/ptm/m/n/10 (and op-tion-ally \T1/zi4/m/n/10 y\T1/ptm/m/n/10 ) vari-able(s
+) by the unique val-ues of \T1/zi4/m/n/10 groups[subscripts]\T1/ptm/m/n/10 ,
+
+Overfull \hbox (7.92946pt too wide) in paragraph at lines 8598--8600
+[]\T1/ptm/m/n/10 Deepayan Sarkar \T1/zi4/m/n/10 <Deepayan.Sarkar@R-project.org>
+ \T1/ptm/m/n/10 (\T1/zi4/m/n/10 panel.superpose.2 \T1/ptm/m/n/10 orig-i-nally c
+on-tributed
+
+Overfull \hbox (25.70819pt too wide) in paragraph at lines 8603--8607
+[]\T1/ptm/m/n/10 Different func-tions when used as \T1/zi4/m/n/10 panel.groups 
+\T1/ptm/m/n/10 gives dif-fer-ent types of plots, for ex-am-ple [][]\T1/zi4/m/n/
+10 panel.xyplot[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [127]
+Overfull \hbox (34.28773pt too wide) in paragraph at lines 8658--8660
+[]\T1/ptm/m/n/10 graphical pa-ram-e-ters con-trol-ling the vi-o-lin. De-faults 
+are taken from the \T1/zi4/m/n/10 "plot.polygon"
+[128] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [129]
+Overfull \hbox (1.08768pt too wide) in paragraph at lines 8755--8758
+[]\T1/ptm/m/n/10 logical in-di-cat-ing whether the par-al-lel axes should be la
+id out hor-i-zon-tally (\T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 )
+
+Overfull \hbox (55.92805pt too wide) in paragraph at lines 8761--8764
+[]\T1/ptm/m/n/10 details of his-togram cal-cu-la-tions. \T1/zi4/m/n/10 type \T1
+/ptm/m/n/10 has a dif-fer-ent mean-ing in \T1/zi4/m/n/10 prepanel.default.xyplo
+t
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [130]
+Overfull \hbox (12.70819pt too wide) in paragraph at lines 8838--8842
+[]\T1/ptm/m/n/10 numeric vec-tor of length two, rep-re-sent-ing prob-a-bil-i-ti
+es. If used with \T1/zi4/m/n/10 aspect="xy"\T1/ptm/m/n/10 ,
+[131] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [132]
+Overfull \hbox (9.65884pt too wide) in paragraph at lines 8945--8950
+[]\T1/ptm/m/n/10 which packet (counted ac-cord-ing to the packet or-der, de-scr
+ibed in [][]\T1/zi4/m/n/10 print.trellis[][][]\T1/ptm/m/n/10 )
+
+Overfull \hbox (82.91939pt too wide) in paragraph at lines 8962--8965
+[]\T1/ptm/m/n/10 list, sim-i-lar to those pro-duced by \T1/zi4/m/n/10 xscale.co
+mponents.default \T1/ptm/m/n/10 and \T1/zi4/m/n/10 yscale.components.default\T1
+/ptm/m/n/10 . 
+[133] [134]
+Underfull \vbox (badness 10000) has occurred while \output is active [135]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [136]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [137]
+Overfull \hbox (29.94879pt too wide) in paragraph at lines 9252--9256
+[]\T1/ptm/m/n/10 returns a list with sev-eral com-po-nents, in-clud-ing \T1/zi4
+/m/n/10 left,    right, left.name, right.name, condition
+
+Overfull \hbox (20.63074pt too wide) in paragraph at lines 9252--9256
+\T1/ptm/m/n/10 for 2-D, and \T1/zi4/m/n/10 left,    right.x, right.y, left.name
+, right.x.name, right.y.name, condition
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [138]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [139] [140]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [141] [142]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [143]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [144]
+Overfull \hbox (19.57997pt too wide) in paragraph at lines 9716--9720
+[]\T1/ptm/m/n/10 Factor with lev-els \T1/zi4/m/n/10 "Svansota"\T1/ptm/m/n/10 , 
+\T1/zi4/m/n/10 "No. 462"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Manchuria"\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 "No. 475"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Velvet"\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 "Peatland"\T1/ptm/m/n/10 ,
+
+Overfull \hbox (15.18977pt too wide) in paragraph at lines 9721--9724
+[]\T1/ptm/m/n/10 Factor with 6 lev-els: \T1/zi4/m/n/10 "Grand Rapids"\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 "Duluth"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "University Farm"
+\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Morris"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Crooks
+ton"\T1/ptm/m/n/10 ,
+[145] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [146]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [147] [148]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (0.44821pt too wide) in paragraph at lines 9990--9993
+[]\T1/ptm/m/n/10 Houghton, A., E. W. Mun-ster, and M. V. Vi-ola. (1978). In-cre
+ased In-ci-dence of Ma-lig-nant Melanoma
+[149] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [150]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) (./Rd2.ind
+[151]
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 79.
+
+[152] [153] [154] [155] [156] [157]) (./Rd2.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Rfn.immer} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.loess} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.smooth.spline} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.bkde2D} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.loess.smooth} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rug} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.curve} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dnorm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.coef} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.pretty} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.segments} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.text} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.rect} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rect} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.arrows} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.contourLines} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.jitter} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.boxplot.stats} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.boxplot} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.viewports} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.downViewport} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.seekViewport} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.current.vpTree} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.identify} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rbind} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.colorRampPalette} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.topo.colors} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.factor} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.co.intervals} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.options} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.unit} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.tryCatch} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Devices} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rasterGrob} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.raster} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.make.unique} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.quantile} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qt} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qunif} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qnorm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.density} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.hist} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.table} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as.data.frame} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.t} has been referenced but does not exist, repl
+aced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.xyplot.zoo} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.plot.ts} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ts} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.update} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.aperm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.par} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.gpar} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.textGrob} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.plotmath} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.layout} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.interaction} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.strptime} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.abbreviate} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.eval} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.reshape} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.points} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.lines} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.persp} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.image} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.while} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.for} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.plot} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.print} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.locator} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/us
+r/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive
+/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on Rd2.pdf (157 pages, 513495 bytes).
+Transcript written on Rd2.log.
+Saving output to 'lattice-manual.pdf' ...
+Done
+You may want to clean up by 'rm -rf /tmp/aviral/Rtmpnjo39z/Rd2pdf35654f13900f'

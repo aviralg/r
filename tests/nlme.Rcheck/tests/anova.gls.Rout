@@ -1,0 +1,89 @@
+
+R version 3.3.0 (2016-05-03) -- "Supposedly Educational"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ## Example of scoping problem.
+> ## Originally from a report by Markus Jantti:
+> ## https://stat.ethz.ch/pipermail/r-help/2005-November/081382.html
+> library(nlme)
+> data(Ovary)
+> ## stolen from example(anova.gls)
+> # AR(1) errors within each Mare
+> fm1 <- gls(follicles ~ sin(2*pi*Time) + cos(2*pi*Time), Ovary,
++            correlation = corAR1(form = ~ 1 | Mare))
+> (int1 <- intervals(fm1))
+Approximate 95% confidence intervals
+
+ Coefficients:
+                       lower       est.      upper
+(Intercept)        10.908531 12.2163982 13.5242656
+sin(2 * pi * Time) -4.044019 -2.7747122 -1.5054050
+cos(2 * pi * Time) -2.272201 -0.8996047  0.4729919
+attr(,"label")
+[1] "Coefficients:"
+
+ Correlation structure:
+        lower      est.     upper
+Phi 0.6684283 0.7532079 0.8186662
+attr(,"label")
+[1] "Correlation structure:"
+
+ Residual standard error:
+   lower     est.    upper 
+3.974706 4.616172 5.361161 
+> stopifnot(
++     all.equal(int1$corStruct["Phi",],
++ 	      c(lower=0.66842829, est.=0.753207889, upper=0.81866619),
++ 	      tol = 6e-6)# 3.44e-6 needed on solaris-x86
++    ,
++     all.equal(as.vector(int1$sigma),
++ 	      c(3.9747061, 4.61617157, 5.361161), tol = 6e-6)
++ )
+> 
+> # variance changes with a power of the absolute fitted values?
+> fm2 <- update(fm1, weights = varPower())
+> (a12 <- anova(fm1, fm2))
+    Model df      AIC      BIC    logLik   Test  L.Ratio p-value
+fm1     1  5 1571.455 1590.056 -780.7273                        
+fm2     2  6 1570.925 1593.247 -779.4626 1 vs 2 2.529261  0.1118
+> 
+> ## now define a little function
+> dummy <- function(obj) anova(obj[[1]], obj[[2]])
+> (d12 <- dummy(list(fm1, fm2)))
+         Model df      AIC      BIC    logLik   Test  L.Ratio p-value
+obj[[1]]     1  5 1571.455 1590.056 -780.7273                        
+obj[[2]]     2  6 1570.925 1593.247 -779.4626 1 vs 2 2.529261  0.1118
+> ## last failed < 3.1-66
+> rownames(d12) <- rownames(a12)
+> stopifnot(all.equal(a12, d12, tol = 1e-15),
++           all.equal(a12[2,"p-value"], 0.111752516, tol = 1e-5)
++ )
+> 
+> ## PR#13567
+> fm1Orth.gls <- gls(distance ~ Sex * I(age - 11), Orthodont,
++                    correlation = corSymm(form = ~ 1 | Subject),
++                    weights = varIdent(form = ~ 1 | age))
+> (aOr <- anova(fm1Orth.gls, Terms = "Sex"))
+Denom. DF: 104 
+ F-test for: Sex 
+  numDF  F-value p-value
+1     1 9.403075  0.0028
+> stopifnot(all.equal(aOr[,"F-value"], 9.4030752449,
++ 		    aOr[,"p-value"], 0.0027608643857))
+> 
+> proc.time()
+   user  system elapsed 
+  0.404   0.016   0.417 

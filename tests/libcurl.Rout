@@ -1,0 +1,243 @@
+
+R version 3.3.0 (2016-05-03) -- "Supposedly Educational"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ## These are tests that require libcurl functionality and a working
+> ## Internet connection.
+> 
+> if(!capabilities()["libcurl"]) {
++     warning("no libcurl support")
++     q()
++ }
+> 
+> ## fails some of the time
+> #if(.Platform$OS.type == "windows") q()
+> 
+> if(.Platform$OS.type == "unix" &&
++    is.null(nsl("cran.r-project.org"))) q()
+> 
+> example(curlGetHeaders, run.donttest = TRUE)
+
+crlGtH> ## No test: 
+crlGtH> ## needs Internet access, results vary
+crlGtH> curlGetHeaders("http://bugs.r-project.org")   ## this redirects to https://
+ [1] "HTTP/1.1 302 Found\r\n"                                                            
+ [2] "Date: Sun, 04 Sep 2016 22:07:22 GMT\r\n"                                           
+ [3] "Server: Apache/2.4.10 (Debian)\r\n"                                                
+ [4] "Location: https://bugs.r-project.org/bugzilla3/\r\n"                               
+ [5] "Content-Type: text/html; charset=UTF-8\r\n"                                        
+ [6] "\r\n"                                                                              
+ [7] "HTTP/1.1 200 OK\r\n"                                                               
+ [8] "Date: Sun, 04 Sep 2016 22:07:24 GMT\r\n"                                           
+ [9] "Server: Apache/2.4.10 (Debian)\r\n"                                                
+[10] "X-content-type-options: nosniff\r\n"                                               
+[11] "X-xss-protection: 1; mode=block\r\n"                                               
+[12] "X-frame-options: SAMEORIGIN\r\n"                                                   
+[13] "Set-Cookie: Bugzilla_login_request_cookie=f5qWCOnuZL; path=/; secure; HttpOnly\r\n"
+[14] "Vary: Accept-Encoding\r\n"                                                         
+[15] "Content-Type: text/html; charset=UTF-8\r\n"                                        
+[16] "\r\n"                                                                              
+attr(,"status")
+[1] 200
+
+crlGtH> curlGetHeaders("https://httpbin.org/status/404")  ## returns status
+[1] "HTTP/1.1 404 NOT FOUND\r\n"                
+[2] "Server: nginx\r\n"                         
+[3] "Date: Sun, 04 Sep 2016 22:07:26 GMT\r\n"   
+[4] "Content-Type: text/html; charset=utf-8\r\n"
+[5] "Content-Length: 0\r\n"                     
+[6] "Connection: keep-alive\r\n"                
+[7] "Access-Control-Allow-Origin: *\r\n"        
+[8] "Access-Control-Allow-Credentials: true\r\n"
+[9] "\r\n"                                      
+attr(,"status")
+[1] 404
+
+crlGtH> curlGetHeaders("ftp://cran.r-project.org")
+[1] "220 Welcome to the CRAN FTP service.\r\n"                                        
+[2] "331 Please specify the password.\r\n"                                            
+[3] "230-Welcome, CRAN useR!\r\n"                                                     
+[4] "230-\r\n"                                                                        
+[5] "230-If you have any unusual problems,\r\n"                                       
+[6] "230-please report them via e-mail to <cran-sysadmin@statmath.wu-wien.ac.at>.\r\n"
+[7] "230-\r\n"                                                                        
+[8] "230 Login successful.\r\n"                                                       
+[9] "257 \"/\"\r\n"                                                                   
+attr(,"status")
+[1] 257
+
+crlGtH> ## End(No test)
+crlGtH> ## Not run: 
+crlGtH> ##D  ## a not-always-available site:
+crlGtH> ##D curlGetHeaders("ftps://test.rebex.net/readme.txt")
+crlGtH> ## End(Not run)
+crlGtH> 
+crlGtH> 
+> 
+> tf <- tempfile()
+> download.file("http://cran.r-project.org/", tf,  method = "libcurl")
+trying URL 'http://cran.r-project.org/'
+Content type 'text/html' length 850 bytes
+==================================================
+downloaded 850 bytes
+
+> file.size(tf)
+[1] 850
+> unlink(tf)
+> 
+> tf <- tempfile()
+> download.file("ftp://ftp.stats.ox.ac.uk/pub/datasets/csb/ch11b.dat",
++               tf,  method = "libcurl")
+trying URL 'ftp://ftp.stats.ox.ac.uk/pub/datasets/csb/ch11b.dat'
+Content type 'unknown' length 2102 bytes
+==================================================
+downloaded 2102 bytes
+
+> file.size(tf) # 2102
+[1] 2102
+> unlink(tf)
+> 
+> 
+> ## test url connections on http
+> str(readLines(zz <- url("http://cran.r-project.org/", method = "libcurl")))
+ chr [1:23] "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Frameset//EN\" \"http://www.w3.org/TR/html4/frameset.dtd\">" ...
+> zz
+                 description                        class 
+"http://cran.r-project.org/"                "url-libcurl" 
+                        mode                         text 
+                         "r"                       "text" 
+                      opened                     can read 
+                    "closed"                        "yes" 
+                   can write 
+                        "no" 
+> stopifnot(identical(summary(zz)$class, "url-libcurl"))
+> close(zz)
+> 
+> ## https URL
+> head(readLines(zz <- url("https://httpbin.org", method = "libcurl"),
++                warn = FALSE))
+[1] "<!DOCTYPE html>"                                                                           
+[2] "<html>"                                                                                    
+[3] "<head>"                                                                                    
+[4] "  <meta http-equiv='content-type' value='text/html;charset=utf8'>"                         
+[5] "  <meta name='generator' value='Ronn/v0.7.3 (http://github.com/rtomayko/ronn/tree/0.7.3)'>"
+[6] "  <title>httpbin(1): HTTP Client Testing Service</title>"                                  
+> close(zz)
+> 
+> ## redirection (to a https:// URL)
+> head(readLines(zz <- url("http://bugs.r-project.org", method = "libcurl"),
++                warn = FALSE))
+[1] "<!DOCTYPE html>"                                                              
+[2] "<html lang=\"en\">"                                                           
+[3] "  <head>"                                                                     
+[4] "    <title>R bug tracking system - Main Page</title>"                         
+[5] ""                                                                             
+[6] "      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">"
+> close(zz)
+> 
+> 
+> ## check graceful failure: warnings leading to error
+> ## testUnknownUrlError <- tryCatch(suppressWarnings({
+> ##     zz <- url("http://foo.bar", "r", method = "libcurl")
+> ## }), error=function(e) {
+> ##     conditionMessage(e) == "cannot open connection"
+> ## })
+> ## close(zz)
+> ## stopifnot(testUnknownUrlError)
+> 
+> ## tf <- tempfile()
+> ## testDownloadFileError <- tryCatch(suppressWarnings({
+> ##     download.file("http://foo.bar", tf, method="libcurl")
+> ## }), error=function(e) {
+> ##     conditionMessage(e) == "cannot download all files"
+> ## })
+> ## stopifnot(testDownloadFileError, !file.exists(tf))
+> 
+> tf <- tempfile()
+> testDownloadFile404 <- tryCatch(suppressWarnings({
++     download.file("http://httpbin.org/status/404", tf, method="libcurl")
++ }), error=function(e) {
++     conditionMessage(e) == "cannot download all files"
++ })
+
+downloaded 0 bytes
+
+> stopifnot(testDownloadFile404, !file.exists(tf))
+> 
+> ## check specific warnings
+> ## testUnknownUrl <- tryCatch({
+> ##     zz <- url("http://foo.bar", "r", method = "libcurl")
+> ## }, warning=function(e) {
+> ##     grepl("Couldn't resolve host name", conditionMessage(e))
+> ## })
+> ## close(zz)
+> ## stopifnot(testUnknownUrl)
+> 
+> test404.1 <- tryCatch({
++     open(zz <- url("http://httpbin.org/status/404", method="libcurl"))
++ }, warning=function(w) {
++     grepl("404 Not Found", conditionMessage(w))
++ })
+> close(zz)
+> stopifnot(test404.1)
+> 
+> ##  via read.table (which closes the connection)
+> tail(read.table(url("http://www.stats.ox.ac.uk/pub/datasets/csb/ch11b.dat",
++                     method = "libcurl")))
+     V1  V2  V3    V4 V5
+95   95 308 110 37.76  1
+96   96 308 120 37.73  1
+97   97 308 130 37.77  1
+98   98 308 140 38.01  1
+99   99 308 150 38.04  1
+100 100 308 200 38.07  1
+> tail(read.table(url("ftp://ftp.stats.ox.ac.uk/pub/datasets/csb/ch11b.dat",
++                     method = "libcurl")))
+     V1  V2  V3    V4 V5
+95   95 308 110 37.76  1
+96   96 308 120 37.73  1
+97   97 308 130 37.77  1
+98   98 308 140 38.01  1
+99   99 308 150 38.04  1
+100 100 308 200 38.07  1
+> 
+> ## check option works
+> options(url.method = "libcurl")
+> zz <- url("http://www.stats.ox.ac.uk/pub/datasets/csb/ch11b.dat")
+> stopifnot(identical(summary(zz)$class, "url-libcurl"))
+> close(zz)
+> head(readLines("https://httpbin.org", warn = FALSE))
+[1] "<!DOCTYPE html>"                                                                           
+[2] "<html>"                                                                                    
+[3] "<head>"                                                                                    
+[4] "  <meta http-equiv='content-type' value='text/html;charset=utf8'>"                         
+[5] "  <meta name='generator' value='Ronn/v0.7.3 (http://github.com/rtomayko/ronn/tree/0.7.3)'>"
+[6] "  <title>httpbin(1): HTTP Client Testing Service</title>"                                  
+> 
+> test404.2 <- tryCatch({
++     open(zz <- url("http://httpbin.org/status/404"))
++ }, warning=function(w) {
++     grepl("404 Not Found", conditionMessage(w))
++ })
+> close(zz)
+> stopifnot(test404.2)
+> 
+> showConnections(all = TRUE)
+  description class      mode text   isopen   can read can write
+0 "stdin"     "terminal" "r"  "text" "opened" "yes"    "no"     
+1 "stdout"    "terminal" "w"  "text" "opened" "no"     "yes"    
+2 "stderr"    "terminal" "w"  "text" "opened" "no"     "yes"    
+> 

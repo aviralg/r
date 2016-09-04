@@ -1,0 +1,32 @@
+
+R version 3.3.0 (2016-05-03) -- "Supposedly Educational"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ## PR#13788
+> 
+> library(nlme)
+> qm <-  lmList(height ~ age | Subject, data = Oxboys)
+> nd <- with(Oxboys,
++            expand.grid(age = seq(min(age),max(age),length=50),
++                        Subject = levels(Subject))
++            )
+> 
+> ## failed in 3.1-92
+> res <- predict(qm, nd, se=TRUE)
+> 
+> proc.time()
+   user  system elapsed 
+  0.208   0.008   0.214 

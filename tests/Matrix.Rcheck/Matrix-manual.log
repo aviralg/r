@@ -1,0 +1,4313 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.3)  4 SEP 2016 17:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Rd2.tex
+(./Rd2.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/home/aviral/projects/r/share/texmf/tex/latex/Rd.sty
+Package: Rd 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip43
+\LTright=\skip44
+\LTpre=\skip45
+\LTpost=\skip46
+\LTchunksize=\count88
+\LTcapwidth=\dimen103
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count89
+\LT@rows=\count90
+\c@LT@tables=\count91
+\c@LT@chunks=\count92
+\LT@p@ftn=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2016/07/07 v1.2b Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read1
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2016/06/19 v1.99m Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\ldescriptionwidth=\skip47
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+Package: zi4 2016/02/22 v1.10
+
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\zifour@ocount=\count93
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count94
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen104
+\Hy@linkcounter=\count95
+\Hy@pagecounter=\count96
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count97
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count98
+LaTeX Info: Redefining \url on input line 5088.
+\XeTeXLinkMargin=\dimen105
+\Fld@menulength=\count99
+\Field@Width=\dimen106
+\Fld@charsize=\dimen107
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count100
+\c@Item=\count101
+\c@Hfootnote=\count102
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+\Fld@listcount=\count103
+\c@bookmark@seq@number=\count104
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 366.
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+Package hyperref Info: Option `linktocpage' set `true' on input line 366.
+Package hyperref Info: Option `plainpages' set `false' on input line 366.
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+\@indexfile=\write3
+\openout3 = `Rd2.idx'.
+
+
+Writing index file Rd2.idx
+(./Rd2.aux)
+\openout1 = `Rd2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 8.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 8.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen108
+\scratchbox=\box30
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen109
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks21
+)
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring ON on input line 8.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count111
+)
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
+
+(./Rd2.out) (./Rd2.out)
+\@outlinefile=\write4
+\openout4 = `Rd2.out'.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 21.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd
+File: t1zi4.fd 2014/06/22 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 25.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 36.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 41.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+) (./Rd2.toc
+[1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] [3])
+\tf@toc=\write5
+\openout5 = `Rd2.toc'.
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (37.5888pt too wide) in paragraph at lines 76--80
+\T1/ptm/m/n/10 tors more ef-fi-ciently, than us-ing in-te-ger (or [][]\T1/zi4/m
+/n/10 numeric[][][]\T1/ptm/m/n/10 ) vec-tors of the kind \T1/zi4/m/n/10 2:10000
+00 \T1/ptm/m/n/10 or \T1/zi4/m/n/10 c(0:1e5, 1000:1e6)\T1/ptm/m/n/10 . 
+ []
+
+
+Overfull \hbox (18.68808pt too wide) in paragraph at lines 81--84
+\T1/ptm/m/n/10 these classes, please con-tact the pack-age main-tain-ers (\T1/z
+i4/m/n/10 packageDescription("Matrix")$Maintainer\T1/ptm/m/n/10 ). 
+ []
+
+[4]
+Overfull \hbox (135.47792pt too wide) in paragraph at lines 135--138
+[]\T1/ptm/m/n/10 This is cur-rently ex-per-i-men-tal and not yet used for our o
+wn code. Please con-tact us (\T1/zi4/m/n/10 packageDescription("Matrix")$Mainta
+iner\T1/ptm/m/n/10 ),
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [5]
+LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 186.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+File: ts1zi4.fd 2014/06/22 Fontinst v1.933 font definitions for TS1/zi4.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [6]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [7]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (21.85992pt too wide) in paragraph at lines 346--352
+[]\T1/ptm/m/n/10 The atomic classes \T1/zi4/m/n/10 "logical"\T1/ptm/m/n/10 , \T
+1/zi4/m/n/10 "integer"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "double"\T1/ptm/m/n/10 , 
+\T1/zi4/m/n/10 "numeric"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "complex"\T1/ptm/m/n/10
+ , \T1/zi4/m/n/10 "raw" \T1/ptm/m/n/10 and \T1/zi4/m/n/10 "character"
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [8] [9]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (15.89726pt too wide) in paragraph at lines 553--557
+[]\T1/ptm/m/n/10 logical; if true the re-sult will be sym-met-ric (in-her-it-in
+g from class [][]\T1/zi4/m/n/10 symmetricMatrix[][][]\T1/ptm/m/n/10 )
+ []
+
+[10] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [11]
+Overfull \hbox (14.05899pt too wide) in paragraph at lines 641--644
+[]\T1/ptm/m/n/10 The value of \T1/zi4/m/n/10 bdiag() \T1/ptm/m/n/10 in-heris fr
+om class [][]\T1/zi4/m/n/10 CsparseMatrix[][][]\T1/ptm/m/n/10 , whereas \T1/zi4
+/m/n/10 .bdiag() \T1/ptm/m/n/10 re-turns a [][]\T1/zi4/m/n/10 TsparseMatrix[][]
+[]\T1/ptm/m/n/10 . 
+ []
+
+[12] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [13]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [14] [15]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [16]
+Overfull \hbox (2.08836pt too wide) in paragraph at lines 967--975
+\T1/ptm/m/n/10 the ma-trix that gen-er-ated \T1/zi4/m/n/10 object\T1/ptm/m/n/10
+ . If \T1/zi4/m/n/10 parent \T1/ptm/m/n/10 is sym-met-ric, of class \T1/zi4/m/n
+/10 "[][]dsCMatrix[][][]"\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (43.73872pt too wide) in paragraph at lines 976--979
+[]\T1/ptm/m/n/10 Since Ma-trix ver-sion 1.0-8, other \T1/zi4/m/n/10 "[][]sparse
+Matrix[][][]" \T1/ptm/m/n/10 ma-tri-ces are co-erced to [][]\T1/zi4/m/n/10 dspa
+rseMatrix[][][]
+ []
+
+
+Overfull \hbox (13.07013pt too wide) in paragraph at lines 1033--1035
+[]\T1/zi4/m/n/10 signature(from = "CHMfactor", to = "sparseMatrix") \T1/ptm/m/n
+/10 (or equiv-a-lently, \T1/zi4/m/n/10 to = "Matrix"
+ []
+
+[17] [18] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [19pdfTeX warning (ext4): destination with the same identifier (name{Rfn.chol
+,dsCMatrix.Rdash.method}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1201 H
+        owever, this should not be considered part of the API and madepdfTeX wa
+rning (ext4): destination with the same identifier (name{Rfn.chol,lsCMatrix.Rda
+sh.method}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1201 H
+        owever, this should not be considered part of the API and madepdfTeX wa
+rning (ext4): destination with the same identifier (name{Rfn.chol,nsCMatrix.Rda
+sh.method}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1201 H
+        owever, this should not be considered part of the API and made]
+Overfull \hbox (4.06769pt too wide) in paragraph at lines 1201--1207
+[]\T1/ptm/m/n/10 However, this should not be con-sid-ered part of the API and m
+ade use of. Rather con-sider [][]\T1/zi4/m/n/10 Cholesky[][][]()
+ []
+
+
+Overfull \hbox (40.51936pt too wide) in paragraph at lines 1201--1207
+\T1/ptm/m/n/10 value!) as [][]\T1/zi4/m/n/10 Cholesky[][][](x, LDL=FALSE) \T1/p
+tm/m/n/10 and \T1/zi4/m/n/10 chol(x) \T1/ptm/m/n/10 cor-re-sponds to [][]\T1/zi
+4/m/n/10 Cholesky[][][](x, perm=FALSE, LDL=FALSE)\T1/ptm/m/n/10 . 
+ []
+
+[20] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [21]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (0.86714pt too wide) in paragraph at lines 1385--1390
+[]\T1/ptm/m/n/10 logical scalar in-di-cat-ing if the de-com-po-si-tion should b
+e com-puted as LDL' where
+ []
+
+
+Overfull \hbox (45.6772pt too wide) in paragraph at lines 1402--1405
+[]\T1/ptm/m/n/10 This is a generic func-tion with spe-cial meth-ods for dif-fer
+-ent types of ma-tri-ces. Use [][]\T1/zi4/m/n/10 showMethods[][][]("Cholesky")
+ []
+
+[22]
+Overfull \hbox (27.78914pt too wide) in paragraph at lines 1449--1453
+[]\T1/ptm/m/n/10 Class def-i-ni-tions [][]\T1/zi4/m/n/10 CHMfactor[][][] \T1/pt
+m/m/n/10 and [][]\T1/zi4/m/n/10 dsCMatrix[][][] \T1/ptm/m/n/10 and func-tion []
+[]\T1/zi4/m/n/10 expand[][][]\T1/ptm/m/n/10 . Note the ex-tra [][]\T1/zi4/m/n/1
+0 solve[][][](*, system = . )
+ []
+
+
+Overfull \hbox (28.6281pt too wide) in paragraph at lines 1454--1458
+[]\T1/ptm/m/n/10 Note that [][]\T1/zi4/m/n/10 chol[][][]() \T1/ptm/m/n/10 re-tu
+rns ma-tri-ces (in-her-it-ing from \T1/zi4/m/n/10 "[][]Matrix[][][]"\T1/ptm/m/n
+/10 ) whereas \T1/zi4/m/n/10 Cholesky() \T1/ptm/m/n/10 re-turns a \T1/zi4/m/n/1
+0 "[][]CHMfactor[][][]"
+ []
+
+[23] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1541.
+
+Overfull \hbox (18.5692pt too wide) in paragraph at lines 1546--1553
+[]\T1/ptm/m/n/10 Objects can be cre-ated by calls of the form \T1/zi4/m/n/10 ne
+w("Cholesky",    ...) \T1/ptm/m/n/10 or \T1/zi4/m/n/10 new("BunchKaufman", ...)
+\T1/ptm/m/n/10 ,
+ []
+
+[24]
+Overfull \hbox (20.23926pt too wide) in paragraph at lines 1575--1578
+[]\T1/ptm/m/n/10 Class \T1/zi4/m/n/10 "MatrixFactorization" \T1/ptm/m/n/10 and 
+\T1/zi4/m/n/10 "dtrMatrix"\T1/ptm/m/n/10 , di-rectly. Class \T1/zi4/m/n/10 "dge
+Matrix"\T1/ptm/m/n/10 , by class \T1/zi4/m/n/10 "dtrMatrix"\T1/ptm/m/n/10 .
+ []
+
+
+Overfull \hbox (4.2968pt too wide) in paragraph at lines 1581--1585
+[]\T1/ptm/m/n/10 Both these fac-tor-iza-tions can \T1/ptm/m/it/10 di-rectly \T1
+/ptm/m/n/10 be treated as (tri-an-gu-lar) ma-tri-ces, as they ex-tend \T1/zi4/m
+/n/10 "dtrMatrix"\T1/ptm/m/n/10 ,
+ []
+
+[25] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (31.44743pt too wide) in paragraph at lines 1726--1730
+[]\T1/ptm/m/n/10 logical in-di-cat-ing if the re-sult should be sparse, i.e., i
+n-her-it-ing from class [][]\T1/zi4/m/n/10 sparseVector[][][]\T1/ptm/m/n/10 .
+ []
+
+
+Overfull \hbox (9.67766pt too wide) in paragraph at lines 1734--1736
+[]\T1/ptm/m/n/10 returns a nu-meric vec-tor if \T1/zi4/m/n/10 sparseResult \T1/
+ptm/m/n/10 is \T1/zi4/m/n/10 FALSE \T1/ptm/m/n/10 as per de-fault. Oth-er-wise,
+ re-turns a [][]\T1/zi4/m/n/10 sparseVector[][][]\T1/ptm/m/n/10 . 
+ []
+
+[26] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [27]
+Overfull \hbox (0.9284pt too wide) in paragraph at lines 1828--1834
+[]\T1/ptm/m/n/10 The ma-trix fac-tor-iza-tion classes \T1/zi4/m/n/10 "[][]Matri
+xFactorization[][][]" \T1/ptm/m/n/10 and their gen-er-a-tors, [][]\T1/zi4/m/n/1
+0 lu[][][]()\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 qr[][][]()\T1/ptm/m/n/10 , [][]
+\T1/zi4/m/n/10 chol[][][]()
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [28]
+Overfull \hbox (0.21866pt too wide) in paragraph at lines 1893--1896
+[]\T1/ptm/m/n/10 a num-ber $\OML/cmm/m/it/10 > \OT1/cmr/m/n/10 0$\T1/ptm/m/n/10
+ , the es-ti-mated (1-norm) con-di-tion num-ber $[]$; when $\OML/cmm/m/it/10 r 
+\OT1/cmr/m/n/10 :=$\T1/zi4/m/n/10 rcond(A)\T1/ptm/m/n/10 ,
+ []
+
+[29] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (78.07703pt too wide) in paragraph at lines 1980--1984
+\T1/ptm/m/n/10 column-oriented form. Since it is a vir-tual class, no ob-jects 
+may be cre-ated from it. See \T1/zi4/m/n/10 showClass("CsparseMatrix")
+ []
+
+[30] [31]
+Overfull \hbox (51.15913pt too wide) in paragraph at lines 2064--2066
+[]\T1/ptm/m/n/10 Now, you have to use [][]\T1/zi4/m/n/10 sparseMatrix[][][] \T1
+/ptm/m/n/10 to achieve the same func-tion-al-ity or know how to use \T1/zi4/m/n
+/10 .validateCsparse()
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [32]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [33]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [34]
+Overfull \hbox (2.40936pt too wide) in paragraph at lines 2318--2322
+\T1/zi4/m/n/10 as(*, "CsparseMatrix") \T1/ptm/m/n/10 or sim-i-lar. Of-ten how-e
+ver, more eas-ily via [][]\T1/zi4/m/n/10 Matrix[][][](*, sparse = TRUE)\T1/ptm/
+m/n/10 ,
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [35] [36]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [37]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [38]
+Overfull \hbox (8.13753pt too wide) in paragraph at lines 2634--2638
+[]\T1/ptm/m/n/10 However this means that a ma-trix typ-i-cally can tbe stored i
+n more than one pos-si-ble \T1/zi4/m/n/10 "[][]TsparseMatrix[][][]"
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [39]
+Overfull \hbox (10.34877pt too wide) in paragraph at lines 2721--2724
+[]\T1/zi4/m/n/10 Diagonal() \T1/ptm/m/n/10 re-turns an ob-ject of class [][]\T1
+/zi4/m/n/10 ddiMatrix[][][] \T1/ptm/m/n/10 or [][]\T1/zi4/m/n/10 ldiMatrix[][][
+] \T1/ptm/m/n/10 (with ``su-per-class'' [][]\T1/zi4/m/n/10 diagonalMatrix[][][]
+\T1/ptm/m/n/10 ). 
+ []
+
+[40] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [41]
+Overfull \hbox (5.56866pt too wide) in paragraph at lines 3002--3004
+[]\T1/zi4/m/n/10 signature(x = "nMatrix")\T1/ptm/m/n/10 , se-man-ti-cally equiv
+-a-lent to \T1/ptm/b/n/10 base \T1/ptm/m/n/10 func-tion [][]\T1/zi4/m/n/10 whic
+h[][][](x, arr.ind)\T1/ptm/m/n/10 . 
+ []
+
+
+Overfull \hbox (12.77925pt too wide) in paragraph at lines 3005--3009
+[]\T1/zi4/m/n/10 signature(x = "diagonalMatrix")\T1/ptm/m/n/10 : all these grou
+p meth-ods re-turn a \T1/zi4/m/n/10 "diagonalMatrix"\T1/ptm/m/n/10 ,
+ []
+
+[42] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [43]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [44]
+Overfull \hbox (16.52852pt too wide) in paragraph at lines 3261--3263
+[][][]\T1/zi4/m/n/10 drop0[][][](x, tol=1e-10) \T1/ptm/m/n/10 is some-times pre
+fer-able to (and more ef-fi-cient than) \T1/zi4/m/n/10 zapsmall(x, digits=10)\T
+1/ptm/m/n/10 . 
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [45] [46]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (15.7282pt too wide) in paragraph at lines 3457--3460
+[]\T1/ptm/m/n/10 a Ma-trix like \T1/zi4/m/n/10 x \T1/ptm/m/n/10 but with no ex-
+plicit ze-ros, i.e., \T1/zi4/m/n/10 !any(x@x == 0)\T1/ptm/m/n/10 , al-ways in-h
+er-it-ing from [][]\T1/zi4/m/n/10 CsparseMatrix[][][]\T1/ptm/m/n/10 . 
+ []
+
+[47] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (8.5692pt too wide) in paragraph at lines 3544--3548
+[]\T1/ptm/m/n/10 Objects can be cre-ated by calls of the form \T1/zi4/m/n/10 ne
+w("dsCMatrix",    ...) \T1/ptm/m/n/10 or \T1/zi4/m/n/10 new("dsTMatrix", ...)\T
+1/ptm/m/n/10 ,
+ []
+
+[48] [49] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [50] [51]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (22.16751pt too wide) in paragraph at lines 3819--3823
+[]\T1/ptm/m/n/10 The \T1/zi4/m/n/10 "dsyMatrix" \T1/ptm/m/n/10 class is the cla
+ss of sym-met-ric, dense ma-tri-ces in non-packed stor-age and \T1/zi4/m/n/10 "
+dspMatrix"
+ []
+
+[52]
+Overfull \hbox (38.77061pt too wide) in paragraph at lines 3864--3867
+[]\T1/zi4/m/n/10 signature(x = "dspMatrix", type = "character")\T1/ptm/m/n/10 ,
+ or \T1/zi4/m/n/10 x = "dsyMatrix" \T1/ptm/m/n/10 or \T1/zi4/m/n/10 type = "mis
+sing"\T1/ptm/m/n/10 :
+ []
+
+
+Overfull \hbox (40.2606pt too wide) in paragraph at lines 3867--3870
+[]\T1/zi4/m/n/10 signature(x = "dspMatrix", type = "character")\T1/ptm/m/n/10 ,
+ or \T1/zi4/m/n/10 x = "dsyMatrix" \T1/ptm/m/n/10 or \T1/zi4/m/n/10 type = "mis
+sing"\T1/ptm/m/n/10 :
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [53]
+Overfull \hbox (22.14885pt too wide) in paragraph at lines 3978--3982
+[]\T1/ptm/m/n/10 Class \T1/zi4/m/n/10 "dgCMatrix"\T1/ptm/m/n/10 , di-rectly. Cl
+ass \T1/zi4/m/n/10 "triangularMatrix"\T1/ptm/m/n/10 , di-rectly. Class \T1/zi4/
+m/n/10 "dMatrix"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "sparseMatrix"\T1/ptm/m/n/10 ,
+ []
+
+[54] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [55] [56]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [57]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [58]
+Overfull \hbox (2.5193pt too wide) in paragraph at lines 4300--4304
+[]\T1/zi4/m/n/10 signature(a = "dtrMatrix", b = "....")\T1/ptm/m/n/10 efficient
+ely use a ``for-ward-solve'' or \T1/zi4/m/n/10 backsolve
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (50.91708pt too wide) in paragraph at lines 4350--4353
+[]\T1/ptm/m/n/10 This is a generic func-tion with spe-cial meth-ods for dif-fer
+-ent types of de-com-po-si-tions, see [][]\T1/zi4/m/n/10 showMethods[][][](expa
+nd)
+ []
+
+[59] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (47.14835pt too wide) in paragraph at lines 4407--4412
+[]\T1/ptm/m/n/10 The ex-po-nen-tial of a ma-trix is de-fined as the in-fi-nite 
+Tay-lor se-ries \T1/zi4/m/n/10 expm(A) = I + A + A^2/2! + A^3/3! + ...
+ []
+
+[60] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [61]
+Overfull \hbox (10.79666pt too wide) in paragraph at lines 4515--4519
+[]\T1/ptm/m/n/10 A very sim-ple way to ex-port small sparse ma-tri-ces \T1/zi4/
+m/n/10 S\T1/ptm/m/n/10 , is to use \T1/zi4/m/n/10 summary(S) \T1/ptm/m/n/10 whi
+ch re-turns a [][]\T1/zi4/m/n/10 data.frame[][][]
+ []
+
+
+Overfull \hbox (4.38089pt too wide) in paragraph at lines 4542--4542
+ [] \T1/zi4/m/n/9 readHB(gzcon(url("http://www.cise.ufl.edu/research/sparse/RB/
+Boeing/msc00726.tar.gz"))))[] 
+ []
+
+
+Overfull \hbox (49.38089pt too wide) in paragraph at lines 4545--4545
+ [] \T1/zi4/m/n/9 readMM(gzcon(url("ftp://math.nist.gov/pub/MatrixMarket2/Harwe
+ll-Boeing/counterx/jgl009.mtx.gz"))))[] 
+ []
+
+[62] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [63]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [64]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (27.22897pt too wide) in paragraph at lines 4777--4779
+[]\T1/ptm/m/n/10 a string spec-i-fy-ing how the \T1/zi4/m/n/10 zero.print \T1/p
+tm/m/n/10 codes should be aligned, see [][]\T1/zi4/m/n/10 formatSpMatrix[][][]\
+T1/ptm/m/n/10 . 
+ []
+
+[65]
+Overfull \hbox (4.34808pt too wide) in paragraph at lines 4799--4803
+[]\T1/ptm/m/n/10 a char-ac-ter ma-trix like \T1/zi4/m/n/10 cx\T1/ptm/m/n/10 , w
+here the ze-ros have been re-placed with (padded ver-sions of) \T1/zi4/m/n/10 z
+ero.print\T1/ptm/m/n/10 .
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [66]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [67]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [68]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [69]
+Overfull \hbox (3.49829pt too wide) in paragraph at lines 5101--5104
+[]\T1/ptm/m/n/10 All meth-ods cur-rently end up call-ing the method for the [][
+]\T1/zi4/m/n/10 dgTMatrix[][][] \T1/ptm/m/n/10 class. Use \T1/zi4/m/n/10 showMe
+thods(image)
+ []
+
+[70] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (12.03795pt too wide) in paragraph at lines 5166--5169
+[]\T1/ptm/m/n/10 In fact, it is cur-rently im-ple-mented as a sim-ple class uni
+on ([][]\T1/zi4/m/n/10 setClassUnion[][][]\T1/ptm/m/n/10 ) of \T1/zi4/m/n/10 "n
+umeric"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "logical"
+ []
+
+[71] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (6.07771pt too wide) in paragraph at lines 5244--5253
+\T1/ptm/m/n/10 class, all other sub-set-ting/indexing op-er-a-tions (``column-i
+ndexing'', in-clud-ing, [][]\T1/zi4/m/n/10 diag[][][]\T1/ptm/m/n/10 ) on \T1/zi
+4/m/n/10 "indMatrix"
+ []
+
+
+Overfull \hbox (121.58978pt too wide) in paragraph at lines 5286--5288
+[]\T1/zi4/m/n/10 signature(x = "matrix", y = "indMatrix") \T1/ptm/m/n/10 and ot
+her sig-na-tures (use \T1/zi4/m/n/10 showMethods("%*%", class="indMatrix")\T1/p
+tm/m/n/10 ):
+ []
+
+[72]
+Overfull \hbox (11.04909pt too wide) in paragraph at lines 5301--5304
+[]\T1/zi4/m/n/10 signature(from = "indMatrix", to = "matrix")\T1/ptm/m/n/10 : c
+o-er-cion to a tra-di-tional FALSE/TRUE
+ []
+
+[73] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (21.5084pt too wide) in paragraph at lines 5398--5400
+[]\T1/ptm/m/n/10 logical in-di-cat-ing if \T1/zi4/m/n/10 p \T1/ptm/m/n/10 con-t
+ains val-ues \T1/zi4/m/n/10 0:(n-1) \T1/ptm/m/n/10 or rather (by de-fault, \T1/
+zi4/m/n/10 zero.p = FALSE\T1/ptm/m/n/10 )
+ []
+
+[74] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [75]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [76]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [77]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (18.57729pt too wide) in paragraph at lines 5680--5683
+[]\T1/zi4/m/n/10 isTriangular(M) \T1/ptm/m/n/10 re-turns a [][]\T1/zi4/m/n/10 l
+ogical[][][] \T1/ptm/m/n/10 in-di-cat-ing if \T1/zi4/m/n/10 M \T1/ptm/m/n/10 is
+ a tri-an-gu-lar ma-trix. Anal-o-gously, \T1/zi4/m/n/10 isDiagonal(M)
+ []
+
+[78] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [79]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [80]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [81]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [82]
+Overfull \hbox (30.84856pt too wide) in paragraph at lines 5987--5990
+[]\T1/zi4/m/n/10 signature(x = "ndenseMatrix")\T1/ptm/m/n/10 , se-man-ti-cally 
+equiv-a-lent to \T1/ptm/b/n/10 base \T1/ptm/m/n/10 func-tion [][]\T1/zi4/m/n/10
+ which[][][](x, arr.ind)\T1/ptm/m/n/10 ;
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [83]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (10.96883pt too wide) in paragraph at lines 6101--6106
+[]\T1/ptm/m/n/10 Class \T1/zi4/m/n/10 "ldenseMatrix"\T1/ptm/m/n/10 , di-rectly.
+ Class \T1/zi4/m/n/10 "lMatrix"\T1/ptm/m/n/10 , by class \T1/zi4/m/n/10 "ldense
+Matrix"\T1/ptm/m/n/10 . Class \T1/zi4/m/n/10 "denseMatrix"\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (18.92911pt too wide) in paragraph at lines 6109--6112
+[]\T1/ptm/m/n/10 Currently, mainly [][]\T1/zi4/m/n/10 t[][][]() \T1/ptm/m/n/10 
+and co-er-cion meth-ods (for [][]\T1/zi4/m/n/10 as[][][](.)\T1/ptm/m/n/10 ); us
+e, e.g., [][]\T1/zi4/m/n/10 showMethods[][][](class="lgeMatrix")
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [84]
+Overfull \hbox (14.95824pt too wide) in paragraph at lines 6221--6231
+\T1/ptm/m/n/10 and \T1/zi4/m/n/10 ltTMatrix\T1/ptm/m/n/10 ) or in com-pressed c
+olumn-oriented form (class [][]\T1/zi4/m/n/10 CsparseMatrix[][][]\T1/ptm/m/n/10
+ , sub-classes \T1/zi4/m/n/10 lgCMatrix\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (22.53256pt too wide) in paragraph at lines 6234--6245
+\T1/ptm/m/n/10 dex pairs $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j\OT1/cmr/m/n/10
+ )$ \T1/ptm/m/n/10 are ``added'' as well if the ad-di-tion is de-fined as log-i
+-cal $\OML/cmm/m/it/10 or$\T1/ptm/m/n/10 , i.e., ``\T1/zi4/m/n/10 TRUE + TRUE  
+|->  TRUE\T1/ptm/m/n/10 ''
+ []
+
+[85]
+Overfull \hbox (35.84856pt too wide) in paragraph at lines 6303--6306
+[]\T1/zi4/m/n/10 signature(x = "lsparseMatrix")\T1/ptm/m/n/10 , se-man-ti-cally
+ equiv-a-lent to \T1/ptm/b/n/10 base \T1/ptm/m/n/10 func-tion [][]\T1/zi4/m/n/1
+0 which[][][](x, arr.ind)\T1/ptm/m/n/10 ;
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [86]
+Overfull \hbox (15.59915pt too wide) in paragraph at lines 6402--6405
+[]\T1/ptm/m/n/10 Currently, mainly [][]\T1/zi4/m/n/10 t[][][]() \T1/ptm/m/n/10 
+and co-er-cion meth-ods (for [][]\T1/zi4/m/n/10 as[][][](.)\T1/ptm/m/n/10 ; use
+, e.g., [][]\T1/zi4/m/n/10 showMethods[][][](class="dsyMatrix")
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [87]
+Overfull \hbox (15.59915pt too wide) in paragraph at lines 6478--6481
+[]\T1/ptm/m/n/10 Currently, mainly [][]\T1/zi4/m/n/10 t[][][]() \T1/ptm/m/n/10 
+and co-er-cion meth-ods (for [][]\T1/zi4/m/n/10 as[][][](.)\T1/ptm/m/n/10 ; use
+, e.g., [][]\T1/zi4/m/n/10 showMethods[][][](class="ltpMatrix")
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [88]
+Overfull \hbox (17.89743pt too wide) in paragraph at lines 6555--6558
+[]\T1/zi4/m/n/10 lu() \T1/ptm/m/n/10 is a generic func-tion with spe-cial meth-
+ods for dif-fer-ent types of ma-tri-ces. Use [][]\T1/zi4/m/n/10 showMethods[][]
+[]("lu")
+ []
+
+[89] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [90] [91]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (9.5076pt too wide) in paragraph at lines 6763--6766
+[]\T1/ptm/m/n/10 Note that when the re-sult-ing ma-trix is di-ag-o-nal (``math-
+e-mat-i-cally''), \T1/zi4/m/n/10 sparse=FALSE
+ []
+
+[92]
+Overfull \hbox (9.3781pt too wide) in paragraph at lines 6787--6791
+[]\T1/ptm/m/n/10 Most of the time, the func-tion works via a tra-di-tional (\T1
+/ptm/m/it/10 full\T1/ptm/m/n/10 ) [][]\T1/zi4/m/n/10 matrix[][][]\T1/ptm/m/n/10
+ . How-ever, \T1/zi4/m/n/10 Matrix(0, nrow,ncol)
+ []
+
+
+Overfull \hbox (5.51pt too wide) in paragraph at lines 6806--6811
+[]\T1/ptm/m/n/10 The classes [][]\T1/zi4/m/n/10 Matrix[][][]\T1/ptm/m/n/10 , []
+[]\T1/zi4/m/n/10 symmetricMatrix[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 trian
+gularMatrix[][][]\T1/ptm/m/n/10 , and [][]\T1/zi4/m/n/10 diagonalMatrix[][][]\T
+1/ptm/m/n/10 ; fur-ther, [][]\T1/zi4/m/n/10 matrix[][][]\T1/ptm/m/n/10 . 
+ []
+
+[93] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (12.69931pt too wide) in paragraph at lines 6970--6972
+[]\T1/zi4/m/n/10 signature(x = "Matrix")\T1/ptm/m/n/10 : sim-ply de-fined as \T
+1/zi4/m/n/10 prod(dim(x)) \T1/ptm/m/n/10 (and hence of mode \T1/zi4/m/n/10 "dou
+ble"\T1/ptm/m/n/10 ). 
+ []
+
+
+Overfull \hbox (4.8892pt too wide) in paragraph at lines 6975--6978
+[]\T1/zi4/m/n/10 signature(object = "Matrix")\T1/ptm/m/n/10 : draws an [][]\T1/
+zi4/m/n/10 image[][][] \T1/ptm/m/n/10 of the ma-trix en-tries, us-ing [][]\T1/z
+i4/m/n/10 levelplot[][][]()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6980--6983
+
+ []
+
+[94] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [95] [96pdfTeX warning (ext4): destination with the same identifier (name{Rfn
+.crossprod.Rdash.methods}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7418 \code{boolArith = TRUE}
+                               for regular (``non cross'') matrixpdfTeX warning
+ (ext4): destination with the same identifier (name{Rfn.tcrossprod.Rdash.method
+s}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7418 \code{boolArith = TRUE}
+                               for regular (``non cross'') matrix]
+Overfull \hbox (121.58978pt too wide) in paragraph at lines 7434--7439
+[]\T1/zi4/m/n/10 signature(x = "dtrMatrix", y = "matrix") \T1/ptm/m/n/10 and ot
+her sig-na-tures (use \T1/zi4/m/n/10 showMethods("%*%", class="dtrMatrix")\T1/p
+tm/m/n/10 ):
+ []
+
+[97] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [98]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (4.29546pt too wide) in paragraph at lines 7587--7589
+[]\T1/zi4/m/n/10 signature(a = "MatrixFactorization", b= .)\T1/ptm/m/n/10 : sol
+ve $\OML/cmm/m/it/10 Ax \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 b$ \T1/ptm/m/n/10 fo
+r $\OML/cmm/m/it/10 x$\T1/ptm/m/n/10 ; see [][]\T1/zi4/m/n/10 solve-methods[][]
+[]\T1/ptm/m/n/10 . 
+ []
+
+
+Overfull \hbox (3.83939pt too wide) in paragraph at lines 7595--7600
+[]\T1/ptm/m/n/10 classes in-her-it-ing from \T1/zi4/m/n/10 "MatrixFactorization
+"\T1/ptm/m/n/10 , such as [][]\T1/zi4/m/n/10 LU[][][]\T1/ptm/m/n/10 , [][]\T1/z
+i4/m/n/10 Cholesky[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 CHMfactor[][][]\T1/
+ptm/m/n/10 , and [][]\T1/zi4/m/n/10 sparseQR[][][]\T1/ptm/m/n/10 . 
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [99]
+Overfull \hbox (30.84856pt too wide) in paragraph at lines 7667--7670
+[]\T1/zi4/m/n/10 signature(x = "ndenseMatrix")\T1/ptm/m/n/10 , se-man-ti-cally 
+equiv-a-lent to \T1/ptm/b/n/10 base \T1/ptm/m/n/10 func-tion [][]\T1/zi4/m/n/10
+ which[][][](x, arr.ind)\T1/ptm/m/n/10 ;
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [100]
+Overfull \hbox (19.79816pt too wide) in paragraph at lines 7708--7712
+\T1/ptm/m/n/10 tion to a cor-re-la-tion or co-vari-ance ma-trix. If \T1/zi4/m/n
+/10 x \T1/ptm/m/n/10 is not sym-met-ric (and \T1/zi4/m/n/10 ensureSymmetry
+ []
+
+
+Overfull \hbox (37.84917pt too wide) in paragraph at lines 7720--7722
+[]\T1/ptm/m/n/10 logical in-di-cat-ing if \T1/zi4/m/n/10 X <- (X + t(X))/2 \T1/
+ptm/m/n/10 should be done, af-ter \T1/zi4/m/n/10 X <- tcrossprod(Qd, Q)\T1/ptm/
+m/n/10 ;
+ []
+
+[101] [102]
+Underfull \vbox (badness 3803) has occurred while \output is active []
+
+ [103]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (10.96883pt too wide) in paragraph at lines 7924--7929
+[]\T1/ptm/m/n/10 Class \T1/zi4/m/n/10 "ndenseMatrix"\T1/ptm/m/n/10 , di-rectly.
+ Class \T1/zi4/m/n/10 "lMatrix"\T1/ptm/m/n/10 , by class \T1/zi4/m/n/10 "ndense
+Matrix"\T1/ptm/m/n/10 . Class \T1/zi4/m/n/10 "denseMatrix"\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (18.92911pt too wide) in paragraph at lines 7932--7935
+[]\T1/ptm/m/n/10 Currently, mainly [][]\T1/zi4/m/n/10 t[][][]() \T1/ptm/m/n/10 
+and co-er-cion meth-ods (for [][]\T1/zi4/m/n/10 as[][][](.)\T1/ptm/m/n/10 ); us
+e, e.g., [][]\T1/zi4/m/n/10 showMethods[][][](class="ngeMatrix")
+ []
+
+[104] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (14.07803pt too wide) in paragraph at lines 8007--8013
+\T1/ptm/m/n/10 erce [][]\T1/zi4/m/n/10 NA[][][]\T1/ptm/m/n/10 s to non-zero, he
+nce con-cep-tu-ally \T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 . This is par-tic-u-larly
+ im-por-tant when [][]\T1/zi4/m/n/10 sparseMatrix[][][]
+ []
+
+[105] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [106]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [107]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (2.92656pt too wide) in paragraph at lines 8351--8361
+\T1/ptm/m/n/10 The sec-ond let-ter in the name of these non-virtual classes in-
+di-cates \T1/zi4/m/n/10 g\T1/ptm/m/n/10 eneral, \T1/zi4/m/n/10 s\T1/ptm/m/n/10 
+ymmetric, or \T1/zi4/m/n/10 t\T1/ptm/m/n/10 riangular. 
+ []
+
+[108]
+Overfull \hbox (35.84856pt too wide) in paragraph at lines 8422--8425
+[]\T1/zi4/m/n/10 signature(x = "lsparseMatrix")\T1/ptm/m/n/10 , se-man-ti-cally
+ equiv-a-lent to \T1/ptm/b/n/10 base \T1/ptm/m/n/10 func-tion [][]\T1/zi4/m/n/1
+0 which[][][](x, arr.ind)\T1/ptm/m/n/10 ;
+ []
+
+[109] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [110]
+Overfull \hbox (15.59915pt too wide) in paragraph at lines 8513--8516
+[]\T1/ptm/m/n/10 Currently, mainly [][]\T1/zi4/m/n/10 t[][][]() \T1/ptm/m/n/10 
+and co-er-cion meth-ods (for [][]\T1/zi4/m/n/10 as[][][](.)\T1/ptm/m/n/10 ; use
+, e.g., [][]\T1/zi4/m/n/10 showMethods[][][](class="dsyMatrix")
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [111]
+Overfull \hbox (15.59915pt too wide) in paragraph at lines 8590--8593
+[]\T1/ptm/m/n/10 Currently, mainly [][]\T1/zi4/m/n/10 t[][][]() \T1/ptm/m/n/10 
+and co-er-cion meth-ods (for [][]\T1/zi4/m/n/10 as[][][](.)\T1/ptm/m/n/10 ; use
+, e.g., [][]\T1/zi4/m/n/10 showMethods[][][](class="nsyMatrix")
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [112]
+Overfull \hbox (101.58978pt too wide) in paragraph at lines 8718--8720
+[]\T1/zi4/m/n/10 signature(x = "matrix", y = "pMatrix") \T1/ptm/m/n/10 and othe
+r sig-na-tures (use \T1/zi4/m/n/10 showMethods("%*%", class="pMatrix")\T1/ptm/m
+/n/10 ):
+ []
+
+[113]
+Overfull \hbox (1.04909pt too wide) in paragraph at lines 8726--8733
+[]\T1/zi4/m/n/10 signature(from = "pMatrix", to = "matrix")\T1/ptm/m/n/10 : co-
+er-cion to a tra-di-tional FALSE/TRUE
+ []
+
+[114] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [115]
+Overfull \hbox (3.65926pt too wide) in paragraph at lines 8853--8863
+\T1/ptm/m/n/10 in-te-ger \T1/zi4/m/n/10 n \T1/ptm/m/n/10 (i.e., of the form \T1
+/zi4/m/n/10 "abb... <n>"\T1/ptm/m/n/10 ), the col-umn names are [][]\T1/zi4/m/n
+/10 abbreviate[][][]()\T1/ptm/m/n/10 d
+ []
+
+
+Overfull \hbox (25.3183pt too wide) in paragraph at lines 8880--8887
+\T1/ptm/m/n/10 strings. The de-fault, \T1/zi4/m/n/10 "fancy"\T1/ptm/m/n/10 , ta
+kes some ef-fort to align the typ-i-cal \T1/zi4/m/n/10 zero.print = "."
+ []
+
+
+Overfull \hbox (39.45921pt too wide) in paragraph at lines 8880--8887
+\T1/ptm/m/n/10 num-bers printed, whereas \T1/zi4/m/n/10 align = "right" \T1/ptm
+/m/n/10 just makes use of [][]\T1/zi4/m/n/10 print[][][](*, right = TRUE)\T1/pt
+m/m/n/10 . 
+ []
+
+[116] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [117]
+Overfull \hbox (43.017pt too wide) in paragraph at lines 8999--9002
+[]\T1/ptm/m/n/10 QR de-com-po-si-tion of a gen-eral sparse double-precision ma-
+trix with \T1/zi4/m/n/10 nrow(x) >= ncol(x)\T1/ptm/m/n/10 .
+ []
+
+[118]
+Overfull \hbox (34.081pt too wide) in paragraph at lines 9044--9044
+ []          \T1/zi4/m/n/9 all.equal(unname(m(qcfXY)), unname(m(cf)), tol=1e-15
+) || # FAIL dimnames: ## FIXME_______[] 
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [119]
+Overfull \hbox (7.5194pt too wide) in paragraph at lines 9118--9124
+[]\T1/ptm/m/n/10 for a dense ma-trix, this is the rank of [][]\T1/zi4/m/n/10 qr
+[][][](x, tol, LAPACK=FALSE)
+ []
+
+[120] [121] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+[122]
+Overfull \hbox (77.50735pt too wide) in paragraph at lines 9307--9311
+\T1/ptm/m/n/10 Whenever \T1/zi4/m/n/10 x \T1/ptm/m/n/10 is \T1/ptm/m/it/10 not 
+\T1/ptm/m/n/10 a square ma-trix, in our method def-i-ni-tions, this is typ-i-ca
+lly com-puted via \T1/zi4/m/n/10 rcond(qr.R(qr(X)), ...)
+ []
+
+[123] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [124]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [125]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (39.66884pt too wide) in paragraph at lines 9539--9544
+\T1/zi4/m/n/10 rand.x(n) \T1/ptm/m/n/10 gen-er-ates a nu-meric vec-tor of lengt
+h \T1/zi4/m/n/10 n\T1/ptm/m/n/10 . Typ-i-cal ex-am-ples are \T1/zi4/m/n/10 rand
+.x = rnorm\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (16.27005pt too wide) in paragraph at lines 9550--9558
+\T1/ptm/m/n/10 not \T1/zi4/m/n/10 symmetric [][]sample.int[][][](nrow*ncol, nnz
+)\T1/ptm/m/n/10 , then---if \T1/zi4/m/n/10 rand.x \T1/ptm/m/n/10 is not \T1/zi4
+/m/n/10 NULL\T1/ptm/m/n/10 ---gets \T1/zi4/m/n/10 x <- rand.x(nnz)
+ []
+
+
+Overfull \hbox (11.93036pt too wide) in paragraph at lines 9550--9558
+\T1/ptm/m/n/10 and calls [][]\T1/zi4/m/n/10 sparseMatrix[][][](i=i, j=j, x=x, .
+.)\T1/ptm/m/n/10 . When \T1/zi4/m/n/10 rand.x=NULL\T1/ptm/m/n/10 , [][]\T1/zi4/
+m/n/10 sparseMatrix[][][](i=i, j=j, ..)
+ []
+
+[126] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (63.37723pt too wide) in paragraph at lines 9613--9617
+\T1/ptm/m/n/10 row-oriented form. Since it is a vir-tual class, no ob-jects may
+ be cre-ated from it. See \T1/zi4/m/n/10 showClass("RsparseMatrix")
+ []
+
+[127]
+Overfull \hbox (19.58783pt too wide) in paragraph at lines 9641--9646
+\T1/ptm/b/n/10 trix\T1/ptm/m/n/10 . Re-cently, more meth-ods were added but \T1
+/ptm/m/it/10 be-ware \T1/ptm/m/n/10 that these typ-i-cally do \T1/ptm/m/it/10 n
+ot \T1/ptm/m/n/10 re-turn \T1/zi4/m/n/10 "RsparseMatrix"
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [128]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [129]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [130]
+Overfull \hbox (9.8204pt too wide) in paragraph at lines 9964--9976
+[]\T1/ptm/m/n/10 The \T1/zi4/m/n/10 solve \T1/ptm/m/n/10 meth-ods for a \T1/zi4
+/m/n/10 "[][]CHMfactor[][][]"
+ []
+
+
+Overfull \hbox (28.24461pt too wide) in paragraph at lines 9964--9976
+\OML/cmm/m/it/10 Lx \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 b$\T1/ptm/m/n/10 ; sim-i
+-larly, for all sys-tem codes \T1/ptm/b/n/10 but \T1/zi4/m/n/10 "P" \T1/ptm/m/n
+/10 and \T1/zi4/m/n/10 "Pt" \T1/ptm/m/n/10 where, e.g., \T1/zi4/m/n/10 x <-solv
+e(a, b,system="P")
+ []
+
+[131]
+Overfull \hbox (159.59972pt too wide) in paragraph at lines 9990--9997
+[]\T1/ptm/m/n/10 with ex-tra ar-gu-ment list \T1/zi4/m/n/10 ( sparse = FALSE, t
+ol = .Machine$double.eps ) \T1/ptm/m/n/10 :
+ []
+
+
+Overfull \hbox (126.59972pt too wide) in paragraph at lines 10003--10013
+[]\T1/ptm/m/n/10 with ex-tra ar-gu-ment list \T1/zi4/m/n/10 ( sparse=FALSE, tol
+ = .Machine$double.eps ) \T1/ptm/m/n/10 :
+ []
+
+
+Overfull \hbox (3.53899pt too wide) in paragraph at lines 10016--10018
+[]\T1/ptm/m/n/10 solve the sys-tem via in-ter-nal LU, call-ing LA-PACK
+ []
+
+
+Overfull \hbox (10.75916pt too wide) in paragraph at lines 10037--10039
+[]\T1/ptm/m/n/10 all end up call-ing LA-PACK rou-tines \T1/zi4/m/n/10 dsptri\T1
+/ptm/m/n/10 , \T1/zi4/m/n/10 dsptrs\T1/ptm/m/n/10 ,
+ []
+
+[132]
+Overfull \hbox (58.15979pt too wide) in paragraph at lines 10051--10054
+[]\T1/ptm/m/n/10 , and sim-i-lar \T1/zi4/m/n/10 b\T1/ptm/m/n/10 , in-clud-ing \
+T1/zi4/m/n/10 "missing"\T1/ptm/m/n/10 , and \T1/zi4/m/n/10 "diagonalMatrix"\T1/
+ptm/m/n/10 : 
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (6.46782pt too wide) in paragraph at lines 10122--10125
+[]\T1/ptm/m/n/10 Construct a sparse model or ``de-sign'' ma-trix, form a for-mu
+la and data frame (\T1/zi4/m/n/10 sparse.model.matrix\T1/ptm/m/n/10 )
+ []
+
+[133]
+Overfull \hbox (10.80927pt too wide) in paragraph at lines 10169--10173
+[]\T1/ptm/m/n/10 should fac-tors have un-used lev-els dropped? The de-fault for
+ \T1/zi4/m/n/10 sparse.model.matrix
+ []
+
+
+Overfull \hbox (0.79819pt too wide) in paragraph at lines 10174--10176
+[]\T1/ptm/m/n/10 logical or in-te-ger in-di-cat-ing if (and how much) progress 
+out-put should be printed. 
+ []
+
+[134]
+Overfull \hbox (30.56874pt too wide) in paragraph at lines 10182--10186
+\T1/zi4/m/n/10 t(X)\T1/ptm/m/n/10 ; when \T1/zi4/m/n/10 fp[2] \T1/ptm/m/n/10 is
+ true, the orig-i-nal (``dummy'') \T1/zi4/m/n/10 t(X)\T1/ptm/m/n/10 , i.e, the 
+re-sult of [][]\T1/zi4/m/n/10 fac2sparse[][][]()\T1/ptm/m/n/10 . 
+ []
+
+[135] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [136]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [137]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [138]
+Overfull \hbox (60.80861pt too wide) in paragraph at lines 10472--10474
+[]\T1/ptm/m/n/10 optional, non-negative, in-te-ger, di-men-sions vec-tor of len
+gth 2. De-faults to \T1/zi4/m/n/10 c(max(i), max(j))\T1/ptm/m/n/10 . 
+ []
+
+
+Overfull \hbox (5.87909pt too wide) in paragraph at lines 10493--10497
+\T1/ptm/m/n/10 last one should be used. The de-fault, \T1/zi4/m/n/10 FALSE\T1/p
+tm/m/n/10 , cor-re-sponds to the \T1/zi4/m/n/10 "[][]TsparseMatrix[][][]"
+ []
+
+[139] [140] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+[141]
+Overfull \hbox (32.3098pt too wide) in paragraph at lines 10760--10768
+[]\T1/zi4/m/n/10 signature(from = "factor", to = "sparseMatrix")\T1/ptm/m/n/10 
+: Co-er-cion of a fac-tor to \T1/zi4/m/n/10 "sparseMatrix"
+ []
+
+
+Overfull \hbox (2.92749pt too wide) in paragraph at lines 10777--10783
+[]\T1/ptm/m/n/10 In method se-lec-tion for mul-ti-pli-ca-tion op-er-a-tions (i.
+e. \T1/zi4/m/n/10 %*% \T1/ptm/m/n/10 and the two-argument form of [][]\T1/zi4/m
+/n/10 crossprod[][][]\T1/ptm/m/n/10 )
+ []
+
+[142] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (36.8887pt too wide) in paragraph at lines 10853--10862
+[]\T1/ptm/m/n/10 The de-com-po-si-tion is of the form \T1/zi4/m/n/10 A[p+1,] ==
+ Q %*% R\T1/ptm/m/n/10 , if the \T1/zi4/m/n/10 q \T1/ptm/m/n/10 slot is of leng
+th 0 or \T1/zi4/m/n/10 A[p+1,q+1] == Q %*% R
+ []
+
+[143]
+Overfull \hbox (11.92857pt too wide) in paragraph at lines 10868--10877
+[]\T1/ptm/m/n/10 The \T1/zi4/m/n/10 "sparseQR" \T1/ptm/m/n/10 meth-ods for the 
+\T1/zi4/m/n/10 qr.* \T1/ptm/m/n/10 func-tions re-turn ob-jects of class \T1/zi4
+/m/n/10 "dgeMatrix" \T1/ptm/m/n/10 (see [][]\T1/zi4/m/n/10 dgeMatrix[][][]\T1/p
+tm/m/n/10 ).
+ []
+
+[144] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [145]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (46.37035pt too wide) in paragraph at lines 11118--11124
+\T1/ptm/m/n/10 classes \T1/zi4/m/n/10 "dsparseVector"\T1/ptm/m/n/10 , \T1/zi4/m
+/n/10 "isparseVector"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "lsparseVector"\T1/ptm/m/n
+/10 , \T1/zi4/m/n/10 "nsparseVector"\T1/ptm/m/n/10 , and \T1/zi4/m/n/10 "zspars
+eVector"\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (0.8288pt too wide) in paragraph at lines 11161--11166
+[]\T1/zi4/m/n/10 signature(object = "sparseVector")\T1/ptm/m/n/10 : The [][]\T1
+/zi4/m/n/10 show[][][] \T1/ptm/m/n/10 method for sparse vec-tors prints \T1/ptm
+/m/it/10 ``struc-
+ []
+
+[146]
+Overfull \hbox (71.65915pt too wide) in paragraph at lines 11191--11194
+[]\T1/zi4/m/n/10 signature(x = "sparseVector") \T1/ptm/m/n/10 re-peat \T1/zi4/m
+/n/10 x\T1/ptm/m/n/10 , with the same ar-gu-ment list \T1/zi4/m/n/10 (x, times,
+ length.out, each,...)
+ []
+
+[147]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [148]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (17.8069pt too wide) in paragraph at lines 11315--11318
+[]\T1/ptm/m/n/10 A sparse ma-trix in triplet form, as an \T1/phv/m/n/10 R \T1/p
+tm/m/n/10 ob-ject in-her-it-ing from both [][]\T1/zi4/m/n/10 TsparseMatrix[][][
+] \T1/ptm/m/n/10 and [][]\T1/zi4/m/n/10 generalMatrix[][][]\T1/ptm/m/n/10 . 
+ []
+
+[149] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [150]
+Overfull \hbox (1.47923pt too wide) in paragraph at lines 11421--11425
+[]\T1/zi4/m/n/10 signature(object = "symmetricMatrix")\T1/ptm/m/n/10 : re-turns
+ \T1/ptm/m/it/10 sym-met-ric [][]\T1/zi4/m/n/10 dimnames[][][]\T1/ptm/m/n/10 , 
+even when
+ []
+
+
+Overfull \hbox (13.54837pt too wide) in paragraph at lines 11437--11442
+[]\T1/ptm/m/n/10 The va-lid-ity checks do not re-quire a sym-met-ric \T1/zi4/m/
+n/10 Dimnames \T1/ptm/m/n/10 slot, so it can be \T1/zi4/m/n/10 list(NULL, <char
+acter>)\T1/ptm/m/n/10 ,
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [151]
+Overfull \hbox (49.53726pt too wide) in paragraph at lines 11518--11520
+[]\T1/ptm/m/n/10 These are generic func-tions with sev-eral meth-ods for dif-fe
+r-ent ma-trix classes, use e.g., [][]\T1/zi4/m/n/10 showMethods[][][](symmpart)
+
+ []
+
+[152] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [153]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (24.89894pt too wide) in paragraph at lines 11695--11701
+[]\T1/ptm/m/n/10 For con-ve-nience, meth-ods for some op-er-a-tions such as \T1
+/zi4/m/n/10 %*% \T1/ptm/m/n/10 and \T1/zi4/m/n/10 crossprod \T1/ptm/m/n/10 are 
+de-fined for [][]\T1/zi4/m/n/10 TsparseMatrix[][][]
+ []
+
+[154] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (29.9296pt too wide) in paragraph at lines 11729--11733
+[]\T1/ptm/m/n/10 Note that \T1/zi4/m/n/10 new(.)\T1/ptm/m/n/10 , [][]\T1/zi4/m/
+n/10 spMatrix[][][] \T1/ptm/m/n/10 or [][]\T1/zi4/m/n/10 sparseMatrix[][][] \T1
+/ptm/m/n/10 con-struc-tors for \T1/zi4/m/n/10 "dgTMatrix" \T1/ptm/m/n/10 (and o
+ther \T1/zi4/m/n/10 "[][]TsparseMatrix[][][]"
+ []
+
+[155] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [156]
+Overfull \hbox (1.70895pt too wide) in paragraph at lines 11852--11855
+[]\T1/ptm/m/n/10 a ma-trix stored in packed form, e.g., of class \T1/zi4/m/n/10
+ "d?pMatrix" \T1/ptm/m/n/10 where
+ []
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [157]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [158]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [159]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [160]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+)
+Overfull \hbox (4.86647pt too wide) in paragraph at lines 12242--12244
+[]\T1/ptm/m/n/10 is cur-rently a sim-ple fall-back method
+ []
+
+[161] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+) [162]
+(./Rd2.ind [163]
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 3.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 29.
+[164
+
+] [165] [166]
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 314--316
+[]\T1/zi4/m/it/10 [,CsparseMatrix,index,index,logical-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 316--318
+[]\T1/zi4/m/it/10 [,CsparseMatrix,index,missing,logical-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 318--320
+[]\T1/zi4/m/it/10 [,CsparseMatrix,missing,index,logical-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 328--330
+[]\T1/zi4/m/it/10 [,Matrix,lMatrix,missing,missing-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 332--334
+[]\T1/zi4/m/it/10 [,Matrix,logical,missing,missing-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 336--338
+[]\T1/zi4/m/it/10 [,Matrix,matrix,missing,missing-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 342--344
+[]\T1/zi4/m/it/10 [,TsparseMatrix,index,index,logical-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 344--346
+[]\T1/zi4/m/it/10 [,TsparseMatrix,index,missing,logical-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 346--348
+[]\T1/zi4/m/it/10 [,TsparseMatrix,missing,index,logical-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 354--356
+[]\T1/zi4/m/it/10 [,denseMatrix,index,index,logical-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 356--358
+[]\T1/zi4/m/it/10 [,denseMatrix,index,missing,logical-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 358--360
+[]\T1/zi4/m/it/10 [,denseMatrix,matrix,missing,ANY-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 360--362
+[]\T1/zi4/m/it/10 [,denseMatrix,matrix,missing,missing-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 362--364
+[]\T1/zi4/m/it/10 [,denseMatrix,missing,index,logical-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 364--366
+[]\T1/zi4/m/it/10 [,diagonalMatrix,index,index,logical-method 
+ []
+
+
+Overfull \hbox (35.8567pt too wide) in paragraph at lines 366--368
+[]\T1/zi4/m/it/10 [,diagonalMatrix,index,missing,logical-method 
+ []
+
+
+Overfull \hbox (35.8567pt too wide) in paragraph at lines 368--370
+[]\T1/zi4/m/it/10 [,diagonalMatrix,missing,index,logical-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 370--372
+[]\T1/zi4/m/it/10 [,indMatrix,index,missing,logical-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 372--374
+[]\T1/zi4/m/it/10 [,sparseMatrix,index,index,logical-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 374--376
+[]\T1/zi4/m/it/10 [,sparseMatrix,index,missing,logical-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 376--378
+[]\T1/zi4/m/it/10 [,sparseMatrix,missing,index,logical-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 380--382
+[]\T1/zi4/m/it/10 [,sparseVector,lsparseVector,ANY,ANY-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 382--384
+[]\T1/zi4/m/it/10 [,sparseVector,nsparseVector,ANY,ANY-method 
+ []
+
+[167]
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 385--387
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,Matrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (40.8567pt too wide) in paragraph at lines 387--389
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,index,index,replValue-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 389--391
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,index,index,sparseVector-method 
+ []
+
+
+Overfull \hbox (50.8567pt too wide) in paragraph at lines 391--393
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,index,missing,replValue-method 
+ []
+
+
+Overfull \hbox (65.8567pt too wide) in paragraph at lines 393--395
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,index,missing,sparseVector-method 
+ []
+
+
+Overfull \hbox (85.8567pt too wide) in paragraph at lines 395--397
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,ldenseMatrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (90.8567pt too wide) in paragraph at lines 397--399
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,lsparseMatrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 399--401
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,matrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (50.8567pt too wide) in paragraph at lines 401--403
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,missing,index,replValue-method 
+ []
+
+
+Overfull \hbox (65.8567pt too wide) in paragraph at lines 403--405
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,missing,index,sparseVector-method 
+ []
+
+
+Overfull \hbox (85.8567pt too wide) in paragraph at lines 405--407
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,ndenseMatrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (90.8567pt too wide) in paragraph at lines 407--409
+[]\T1/zi4/m/it/10 [<-,CsparseMatrix,nsparseMatrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (50.8567pt too wide) in paragraph at lines 419--421
+[]\T1/zi4/m/it/10 [<-,Matrix,ldenseMatrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 421--423
+[]\T1/zi4/m/it/10 [<-,Matrix,lsparseMatrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 423--425
+[]\T1/zi4/m/it/10 [<-,Matrix,matrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (50.8567pt too wide) in paragraph at lines 429--431
+[]\T1/zi4/m/it/10 [<-,Matrix,ndenseMatrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 431--433
+[]\T1/zi4/m/it/10 [<-,Matrix,nsparseMatrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (40.8567pt too wide) in paragraph at lines 433--435
+[]\T1/zi4/m/it/10 [<-,RsparseMatrix,index,index,replValue-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 435--437
+[]\T1/zi4/m/it/10 [<-,RsparseMatrix,index,index,sparseVector-method 
+ []
+
+
+Overfull \hbox (50.8567pt too wide) in paragraph at lines 437--439
+[]\T1/zi4/m/it/10 [<-,RsparseMatrix,index,missing,replValue-method 
+ []
+
+
+Overfull \hbox (65.8567pt too wide) in paragraph at lines 439--441
+[]\T1/zi4/m/it/10 [<-,RsparseMatrix,index,missing,sparseVector-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 441--443
+[]\T1/zi4/m/it/10 [<-,RsparseMatrix,matrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (50.8567pt too wide) in paragraph at lines 443--445
+[]\T1/zi4/m/it/10 [<-,RsparseMatrix,missing,index,replValue-method 
+ []
+
+
+Overfull \hbox (65.8567pt too wide) in paragraph at lines 445--447
+[]\T1/zi4/m/it/10 [<-,RsparseMatrix,missing,index,sparseVector-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 447--449
+[]\T1/zi4/m/it/10 [<-,TsparseMatrix,Matrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (40.8567pt too wide) in paragraph at lines 449--451
+[]\T1/zi4/m/it/10 [<-,TsparseMatrix,index,index,replValue-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 451--453
+[]\T1/zi4/m/it/10 [<-,TsparseMatrix,index,index,sparseVector-method 
+ []
+
+
+Overfull \hbox (50.8567pt too wide) in paragraph at lines 453--455
+[]\T1/zi4/m/it/10 [<-,TsparseMatrix,index,missing,replValue-method 
+ []
+
+
+Overfull \hbox (65.8567pt too wide) in paragraph at lines 455--457
+[]\T1/zi4/m/it/10 [<-,TsparseMatrix,index,missing,sparseVector-method 
+ []
+
+
+Overfull \hbox (60.8567pt too wide) in paragraph at lines 457--459
+[]\T1/zi4/m/it/10 [<-,TsparseMatrix,lMatrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 459--461
+[]\T1/zi4/m/it/10 [<-,TsparseMatrix,matrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (50.8567pt too wide) in paragraph at lines 461--463
+[]\T1/zi4/m/it/10 [<-,TsparseMatrix,missing,index,replValue-method 
+ []
+
+
+Overfull \hbox (65.8567pt too wide) in paragraph at lines 463--465
+[]\T1/zi4/m/it/10 [<-,TsparseMatrix,missing,index,sparseVector-method 
+ []
+
+
+Overfull \hbox (60.8567pt too wide) in paragraph at lines 465--467
+[]\T1/zi4/m/it/10 [<-,TsparseMatrix,nMatrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 467--469
+[]\T1/zi4/m/it/10 [<-,denseMatrix,index,index,replValue-method 
+ []
+
+
+Overfull \hbox (40.8567pt too wide) in paragraph at lines 469--471
+[]\T1/zi4/m/it/10 [<-,denseMatrix,index,missing,replValue-method 
+ []
+
+
+Overfull \hbox (45.8567pt too wide) in paragraph at lines 471--473
+[]\T1/zi4/m/it/10 [<-,denseMatrix,matrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (40.8567pt too wide) in paragraph at lines 473--475
+[]\T1/zi4/m/it/10 [<-,denseMatrix,missing,index,replValue-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 475--477
+[]\T1/zi4/m/it/10 [<-,denseMatrix,missing,missing,ANY-method 
+ []
+
+
+Overfull \hbox (45.8567pt too wide) in paragraph at lines 477--479
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,index,index,replValue-method 
+ []
+
+
+Overfull \hbox (60.8567pt too wide) in paragraph at lines 479--481
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,index,index,sparseMatrix-method 
+ []
+
+[168]
+Overfull \hbox (60.8567pt too wide) in paragraph at lines 481--483
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,index,index,sparseVector-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 483--485
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,index,missing,replValue-method 
+ []
+
+
+Overfull \hbox (70.8567pt too wide) in paragraph at lines 485--487
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,index,missing,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (70.8567pt too wide) in paragraph at lines 487--489
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,index,missing,sparseVector-method 
+ []
+
+
+Overfull \hbox (60.8567pt too wide) in paragraph at lines 489--491
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,matrix,missing,replValue-method 
+ []
+
+
+Overfull \hbox (55.8567pt too wide) in paragraph at lines 491--493
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,missing,index,replValue-method 
+ []
+
+
+Overfull \hbox (70.8567pt too wide) in paragraph at lines 493--495
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,missing,index,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (70.8567pt too wide) in paragraph at lines 495--497
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,missing,index,sparseVector-method 
+ []
+
+
+Overfull \hbox (35.8567pt too wide) in paragraph at lines 497--499
+[]\T1/zi4/m/it/10 [<-,diagonalMatrix,missing,missing,ANY-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 501--503
+[]\T1/zi4/m/it/10 [<-,indMatrix,missing,index,ANY-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 503--505
+[]\T1/zi4/m/it/10 [<-,indMatrix,missing,missing,ANY-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 505--507
+[]\T1/zi4/m/it/10 [<-,sparseMatrix,ANY,ANY,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (50.8567pt too wide) in paragraph at lines 507--509
+[]\T1/zi4/m/it/10 [<-,sparseMatrix,ANY,missing,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (50.8567pt too wide) in paragraph at lines 509--511
+[]\T1/zi4/m/it/10 [<-,sparseMatrix,missing,ANY,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 511--513
+[]\T1/zi4/m/it/10 [<-,sparseMatrix,missing,missing,ANY-method 
+ []
+
+
+Overfull \hbox (45.8567pt too wide) in paragraph at lines 513--515
+[]\T1/zi4/m/it/10 [<-,sparseVector,index,missing,replValue-method 
+ []
+
+
+Overfull \hbox (80.8567pt too wide) in paragraph at lines 515--517
+[]\T1/zi4/m/it/10 [<-,sparseVector,sparseVector,missing,replValue-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 524--526
+[]\T1/zi4/m/it/10 %*%,CsparseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 528--530
+[]\T1/zi4/m/it/10 %*%,CsparseMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 550--552
+[]\T1/zi4/m/it/10 %*%,TsparseMatrix,TsparseMatrix-method 
+ []
+
+[169]
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 588--590
+[]\T1/zi4/m/it/10 %*%,diagonalMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 594--596
+[]\T1/zi4/m/it/10 %*%,diagonalMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 600--602
+[]\T1/zi4/m/it/10 %*%,diagonalMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 656--658
+[]\T1/zi4/m/it/10 %*%,lsparseMatrix,lsparseMatrix-method 
+ []
+
+[170]
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 706--708
+[]\T1/zi4/m/it/10 %*%,nsparseMatrix,nsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 722--724
+[]\T1/zi4/m/it/10 %*%,sparseMatrix,diagonalMatrix-method 
+ []
+
+[171]
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 774--776
+[]\T1/zi4/m/it/10 %&%,CsparseMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 780--782
+[]\T1/zi4/m/it/10 %&%,diagonalMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 782--784
+[]\T1/zi4/m/it/10 %&%,diagonalMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 786--788
+[]\T1/zi4/m/it/10 %&%,diagonalMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 800--802
+[]\T1/zi4/m/it/10 %&%,nCsparseMatrix,nCsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 802--804
+[]\T1/zi4/m/it/10 %&%,nCsparseMatrix,nsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 810--812
+[]\T1/zi4/m/it/10 %&%,nsparseMatrix,nCsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 814--816
+[]\T1/zi4/m/it/10 %&%,nsparseMatrix,nsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 818--820
+[]\T1/zi4/m/it/10 %&%,sparseMatrix,diagonalMatrix-method 
+ []
+
+[172]
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 946--948
+[]\T1/zi4/m/it/10 all.equal,sparseMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 948--950
+[]\T1/zi4/m/it/10 all.equal,sparseMatrix,sparseVector-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 952--954
+[]\T1/zi4/m/it/10 all.equal,sparseVector,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 954--956
+[]\T1/zi4/m/it/10 all.equal,sparseVector,sparseVector-method 
+ []
+
+[173]
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 998--1000
+[]\T1/zi4/m/it/10 Arith,CsparseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1002--1004
+[]\T1/zi4/m/it/10 Arith,ddenseMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1008--1010
+[]\T1/zi4/m/it/10 Arith,ddenseMatrix,sparseVector-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1044--1046
+[]\T1/zi4/m/it/10 Arith,dsparseVector,dsparseVector-method 
+ []
+
+[174]
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1122--1124
+[]\T1/zi4/m/it/10 Arith,sparseVector,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1126--1128
+[]\T1/zi4/m/it/10 Arith,sparseVector,sparseVector-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 1128--1130
+[]\T1/zi4/m/it/10 Arith,triangularMatrix,diagonalMatrix-method 
+ []
+
+[175]
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1258--1260
+[]\T1/zi4/m/it/10 cbind2,denseMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 1260--1262
+[]\T1/zi4/m/it/10 cbind2,diagonalMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1290--1292
+[]\T1/zi4/m/it/10 cbind2,sparseMatrix,denseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 1292--1294
+[]\T1/zi4/m/it/10 cbind2,sparseMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1298--1300
+[]\T1/zi4/m/it/10 cbind2,sparseMatrix,sparseMatrix-method 
+ []
+
+[176]
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1421--1423
+[]\T1/zi4/m/it/10 coerce,atomicVector,dsparseVector-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1423--1425
+[]\T1/zi4/m/it/10 coerce,atomicVector,sparseVector-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1433--1435
+[]\T1/zi4/m/it/10 coerce,CHMfactor,triangularMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1437--1439
+[]\T1/zi4/m/it/10 coerce,CsparseMatrix,denseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 1441--1443
+[]\T1/zi4/m/it/10 coerce,CsparseMatrix,lsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1443--1445
+[]\T1/zi4/m/it/10 coerce,CsparseMatrix,matrix.coo-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1445--1447
+[]\T1/zi4/m/it/10 coerce,CsparseMatrix,matrix.csc-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1447--1449
+[]\T1/zi4/m/it/10 coerce,CsparseMatrix,matrix.csr-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 1451--1453
+[]\T1/zi4/m/it/10 coerce,CsparseMatrix,nsparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1453--1455
+[]\T1/zi4/m/it/10 coerce,CsparseMatrix,sparseVector-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 1455--1457
+[]\T1/zi4/m/it/10 coerce,CsparseMatrix,symmetricMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 1457--1459
+[]\T1/zi4/m/it/10 coerce,CsparseMatrix,TsparseMatrix-method 
+ []
+
+[177]
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1473--1475
+[]\T1/zi4/m/it/10 coerce,ddiMatrix,symmetricMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1475--1477
+[]\T1/zi4/m/it/10 coerce,ddiMatrix,triangularMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1479--1481
+[]\T1/zi4/m/it/10 coerce,denseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1481--1483
+[]\T1/zi4/m/it/10 coerce,denseMatrix,generalMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1483--1485
+[]\T1/zi4/m/it/10 coerce,denseMatrix,RsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1485--1487
+[]\T1/zi4/m/it/10 coerce,denseMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 1487--1489
+[]\T1/zi4/m/it/10 coerce,denseMatrix,symmetricMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1489--1491
+[]\T1/zi4/m/it/10 coerce,denseMatrix,TsparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1527--1529
+[]\T1/zi4/m/it/10 coerce,dgeMatrix,triangularMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1547--1549
+[]\T1/zi4/m/it/10 coerce,dgTMatrix,symmetricMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1549--1551
+[]\T1/zi4/m/it/10 coerce,dgTMatrix,triangularMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1551--1553
+[]\T1/zi4/m/it/10 coerce,diagonalMatrix,denseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 1553--1555
+[]\T1/zi4/m/it/10 coerce,diagonalMatrix,generalMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 1559--1561
+[]\T1/zi4/m/it/10 coerce,diagonalMatrix,nsparseMatrix-method 
+ []
+
+[178]
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 1561--1563
+[]\T1/zi4/m/it/10 coerce,diagonalMatrix,sparseVector-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 1609--1611
+[]\T1/zi4/m/it/10 coerce,dsparseMatrix,matrix.csr-method 
+ []
+
+[179] [180]
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1761--1763
+[]\T1/zi4/m/it/10 coerce,ldiMatrix,symmetricMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1763--1765
+[]\T1/zi4/m/it/10 coerce,ldiMatrix,triangularMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1795--1797
+[]\T1/zi4/m/it/10 coerce,lgeMatrix,triangularMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 1809--1811
+[]\T1/zi4/m/it/10 coerce,lgTMatrix,symmetricMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 1811--1813
+[]\T1/zi4/m/it/10 coerce,lgTMatrix,triangularMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 1837--1839
+[]\T1/zi4/m/it/10 coerce,lsparseMatrix,dsparseMatrix-method 
+ []
+
+[181] [182]
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2023--2025
+[]\T1/zi4/m/it/10 coerce,matrix.coo,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2031--2033
+[]\T1/zi4/m/it/10 coerce,matrix.coo,TsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2033--2035
+[]\T1/zi4/m/it/10 coerce,matrix.csc,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2039--2041
+[]\T1/zi4/m/it/10 coerce,matrix.csc,TsparseMatrix-method 
+ []
+
+[183]
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2041--2043
+[]\T1/zi4/m/it/10 coerce,matrix.csr,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2049--2051
+[]\T1/zi4/m/it/10 coerce,matrix.csr,RsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2051--2053
+[]\T1/zi4/m/it/10 coerce,matrix.csr,TsparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2053--2055
+[]\T1/zi4/m/it/10 coerce,ndenseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2055--2057
+[]\T1/zi4/m/it/10 coerce,ndenseMatrix,ldenseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2059--2061
+[]\T1/zi4/m/it/10 coerce,ndenseMatrix,nsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2061--2063
+[]\T1/zi4/m/it/10 coerce,ndenseMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2063--2065
+[]\T1/zi4/m/it/10 coerce,ndenseMatrix,TsparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2103--2105
+[]\T1/zi4/m/it/10 coerce,ngeMatrix,triangularMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2127--2129
+[]\T1/zi4/m/it/10 coerce,ngTMatrix,symmetricMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2129--2131
+[]\T1/zi4/m/it/10 coerce,ngTMatrix,triangularMatrix-method 
+ []
+
+[184]
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2161--2163
+[]\T1/zi4/m/it/10 coerce,nsparseMatrix,dsparseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2163--2165
+[]\T1/zi4/m/it/10 coerce,nsparseVector,dsparseVector-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2165--2167
+[]\T1/zi4/m/it/10 coerce,nsparseVector,isparseVector-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2167--2169
+[]\T1/zi4/m/it/10 coerce,nsparseVector,lsparseVector-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2169--2171
+[]\T1/zi4/m/it/10 coerce,nsparseVector,zsparseVector-method 
+ []
+
+[185]
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2285--2287
+[]\T1/zi4/m/it/10 coerce,RsparseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2287--2289
+[]\T1/zi4/m/it/10 coerce,RsparseMatrix,denseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2293--2295
+[]\T1/zi4/m/it/10 coerce,RsparseMatrix,dsparseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2295--2297
+[]\T1/zi4/m/it/10 coerce,RsparseMatrix,generalMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2299--2301
+[]\T1/zi4/m/it/10 coerce,RsparseMatrix,lsparseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2305--2307
+[]\T1/zi4/m/it/10 coerce,RsparseMatrix,nsparseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2307--2309
+[]\T1/zi4/m/it/10 coerce,RsparseMatrix,TsparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2313--2315
+[]\T1/zi4/m/it/10 coerce,sparseMatrix,generalMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2323--2325
+[]\T1/zi4/m/it/10 coerce,sparseMatrix,RsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2325--2327
+[]\T1/zi4/m/it/10 coerce,sparseMatrix,sparseVector-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2327--2329
+[]\T1/zi4/m/it/10 coerce,sparseMatrix,symmetricMatrix-method 
+ []
+
+[186]
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 2329--2331
+[]\T1/zi4/m/it/10 coerce,sparseMatrix,triangularMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2331--2333
+[]\T1/zi4/m/it/10 coerce,sparseVector,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2341--2343
+[]\T1/zi4/m/it/10 coerce,sparseVector,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2343--2345
+[]\T1/zi4/m/it/10 coerce,sparseVector,TsparseMatrix-method 
+ []
+
+
+Overfull \hbox (40.8567pt too wide) in paragraph at lines 2349--2351
+[]\T1/zi4/m/it/10 coerce,triangularMatrix,symmetricMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2351--2353
+[]\T1/zi4/m/it/10 coerce,TsparseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2357--2359
+[]\T1/zi4/m/it/10 coerce,TsparseMatrix,lsparseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2363--2365
+[]\T1/zi4/m/it/10 coerce,TsparseMatrix,nsparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2365--2367
+[]\T1/zi4/m/it/10 coerce,TsparseMatrix,sparseVector-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2367--2369
+[]\T1/zi4/m/it/10 coerce,xsparseVector,dsparseVector-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2369--2371
+[]\T1/zi4/m/it/10 coerce,xsparseVector,isparseVector-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2371--2373
+[]\T1/zi4/m/it/10 coerce,xsparseVector,lsparseVector-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2373--2375
+[]\T1/zi4/m/it/10 coerce,xsparseVector,nsparseVector-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2375--2377
+[]\T1/zi4/m/it/10 coerce,xsparseVector,zsparseVector-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2433--2435
+[]\T1/zi4/m/it/10 Compare,CsparseMatrix,CsparseMatrix-method 
+ []
+
+[187]
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2451--2453
+[]\T1/zi4/m/it/10 Compare,lsparseMatrix,lsparseMatrix-method 
+ []
+
+
+Overfull \hbox (40.8567pt too wide) in paragraph at lines 2467--2469
+[]\T1/zi4/m/it/10 Compare,triangularMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 2496--2498
+[]\T1/zi4/m/it/10 crossprod,CsparseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 2498--2500
+[]\T1/zi4/m/it/10 crossprod,CsparseMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (35.8567pt too wide) in paragraph at lines 2500--2502
+[]\T1/zi4/m/it/10 crossprod,CsparseMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2504--2506
+[]\T1/zi4/m/it/10 crossprod,CsparseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2506--2508
+[]\T1/zi4/m/it/10 crossprod,CsparseMatrix,numLike-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 2508--2510
+[]\T1/zi4/m/it/10 crossprod,ddenseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2510--2512
+[]\T1/zi4/m/it/10 crossprod,ddenseMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2512--2514
+[]\T1/zi4/m/it/10 crossprod,ddenseMatrix,dgCMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 2514--2516
+[]\T1/zi4/m/it/10 crossprod,ddenseMatrix,dsparseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2516--2518
+[]\T1/zi4/m/it/10 crossprod,ddenseMatrix,ldenseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2522--2524
+[]\T1/zi4/m/it/10 crossprod,ddenseMatrix,ndenseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2528--2530
+[]\T1/zi4/m/it/10 crossprod,dgeMatrix,dsparseMatrix-method 
+ []
+
+
+Overfull \hbox (35.8567pt too wide) in paragraph at lines 2536--2538
+[]\T1/zi4/m/it/10 crossprod,diagonalMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2538--2540
+[]\T1/zi4/m/it/10 crossprod,diagonalMatrix,dgeMatrix-method 
+ []
+
+
+Overfull \hbox (40.8567pt too wide) in paragraph at lines 2540--2542
+[]\T1/zi4/m/it/10 crossprod,diagonalMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2542--2544
+[]\T1/zi4/m/it/10 crossprod,diagonalMatrix,lgeMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2544--2546
+[]\T1/zi4/m/it/10 crossprod,diagonalMatrix,matrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2546--2548
+[]\T1/zi4/m/it/10 crossprod,diagonalMatrix,missing-method 
+ []
+
+[188]
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 2548--2550
+[]\T1/zi4/m/it/10 crossprod,diagonalMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 2550--2552
+[]\T1/zi4/m/it/10 crossprod,dsparseMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2552--2554
+[]\T1/zi4/m/it/10 crossprod,dsparseMatrix,dgeMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2554--2556
+[]\T1/zi4/m/it/10 crossprod,dtpMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2558--2560
+[]\T1/zi4/m/it/10 crossprod,dtrMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2574--2576
+[]\T1/zi4/m/it/10 crossprod,ldenseMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2576--2578
+[]\T1/zi4/m/it/10 crossprod,ldenseMatrix,ldenseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 2578--2580
+[]\T1/zi4/m/it/10 crossprod,ldenseMatrix,lsparseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2584--2586
+[]\T1/zi4/m/it/10 crossprod,ldenseMatrix,ndenseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 2590--2592
+[]\T1/zi4/m/it/10 crossprod,lsparseMatrix,ldenseMatrix-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 2592--2594
+[]\T1/zi4/m/it/10 crossprod,lsparseMatrix,lsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2594--2596
+[]\T1/zi4/m/it/10 crossprod,lsparseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2604--2606
+[]\T1/zi4/m/it/10 crossprod,matrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2622--2624
+[]\T1/zi4/m/it/10 crossprod,ndenseMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2624--2626
+[]\T1/zi4/m/it/10 crossprod,ndenseMatrix,ldenseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2630--2632
+[]\T1/zi4/m/it/10 crossprod,ndenseMatrix,ndenseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 2632--2634
+[]\T1/zi4/m/it/10 crossprod,ndenseMatrix,nsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2638--2640
+[]\T1/zi4/m/it/10 crossprod,nsparseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 2640--2642
+[]\T1/zi4/m/it/10 crossprod,nsparseMatrix,ndenseMatrix-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 2642--2644
+[]\T1/zi4/m/it/10 crossprod,nsparseMatrix,nsparseMatrix-method 
+ []
+
+[189]
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2646--2648
+[]\T1/zi4/m/it/10 crossprod,numLike,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 2662--2664
+[]\T1/zi4/m/it/10 crossprod,sparseMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 2670--2672
+[]\T1/zi4/m/it/10 crossprod,sparseVector,sparseVector-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2674--2676
+[]\T1/zi4/m/it/10 crossprod,symmetricMatrix,Matrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2676--2678
+[]\T1/zi4/m/it/10 crossprod,symmetricMatrix,missing-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 2682--2684
+[]\T1/zi4/m/it/10 crossprod,TsparseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 2684--2686
+[]\T1/zi4/m/it/10 crossprod,TsparseMatrix,TsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2747--2749
+[]\T1/zi4/m/it/10 determinant,ddenseMatrix,logical-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2749--2751
+[]\T1/zi4/m/it/10 determinant,ddenseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 2757--2759
+[]\T1/zi4/m/it/10 determinant,diagonalMatrix,logical-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 2771--2773
+[]\T1/zi4/m/it/10 determinant,dsparseMatrix,logical-method 
+ []
+
+[190]
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2791--2793
+[]\T1/zi4/m/it/10 determinant,sparseMatrix,logical-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 2793--2795
+[]\T1/zi4/m/it/10 determinant,sparseMatrix,missing-method 
+ []
+
+[191] [192]
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3089--3091
+[]\T1/zi4/m/it/10 forceSymmetric,corMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3091--3093
+[]\T1/zi4/m/it/10 forceSymmetric,corMatrix,missing-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3093--3095
+[]\T1/zi4/m/it/10 forceSymmetric,CsparseMatrix,ANY-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 3095--3097
+[]\T1/zi4/m/it/10 forceSymmetric,denseMatrix,character-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3097--3099
+[]\T1/zi4/m/it/10 forceSymmetric,denseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3099--3101
+[]\T1/zi4/m/it/10 forceSymmetric,dpoMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3101--3103
+[]\T1/zi4/m/it/10 forceSymmetric,dpoMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3103--3105
+[]\T1/zi4/m/it/10 forceSymmetric,dppMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3105--3107
+[]\T1/zi4/m/it/10 forceSymmetric,dppMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3107--3109
+[]\T1/zi4/m/it/10 forceSymmetric,dsCMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3109--3111
+[]\T1/zi4/m/it/10 forceSymmetric,dsCMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3111--3113
+[]\T1/zi4/m/it/10 forceSymmetric,dspMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3113--3115
+[]\T1/zi4/m/it/10 forceSymmetric,dspMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3115--3117
+[]\T1/zi4/m/it/10 forceSymmetric,dsRMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3117--3119
+[]\T1/zi4/m/it/10 forceSymmetric,dsRMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3119--3121
+[]\T1/zi4/m/it/10 forceSymmetric,dsTMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3121--3123
+[]\T1/zi4/m/it/10 forceSymmetric,dsTMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3123--3125
+[]\T1/zi4/m/it/10 forceSymmetric,dsyMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3125--3127
+[]\T1/zi4/m/it/10 forceSymmetric,dsyMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3127--3129
+[]\T1/zi4/m/it/10 forceSymmetric,lsCMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3129--3131
+[]\T1/zi4/m/it/10 forceSymmetric,lsCMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3131--3133
+[]\T1/zi4/m/it/10 forceSymmetric,lspMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3133--3135
+[]\T1/zi4/m/it/10 forceSymmetric,lspMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3135--3137
+[]\T1/zi4/m/it/10 forceSymmetric,lsRMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3137--3139
+[]\T1/zi4/m/it/10 forceSymmetric,lsRMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3139--3141
+[]\T1/zi4/m/it/10 forceSymmetric,lsTMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3141--3143
+[]\T1/zi4/m/it/10 forceSymmetric,lsTMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3143--3145
+[]\T1/zi4/m/it/10 forceSymmetric,lsyMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3145--3147
+[]\T1/zi4/m/it/10 forceSymmetric,lsyMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3151--3153
+[]\T1/zi4/m/it/10 forceSymmetric,nsCMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3153--3155
+[]\T1/zi4/m/it/10 forceSymmetric,nsCMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3155--3157
+[]\T1/zi4/m/it/10 forceSymmetric,nspMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3157--3159
+[]\T1/zi4/m/it/10 forceSymmetric,nspMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3159--3161
+[]\T1/zi4/m/it/10 forceSymmetric,nsRMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3161--3163
+[]\T1/zi4/m/it/10 forceSymmetric,nsRMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3163--3165
+[]\T1/zi4/m/it/10 forceSymmetric,nsTMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3165--3167
+[]\T1/zi4/m/it/10 forceSymmetric,nsTMatrix,missing-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 3167--3169
+[]\T1/zi4/m/it/10 forceSymmetric,nsyMatrix,character-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3169--3171
+[]\T1/zi4/m/it/10 forceSymmetric,nsyMatrix,missing-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 3171--3173
+[]\T1/zi4/m/it/10 forceSymmetric,sparseMatrix,ANY-method 
+ []
+
+[193] [194] [195]
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 3440--3442
+[]\T1/zi4/m/it/10 kronecker,diagonalMatrix,Matrix-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 3442--3444
+[]\T1/zi4/m/it/10 kronecker,dsparseMatrix,dsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 3452--3454
+[]\T1/zi4/m/it/10 kronecker,Matrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 3456--3458
+[]\T1/zi4/m/it/10 kronecker,sparseMatrix,TsparseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 3458--3460
+[]\T1/zi4/m/it/10 kronecker,TsparseMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 3460--3462
+[]\T1/zi4/m/it/10 kronecker,TsparseMatrix,TsparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 3524--3526
+[]\T1/zi4/m/it/10 Logic,CsparseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3532--3534
+[]\T1/zi4/m/it/10 Logic,ldenseMatrix,lsparseMatrix-method 
+ []
+
+[196]
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 3556--3558
+[]\T1/zi4/m/it/10 Logic,lsparseMatrix,ldenseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 3558--3560
+[]\T1/zi4/m/it/10 Logic,lsparseMatrix,lsparseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 3560--3562
+[]\T1/zi4/m/it/10 Logic,lsparseVector,lsparseVector-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 3582--3584
+[]\T1/zi4/m/it/10 Logic,nsparseVector,nsparseVector-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 3596--3598
+[]\T1/zi4/m/it/10 Logic,sparseVector,sparseVector-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 3598--3600
+[]\T1/zi4/m/it/10 Logic,triangularMatrix,diagonalMatrix-method 
+ []
+
+[197] [198] [199]
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 3975--3977
+[]\T1/zi4/m/it/10 Ops,diagonalMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 3977--3979
+[]\T1/zi4/m/it/10 Ops,diagonalMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 3979--3981
+[]\T1/zi4/m/it/10 Ops,diagonalMatrix,triangularMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 3999--4001
+[]\T1/zi4/m/it/10 Ops,dsparseMatrix,nsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 4037--4039
+[]\T1/zi4/m/it/10 Ops,lsparseMatrix,lsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 4039--4041
+[]\T1/zi4/m/it/10 Ops,lsparseMatrix,nsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 4065--4067
+[]\T1/zi4/m/it/10 Ops,nsparseMatrix,dsparseMatrix-method 
+ []
+
+[200]
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 4067--4069
+[]\T1/zi4/m/it/10 Ops,nsparseMatrix,lsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 4089--4091
+[]\T1/zi4/m/it/10 Ops,sparseMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 4189--4191
+[]\T1/zi4/m/it/10 qr.fitted,sparseQR,ddenseMatrix-method 
+ []
+
+[201]
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 4261--4263
+[]\T1/zi4/m/it/10 rbind2,denseMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 4263--4265
+[]\T1/zi4/m/it/10 rbind2,diagonalMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 4295--4297
+[]\T1/zi4/m/it/10 rbind2,sparseMatrix,denseMatrix-method 
+ []
+
+[202]
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 4297--4299
+[]\T1/zi4/m/it/10 rbind2,sparseMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 4303--4305
+[]\T1/zi4/m/it/10 rbind2,sparseMatrix,sparseMatrix-method 
+ []
+
+[203] [204] [205]
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 4696--4698
+[]\T1/zi4/m/it/10 solve,MatrixFactorization,missing-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 4698--4700
+[]\T1/zi4/m/it/10 solve,MatrixFactorization,numeric-method 
+ []
+
+[206] [207]
+Overfull \hbox (35.8567pt too wide) in paragraph at lines 4958--4960
+[]\T1/zi4/m/it/10 tcrossprod,CsparseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 4960--4962
+[]\T1/zi4/m/it/10 tcrossprod,CsparseMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (40.8567pt too wide) in paragraph at lines 4962--4964
+[]\T1/zi4/m/it/10 tcrossprod,CsparseMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 4964--4966
+[]\T1/zi4/m/it/10 tcrossprod,CsparseMatrix,matrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 4966--4968
+[]\T1/zi4/m/it/10 tcrossprod,CsparseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 4968--4970
+[]\T1/zi4/m/it/10 tcrossprod,CsparseMatrix,numLike-method 
+ []
+
+
+Overfull \hbox (30.8567pt too wide) in paragraph at lines 4970--4972
+[]\T1/zi4/m/it/10 tcrossprod,ddenseMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 4972--4974
+[]\T1/zi4/m/it/10 tcrossprod,ddenseMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 4974--4976
+[]\T1/zi4/m/it/10 tcrossprod,ddenseMatrix,dsCMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 4976--4978
+[]\T1/zi4/m/it/10 tcrossprod,ddenseMatrix,dtrMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 4978--4980
+[]\T1/zi4/m/it/10 tcrossprod,ddenseMatrix,ldenseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 4980--4982
+[]\T1/zi4/m/it/10 tcrossprod,ddenseMatrix,lsCMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 4984--4986
+[]\T1/zi4/m/it/10 tcrossprod,ddenseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 4986--4988
+[]\T1/zi4/m/it/10 tcrossprod,ddenseMatrix,ndenseMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 4988--4990
+[]\T1/zi4/m/it/10 tcrossprod,ddenseMatrix,nsCMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 4992--4994
+[]\T1/zi4/m/it/10 tcrossprod,dgeMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (40.8567pt too wide) in paragraph at lines 5000--5002
+[]\T1/zi4/m/it/10 tcrossprod,diagonalMatrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (45.8567pt too wide) in paragraph at lines 5002--5004
+[]\T1/zi4/m/it/10 tcrossprod,diagonalMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 5004--5006
+[]\T1/zi4/m/it/10 tcrossprod,diagonalMatrix,matrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 5006--5008
+[]\T1/zi4/m/it/10 tcrossprod,diagonalMatrix,missing-method 
+ []
+
+
+Overfull \hbox (35.8567pt too wide) in paragraph at lines 5008--5010
+[]\T1/zi4/m/it/10 tcrossprod,diagonalMatrix,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 5016--5018
+[]\T1/zi4/m/it/10 tcrossprod,ldenseMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 5018--5020
+[]\T1/zi4/m/it/10 tcrossprod,ldenseMatrix,ldenseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 5022--5024
+[]\T1/zi4/m/it/10 tcrossprod,ldenseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 5024--5026
+[]\T1/zi4/m/it/10 tcrossprod,ldenseMatrix,ndenseMatrix-method 
+ []
+
+
+Overfull \hbox (20.8567pt too wide) in paragraph at lines 5028--5030
+[]\T1/zi4/m/it/10 tcrossprod,lgeMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 5032--5034
+[]\T1/zi4/m/it/10 tcrossprod,lsparseMatrix,missing-method 
+ []
+
+[208]
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 5036--5038
+[]\T1/zi4/m/it/10 tcrossprod,matrix,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 5040--5042
+[]\T1/zi4/m/it/10 tcrossprod,matrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (10.8567pt too wide) in paragraph at lines 5068--5070
+[]\T1/zi4/m/it/10 tcrossprod,Matrix,symmetricMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 5070--5072
+[]\T1/zi4/m/it/10 tcrossprod,Matrix,TsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 5072--5074
+[]\T1/zi4/m/it/10 tcrossprod,mMatrix,sparseVector-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 5074--5076
+[]\T1/zi4/m/it/10 tcrossprod,ndenseMatrix,ddenseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 5076--5078
+[]\T1/zi4/m/it/10 tcrossprod,ndenseMatrix,ldenseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 5080--5082
+[]\T1/zi4/m/it/10 tcrossprod,ndenseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 5082--5084
+[]\T1/zi4/m/it/10 tcrossprod,ndenseMatrix,ndenseMatrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 5088--5090
+[]\T1/zi4/m/it/10 tcrossprod,nsparseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 5090--5092
+[]\T1/zi4/m/it/10 tcrossprod,numLike,CsparseMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 5096--5098
+[]\T1/zi4/m/it/10 tcrossprod,numLike,sparseVector-method 
+ []
+
+
+Overfull \hbox (35.8567pt too wide) in paragraph at lines 5102--5104
+[]\T1/zi4/m/it/10 tcrossprod,sparseMatrix,diagonalMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 5104--5106
+[]\T1/zi4/m/it/10 tcrossprod,sparseMatrix,sparseVector-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 5106--5108
+[]\T1/zi4/m/it/10 tcrossprod,sparseVector,missing-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 5108--5110
+[]\T1/zi4/m/it/10 tcrossprod,sparseVector,mMatrix-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 5110--5112
+[]\T1/zi4/m/it/10 tcrossprod,sparseVector,numLike-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 5112--5114
+[]\T1/zi4/m/it/10 tcrossprod,sparseVector,sparseMatrix-method 
+ []
+
+
+Overfull \hbox (25.8567pt too wide) in paragraph at lines 5114--5116
+[]\T1/zi4/m/it/10 tcrossprod,sparseVector,sparseVector-method 
+ []
+
+
+Overfull \hbox (0.8567pt too wide) in paragraph at lines 5118--5120
+[]\T1/zi4/m/it/10 tcrossprod,TsparseMatrix,Matrix-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 5120--5122
+[]\T1/zi4/m/it/10 tcrossprod,TsparseMatrix,missing-method 
+ []
+
+
+Overfull \hbox (35.8567pt too wide) in paragraph at lines 5122--5124
+[]\T1/zi4/m/it/10 tcrossprod,TsparseMatrix,TsparseMatrix-method 
+ []
+
+[209]
+Overfull \hbox (15.8567pt too wide) in paragraph at lines 5306--5308
+[]\T1/zi4/m/it/10 updown,character,mMatrix,CHMfactor-method 
+ []
+
+
+Overfull \hbox (5.8567pt too wide) in paragraph at lines 5308--5310
+[]\T1/zi4/m/it/10 updown,logical,mMatrix,CHMfactor-method 
+ []
+
+[210] [211
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 12390.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 12390.
+ (./Rd2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 12390.
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 12390
+.
+Package rerunfilecheck Info: File `Rd2.out' has not changed.
+(rerunfilecheck)             Checksum: 07EDACD1F80A7D6C98EBD95742843610;7382.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 12390.
+ ) 
+Here is how much of TeX's memory you used:
+ 10304 strings out of 493013
+ 214413 string characters out of 6133329
+ 223572 words of memory out of 5000000
+ 10019 multiletter control sequences out of 15000+600000
+ 47224 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,6n,34p,218b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Rfn.type} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Extract} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as.Rul.dsTMatrix.Rul.listw} has been referenced
+ but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.similar.listw} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nb2listw} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.read.gal} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.anyDuplicated} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.coerce} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.ncol} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nrow} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.getValidity} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.toeplitz} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.head} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qr.qy} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qr.qty} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qr.resid} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qr.fitted} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qr.R} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.xtabs} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.matrix.csr} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.SparseM.ontology} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.modelMatrix} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.model.Matrix} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.model.matrix} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.factor} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.contrasts} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.model.frame} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.qr.coef} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.forwardsolve} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.backsolve} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.sample.int} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.double} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rep.int} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn..Machine} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rownames} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.invisible} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.substring} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.abbreviate} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.getClassDef} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.getOption} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.length} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.options} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.message} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nearcor} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.posdefify} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn..selectSuperClasses} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.outer} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as.array} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.kappa} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.svd} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.apply} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as.matrix} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dim} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.diff} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.stop} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.warning} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.function} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.attributes} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.isSymmetric} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.FALSE} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.is.null} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.is.infinite} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.is.finite} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.is.na} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.sort.list} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.order} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.mode} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.setClassUnion} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.print.trellis} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.rect} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grey} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.abs} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.grid.raster} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.panel.levelplot.raster} has been referenced but
+ does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.plot.default} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.is} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.image} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.get.adjacency} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.graph.adjacency} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.graph} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.print.default} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.format} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.data.frame} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.NULL} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.sqrtm} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.logm} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.t} has been referenced but does not exist, repl
+aced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.zapsmall} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.sum} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.prod} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.range} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.min} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.max} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.signif} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.round} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.print} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.S4groupGeneric} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.cumsum} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.which} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.TRUE} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.missing} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Arith} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.levelplot} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.showClass} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.new} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.validObject} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.set.seed} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dimnames<.Rdash.} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.names} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dimnames} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.determinant} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.NA} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.chol2inv} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.showMethods} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.update} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.logical} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Methods} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn..Deprecated} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rbind2} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.cbind2} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rbind} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.cbind} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.eigen} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.kronecker} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.list} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.diag} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.complex} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.integer} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.is.atomic} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as.vector} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.all.equal.numeric} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.all.equal} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.matrix} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.any} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.all} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.seq} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.show} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.Ops} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.rle} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.character} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.c} has been referenced but does not exist, repl
+aced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.numeric} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.class} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
+live/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/usr/local/texlive
+/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (211 pages, 794902 bytes).
+PDF statistics:
+ 10007 PDF objects out of 10688 (max. 8388607)
+ 9682 compressed objects within 97 object streams
+ 3490 named destinations out of 3580 (max. 500000)
+ 953 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,2521 @@
+Hmm ... looks like a package
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo))
+(/home/aviral/projects/r/share/texmf/tex/latex/Rd.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu)))
+Writing index file Rd2.idx
+No file Rd2.aux.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [1{/usr/local/texl
+ive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [2]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd) [3]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [4]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [5]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [6]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [7] [8]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [9] [10] [11]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [12]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [13]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [14]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [15]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [16]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [17]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [18] [19]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [20]
+Overfull \hbox (12.45pt too wide) in paragraph at lines 1204--1206
+[]\T1/ptm/m/n/10 `\T1/zi4/m/n/10 http://stat.gamma.rug.nl/snijders/multilevel.h
+tm\T1/ptm/m/n/10 ', the first edi-tion of [][]$\T1/zi4/m/n/10 http : / / www . 
+stats .
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [21]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [22]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [23] [24]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [25] [26]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [27] [28]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [29]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [30]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [31]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.28784pt too wide) in paragraph at lines 1932--1934
+[]\T1/ptm/m/n/10 an ob-ject in-her-it-ing from class \T1/zi4/m/n/10 "[][]varFun
+c[][][]" \T1/ptm/m/n/10 rep-re-sent-ing a vari-ance func-tion struc-
+[32] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [33]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (18.6999pt too wide) in paragraph at lines 2064--2070
+\T1/ptm/m/n/10 ner to the \T1/zi4/m/n/10 displayLevel \T1/ptm/m/n/10 group-ing 
+fac-tor. If equal to \T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 , \T1/zi4/m/n/10 attr(ob
+ject, "outer")
+[34] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [35]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [36] [37]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [38]
+Overfull \hbox (2.26099pt too wide) in paragraph at lines 2328--2334
+[][][]\T1/zi4/m/n/10 ACF.lme[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corARMA[]
+[][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corClasses[][][]\T1/ptm/m/n/10 , [][]\T
+1/zi4/m/n/10 Dim.corSpatial[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Initialize
+.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 summary.corStruct[][][] 
+[39] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [40]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [41] [42]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (12.84106pt too wide) in paragraph at lines 2603--2610
+[][][]\T1/zi4/m/n/10 corAR1[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corARMA[][
+][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corCAR1[][][]\T1/ptm/m/n/10 , [][]\T1/zi
+4/m/n/10 corCompSymm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corExp[][][]\T1/p
+tm/m/n/10 , [][]\T1/zi4/m/n/10 corGaus[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10
+ corLin[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corRatio[][][]\T1/ptm/m/n/10 ,
+ [][]\T1/zi4/m/n/10 corSpher[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corSymm[]
+[][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [43] [44]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [45] [46]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [47]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [48]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [49]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [50] [51]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [52]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [53]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [54]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [55]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [56]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [57]
+Overfull \hbox (1.8773pt too wide) in paragraph at lines 3521--3524
+[]\T1/ptm/m/n/10 an ob-ject of class \T1/zi4/m/n/10 corRatio\T1/ptm/m/n/10 , al
+so in-her-it-ing from class \T1/zi4/m/n/10 corSpatial\T1/ptm/m/n/10 , rep-re-se
+nt-ing a ra-tio-nal quadratic
+[58] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [59]
+Overfull \hbox (2.24986pt too wide) in paragraph at lines 3625--3633
+\T1/ptm/m/n/10 Avail-able types in-clude \T1/zi4/m/n/10 "spherical"\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 "exponential"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "gaussian"\T1/
+ptm/m/n/10 , \T1/zi4/m/n/10 "linear"\T1/ptm/m/n/10 ,
+[60] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [61] [62]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [63] [64]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [65]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [66]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (37.26843pt too wide) in paragraph at lines 4055--4060
+\T1/ptm/m/n/10 Classes which al-ready have meth-ods for this func-tion in-clude
+: \T1/zi4/m/n/10 "[][]corSpatial[][][]"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "[][]cor
+Struct[][][]"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "pdCompSymm"\T1/ptm/m/n/10 ,
+[67] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [68] [69]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [70]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [71]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [72]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [73]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [74]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (62.33864pt too wide) in paragraph at lines 4512--4517
+\T1/ptm/m/n/10 trix), \T1/zi4/m/n/10 fitted \T1/ptm/m/n/10 (fit-ted val-ues), a
+nd \T1/zi4/m/n/10 residuals \T1/ptm/m/n/10 (resid-u-als). De-faults to \T1/zi4/
+m/n/10 attr(object, "glsFit")\T1/ptm/m/n/10 . 
+[75] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [76] [77]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [78]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [79]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [80]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [81]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [82]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [83]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [84]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [85]
+Overfull \hbox (26.94876pt too wide) in paragraph at lines 5117--5122
+\T1/ptm/m/n/10 sary, and the unique lev-els are used to de-fine the groups. De-
+faults to \T1/zi4/m/n/10 formula(object)\T1/ptm/m/n/10 . 
+[86] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [87]
+Overfull \hbox (3.58858pt too wide) in paragraph at lines 5235--5239
+\T1/ptm/m/n/10 Classes which al-ready have meth-ods for this func-tion in-clude
+ \T1/zi4/m/n/10 corStruct\T1/ptm/m/n/10 , \T1/zi4/m/n/10 corSpatial\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 data.frame\T1/ptm/m/n/10 ,
+
+Overfull \hbox (38.34094pt too wide) in paragraph at lines 5271--5275
+[][][]\T1/zi4/m/n/10 getCovariate.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m
+/n/10 getCovariate.data.frame[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getCovar
+iate.varFunc[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getCovariateFormula[][][]
+ 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [88]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [89]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [90]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [91]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [92]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [93]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [94]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [95]
+Overfull \hbox (12.86096pt too wide) in paragraph at lines 5712--5715
+[][][]\T1/zi4/m/n/10 getGroupsFormula[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 
+getGroups.data.frame[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroups.gls[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroups.lmList[][][]\T1/ptm/m/n/10 , []
+[]\T1/zi4/m/n/10 getGroups.lme[][][] 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [96]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [97] [98]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [99]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [100]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [101]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [102]
+Overfull \hbox (60.84094pt too wide) in paragraph at lines 6100--6105
+[][][]\T1/zi4/m/n/10 getGroupsFormula.gls[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 getGroupsFormula.lmList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroupsF
+ormula.lme[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroupsFormula.reStruct[]
+[][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [103]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [104]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (2.69841pt too wide) in paragraph at lines 6228--6234
+[]\T1/ptm/m/n/10 For mod-els fit by [][]\T1/zi4/m/n/10 lme[][][] \T1/ptm/m/n/10
+ the \T1/zi4/m/n/10 type \T1/ptm/m/n/10 ar-gu-ment spec-i-fies the type of vari
+ance-covariance
+[105] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [106]
+[107]
+Overfull \hbox (38.92102pt too wide) in paragraph at lines 6374--6385
+[][][]\T1/zi4/m/n/10 corClasses[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 glsCon
+trol[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 glsObject[][][]\T1/ptm/m/n/10 , [
+][]\T1/zi4/m/n/10 glsStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.gls[]
+[][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 predict.gls[][][]\T1/ptm/m/n/10 , [][]\
+T1/zi4/m/n/10 qqnorm.gls[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 residuals.gls
+[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [108]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 6441--6443
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [109]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [110]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [111]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [112]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [113] [114]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [115]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 6862--6864
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [116]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [117]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [118] [119]
+Overfull \hbox (34.401pt too wide) in paragraph at lines 7138--7145
+[][][]\T1/zi4/m/n/10 formula[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 gapply[][
+][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 gsummary[][][]\T1/ptm/m/n/10 , [][]\T1/z
+i4/m/n/10 lme[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.nffGroupedData[][][
+]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.nfnGroupedData[][][]\T1/ptm/m/n/10 , 
+[][]\T1/zi4/m/n/10 plot.nmGroupedData[][][]\T1/ptm/m/n/10 ,
+[120] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [121]
+Overfull \hbox (26.94876pt too wide) in paragraph at lines 7213--7218
+\T1/ptm/m/n/10 sary, and the unique lev-els are used to de-fine the groups. De-
+faults to \T1/zi4/m/n/10 formula(object)\T1/ptm/m/n/10 . 
+[122] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [123]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [124]
+Overfull \hbox (10.84094pt too wide) in paragraph at lines 7404--7409
+[][][]\T1/zi4/m/n/10 Initialize.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 Initialize.lmeStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Initialize.gl
+sStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Initialize.varFunc[][][]\T1/pt
+m/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [125]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [126]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [127]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [128]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [129]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [130] [131]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [132]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [133]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [134]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [135]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [136]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [137]
+Overfull \hbox (27.61867pt too wide) in paragraph at lines 8195--8199
+[]\T1/ptm/m/n/10 an op-tional data frame con-tain-ing the vari-ables named in \
+T1/zi4/m/n/10 fixed\T1/ptm/m/n/10 , \T1/zi4/m/n/10 random\T1/ptm/m/n/10 , \T1/z
+i4/m/n/10 correlation\T1/ptm/m/n/10 ,
+
+Overfull \hbox (79.44865pt too wide) in paragraph at lines 8199--8221
+[]\T1/ptm/m/n/10 optionally, any of the fol-low-ing: (i) a one-sided for-mula o
+f the form \T1/zi4/m/n/10 ~ x1 + ... + xn | g1/.../gm\T1/ptm/m/n/10 ,
+[138] [139]
+Overfull \hbox (28.92102pt too wide) in paragraph at lines 8319--8336
+[][][]\T1/zi4/m/n/10 corClasses[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme.lm
+List[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme.groupedData[][][]\T1/ptm/m/n/
+10 , [][]\T1/zi4/m/n/10 lmeControl[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme
+Object[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lmeStruct[][][]\T1/ptm/m/n/10 ,
+ [][]\T1/zi4/m/n/10 lmList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdClasses[]
+[][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (59.44865pt too wide) in paragraph at lines 8372--8394
+[]\T1/ptm/m/n/10 optionally, any of the fol-low-ing: (i) a one-sided for-mula o
+f the form \T1/zi4/m/n/10 ~x1+...+xn | g1/.../gm\T1/ptm/m/n/10 ,
+[140] [141] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[142] [143] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[144]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 8686--8688
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+[145] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [146]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [147]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [148] [149]
+Overfull \hbox (6.781pt too wide) in paragraph at lines 8960--8967
+[][][]\T1/zi4/m/n/10 lm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme.lmList[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.lmList[][][]\T1/ptm/m/n/10 , [][]\T1
+/zi4/m/n/10 pooledSD[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 predict.lmList[][
+][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 residuals.lmList[][][]\T1/ptm/m/n/10 , [
+][]\T1/zi4/m/n/10 summary.lmList[][][] 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [150]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [151]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [152]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.39696pt too wide) in paragraph at lines 9154--9157
+[]\T1/ptm/m/n/10 This method func-tion ex-tracts the log-a-rithm of the de-ter-
+mi-nant of a square-root fac-tor of the positive-
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [153]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [154]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [155]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [156]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [157]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [158]
+Overfull \hbox (42.38098pt too wide) in paragraph at lines 9492--9499
+[][][]\T1/zi4/m/n/10 lme[][][]\T1/ptm/m/n/10 ,[][]\T1/zi4/m/n/10 gls[][][]\T1/p
+tm/m/n/10 , [][]\T1/zi4/m/n/10 logLik.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/z
+i4/m/n/10 logLik.glsStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 logLik.lmeS
+truct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 logLik.lmList[][][]\T1/ptm/m/n/1
+0 , [][]\T1/zi4/m/n/10 logLik.reStruct[][][]\T1/ptm/m/n/10 ,
+[159] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [160]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (8.6081pt too wide) in paragraph at lines 9623--9630
+\T1/ptm/m/n/10 eval-u-ated at \T1/zi4/m/n/10 coef(object)\T1/ptm/m/n/10 . The \
+T1/zi4/m/n/10 settings \T1/ptm/m/n/10 at-tribute of \T1/zi4/m/n/10 object \T1/p
+tm/m/n/10 de-ter-mines whether the log-likelihood,
+[161] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [162]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [163]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [164]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [165]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [166]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [167]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [168]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (44.76736pt too wide) in paragraph at lines 10139--10141
+[]\T1/ptm/m/n/10 a ma-trix ob-tained by bind-ing to-gether, column-wise, the mo
+del ma-tri-ces for each el-e-ment of \T1/zi4/m/n/10 formula(object)\T1/ptm/m/n/
+10 . 
+[169] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [170]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [171]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [172]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [173]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [174]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [175]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [176]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [177]
+Overfull \hbox (104.90858pt too wide) in paragraph at lines 10650--10676
+[]\T1/ptm/m/n/10 optionally, any of the fol-low-ing: (i) a two-sided for-mula o
+f the form \T1/zi4/m/n/10 r1+...+rn~x1+...+xm | g1/.../gQ\T1/ptm/m/n/10 ,
+
+Overfull \hbox (18.82831pt too wide) in paragraph at lines 10650--10676
+\T1/zi4/m/n/10 x1+...+xm \T1/ptm/m/n/10 spec-i-fy-ing the random-effects model 
+for these pa-ram-e-ters and \T1/zi4/m/n/10 g1/.../gQ
+
+Overfull \hbox (26.78831pt too wide) in paragraph at lines 10650--10676
+\T1/ptm/m/n/10 mul-ti-ple lev-els of group-ing; (ii) a two-sided for-mula of th
+e form \T1/zi4/m/n/10 r1+...+rn~x1+..+xm\T1/ptm/m/n/10 ,
+
+Overfull \hbox (14.22804pt too wide) in paragraph at lines 10650--10676
+\T1/ptm/m/n/10 for-mula, or list of two-sided for-mu-las (i.e. a non-\T1/zi4/m/
+n/10 NULL \T1/ptm/m/n/10 value for \T1/zi4/m/n/10 formula(random)\T1/ptm/m/n/10
+ ),
+[178]
+Overfull \hbox (19.63843pt too wide) in paragraph at lines 10676--10683
+[]\T1/ptm/m/n/10 an op-tional one-sided for-mula of the form \T1/zi4/m/n/10 ~g1
+ \T1/ptm/m/n/10 (sin-gle level of nest-ing) or \T1/zi4/m/n/10 ~g1/.../gQ
+[179]
+Overfull \hbox (8.92102pt too wide) in paragraph at lines 10788--10794
+[][][]\T1/zi4/m/n/10 nlmeControl[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 nlme.
+nlsList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 nlmeObject[][][]\T1/ptm/m/n/10
+ , [][]\T1/zi4/m/n/10 nlsList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 nlmeStru
+ct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdClasses[][][]\T1/ptm/m/n/10 , [][
+]\T1/zi4/m/n/10 reStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 varFunc[][][]
+\T1/ptm/m/n/10 ,
+[180] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (19.63843pt too wide) in paragraph at lines 10845--10852
+[]\T1/ptm/m/n/10 an op-tional one-sided for-mula of the form \T1/zi4/m/n/10 ~g1
+ \T1/ptm/m/n/10 (sin-gle level of nest-ing) or \T1/zi4/m/n/10 ~g1/.../gQ
+[181] [182] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[183]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 11027--11029
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+[184] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (7.53009pt too wide) in paragraph at lines 11071--11079
+\T1/ptm/m/n/10 for the generic func-tions \T1/zi4/m/n/10 anova\T1/ptm/m/n/10 , 
+\T1/zi4/m/n/10 coef\T1/ptm/m/n/10 , \T1/zi4/m/n/10 fitted\T1/ptm/m/n/10 , \T1/z
+i4/m/n/10 fixed.effects\T1/ptm/m/n/10 , \T1/zi4/m/n/10 formula\T1/ptm/m/n/10 , 
+\T1/zi4/m/n/10 getGroups\T1/ptm/m/n/10 , \T1/zi4/m/n/10 getResponse\T1/ptm/m/n/
+10 ,
+[185] [186] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [187] [188]
+Overfull \hbox (3.4899pt too wide) in paragraph at lines 11299--11305
+\T1/ptm/m/n/10 tor. Generic func-tions such as \T1/zi4/m/n/10 coef\T1/ptm/m/n/1
+0 , \T1/zi4/m/n/10 fixed.effects\T1/ptm/m/n/10 , \T1/zi4/m/n/10 lme\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 pairs\T1/ptm/m/n/10 , \T1/zi4/m/n/10 plot\T1/ptm/m/n/10 , \
+T1/zi4/m/n/10 predict\T1/ptm/m/n/10 , \T1/zi4/m/n/10 random.effects\T1/ptm/m/n/
+10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [189]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [190]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [191]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [192]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [193]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [194]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [195]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [196] [197]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [198]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (4.19801pt too wide) in paragraph at lines 12005--12011
+\T1/ptm/m/n/10 fac-tors may be present in \T1/zi4/m/n/10 form\T1/ptm/m/n/10 , t
+he for-mu-las needs to be eval-u-ated on a data.frame
+[199] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (7.14749pt too wide) in paragraph at lines 12076--12078
+[]\T1/ptm/m/n/10 general positive-definite ma-trix, with no ad-di-tional struc-
+ture, us-ing a log-Cholesky
+[200] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [201]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [202] [203]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [204]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [205]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [206]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [207]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [208] [209]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [210]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [211] [212]
+Overfull \hbox (35.94104pt too wide) in paragraph at lines 12857--12864
+[][][]\T1/zi4/m/n/10 pdClasses[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdCompS
+ymm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdDiag[][][]\T1/ptm/m/n/10 , [][]\
+T1/zi4/m/n/10 pdIdent[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdNatural[][][]\
+T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdSymm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 reStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 solve.pdMat[][][]\T1/ptm/
+m/n/10 , [][]\T1/zi4/m/n/10 summary.pdMat[][][] 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [213]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [214]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [215]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [216]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [217]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [218]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [219]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [220]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [221]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [222]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [223] [224]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [225]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [226]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [227] [228]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [229]
+Overfull \hbox (4.97841pt too wide) in paragraph at lines 13959--13966
+[]\T1/ptm/m/n/10 an op-tional log-i-cal func-tion or func-tion. If \T1/zi4/m/n/
+10 TRUE \T1/ptm/m/n/10 and ei-ther \T1/zi4/m/n/10 inner \T1/ptm/m/n/10 or \T1/z
+i4/m/n/10 innerGroups
+
+Overfull \hbox (5.46863pt too wide) in paragraph at lines 13967--13970
+[]\T1/ptm/m/n/10 this ar-gu-ment is in-cluded for con-sis-tency with the \T1/zi
+4/m/n/10 plot.nfnGroupedData \T1/ptm/m/n/10 method
+[230] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [231]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [232]
+Overfull \hbox (47.8088pt too wide) in paragraph at lines 14147--14157
+\T1/ptm/m/n/10 els of the Trel-lis plot. If equal to \T1/zi4/m/n/10 TRUE\T1/ptm
+/m/n/10 , the \T1/zi4/m/n/10 displayLevel \T1/ptm/m/n/10 el-e-ment \T1/zi4/m/n/
+10 attr(object, "outer")
+[233] [234] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[235] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [236]
+[237] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (47.3479pt too wide) in paragraph at lines 14492--14494
+[]\T1/ptm/m/n/10 an op-tional nu-meric vec-tor with the lim-its for the y-axis.
+ De-faults to \T1/zi4/m/n/10 c(0, max(x$variog))\T1/ptm/m/n/10 . 
+[238] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [239]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [240]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [241]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [242]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [243]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [244] [245]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [246]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [247] [248]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [249] [250]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [251]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [252]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [253]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [254] [255]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [256]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [257]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (2.26843pt too wide) in paragraph at lines 15691--15695
+\T1/ptm/m/n/10 Classes which al-ready have meth-ods for this func-tion in-clude
+: \T1/zi4/m/n/10 corStruct\T1/ptm/m/n/10 , \T1/zi4/m/n/10 modelStruct\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 reStruct\T1/ptm/m/n/10 ,
+[258] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [259]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [260]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [261]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [262]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [263]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [264]
+Overfull \hbox (62.33864pt too wide) in paragraph at lines 16129--16134
+\T1/ptm/m/n/10 trix), \T1/zi4/m/n/10 fitted \T1/ptm/m/n/10 (fit-ted val-ues), a
+nd \T1/zi4/m/n/10 residuals \T1/ptm/m/n/10 (resid-u-als). De-faults to \T1/zi4/
+m/n/10 attr(object, "glsFit")\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [265]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [266] [267]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [268]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (18.01868pt too wide) in paragraph at lines 16376--16385
+\T1/ptm/m/n/10 stan-dard er-ror) us-ing dif-fer-ent stan-dard er-rors for each 
+\T1/zi4/m/n/10 lm \T1/ptm/m/n/10 fit, and \T1/zi4/m/n/10 "pooled.pearson"
+[269] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [270]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (15.01903pt too wide) in paragraph at lines 16506--16524
+[]\T1/ptm/m/n/10 any of the fol-low-ing: (i) a one-sided for-mula of the form \
+T1/zi4/m/n/10 ~x1+...+xn | g1/.../gm\T1/ptm/m/n/10 ,
+[271] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [272]
+[273] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [274]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [275]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [276]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [277]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (31.45937pt too wide) in paragraph at lines 16955--16959
+\T1/ptm/m/n/10 with \T1/zi4/m/n/10 object\T1/ptm/m/n/10 , to be used in the \T1
+/zi4/m/n/10 print.summary \T1/ptm/m/n/10 method. De-faults to \T1/zi4/m/n/10 cl
+ass(object)[1]\T1/ptm/m/n/10 . 
+[278] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (5.55797pt too wide) in paragraph at lines 17017--17021
+[]\T1/ptm/m/n/10 an ob-ject in-her-it-ing from class \T1/zi4/m/n/10 summary.gls
+ \T1/ptm/m/n/10 with all com-po-nents in-cluded in \T1/zi4/m/n/10 object \T1/pt
+m/m/n/10 (see [][]\T1/zi4/m/n/10 glsObject[][][]
+[279] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (25.94797pt too wide) in paragraph at lines 17063--17067
+\T1/ptm/m/n/10 cluded as com-po-nents of \T1/zi4/m/n/10 object\T1/ptm/m/n/10 . 
+The re-turned ob-ject is suit-able for print-ing with the \T1/zi4/m/n/10 print.
+summary.lme
+
+Overfull \hbox (33.14851pt too wide) in paragraph at lines 17087--17090
+[]\T1/ptm/m/n/10 an op-tional log-i-cal value used to con-trol the amount of ou
+t-put in the \T1/zi4/m/n/10 print.summary.lme
+
+Overfull \hbox (5.55797pt too wide) in paragraph at lines 17096--17100
+[]\T1/ptm/m/n/10 an ob-ject in-her-it-ing from class \T1/zi4/m/n/10 summary.lme
+ \T1/ptm/m/n/10 with all com-po-nents in-cluded in \T1/zi4/m/n/10 object \T1/pt
+m/m/n/10 (see [][]\T1/zi4/m/n/10 lmeObject[][][]
+[280] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [281]
+[282] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [283]
+Overfull \hbox (19.88002pt too wide) in paragraph at lines 17339--17347
+\T1/ptm/m/n/10 sec-ond di-men-sion is given by \T1/zi4/m/n/10 "Value"\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 "Std. Error"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "t value"\T1/
+ptm/m/n/10 , and \T1/zi4/m/n/10 "Pr(>|t|)"\T1/ptm/m/n/10 ,
+[284] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (8.0899pt too wide) in paragraph at lines 17424--17433
+\T1/ptm/m/n/10 pends on the method func-tion: \T1/zi4/m/n/10 "Blocked" \T1/ptm/
+m/n/10 for \T1/zi4/m/n/10 pdBlocked\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Compound Sy
+mmetry"
+
+Overfull \hbox (21.89084pt too wide) in paragraph at lines 17424--17433
+\T1/zi4/m/n/10 pdNatural\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "General Positive-Defin
+ite" \T1/ptm/m/n/10 for \T1/zi4/m/n/10 pdSymm\T1/ptm/m/n/10 , and \T1/zi4/m/n/1
+0 data.class(object)
+[285] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (115.03085pt too wide) in paragraph at lines 17489--17497
+\T1/zi4/m/n/10 "Exponential of variance covariate" \T1/ptm/m/n/10 for \T1/zi4/m
+/n/10 varExp\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Different standard deviations per 
+stratum"
+
+Overfull \hbox (48.45078pt too wide) in paragraph at lines 17489--17497
+\T1/ptm/m/n/10 for \T1/zi4/m/n/10 varIdent\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Powe
+r of variance covariate" \T1/ptm/m/n/10 for \T1/zi4/m/n/10 varPower\T1/ptm/m/n/
+10 , and \T1/zi4/m/n/10 data.class(object)
+
+Overfull \hbox (39.77748pt too wide) in paragraph at lines 17503--17505
+[]\T1/ptm/m/n/10 an ob-ject sim-i-lar to \T1/zi4/m/n/10 object\T1/ptm/m/n/10 , 
+with an ad-di-tional at-tribute \T1/zi4/m/n/10 structName\T1/ptm/m/n/10 , in-he
+r-it-ing from class \T1/zi4/m/n/10 summary.varFunc\T1/ptm/m/n/10 . 
+[286] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [287]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [288]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [289]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [290]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [291] [292]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [293]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [294]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [295]
+Overfull \hbox (8.01746pt too wide) in paragraph at lines 18073--18075
+[]\T1/ptm/m/n/10 a \T1/zi4/m/n/10 varFixed \T1/ptm/m/n/10 ob-ject rep-re-sent-i
+ng a fixed vari-ance func-tion struc-ture, also in-her-it-ing from class \T1/zi
+4/m/n/10 varFunc\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [296]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [297] [298]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (60.36096pt too wide) in paragraph at lines 18279--18289
+[][][]\T1/zi4/m/n/10 Variogram.corExp[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 
+Variogram.corGaus[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.corLin[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.corRatio[][][]\T1/ptm/m/n/10 , 
+[][]\T1/zi4/m/n/10 Variogram.corSpatial[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [299] [300]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [301]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [302]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [303]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (0.69778pt too wide) in paragraph at lines 18558--18562
+\T1/zi4/m/n/10 FUN\T1/ptm/m/n/10 , us-ing the es-ti-mated co-ef-fi-cients cor-r
+e-spond-ing to \T1/zi4/m/n/10 object\T1/ptm/m/n/10 , at the dis-tances de-fined
+ by \T1/zi4/m/n/10 distance\T1/ptm/m/n/10 . 
+
+Overfull \hbox (1.29861pt too wide) in paragraph at lines 18585--18588
+[]\T1/ptm/m/n/10 a func-tion of two ar-gu-ments, the dis-tance and the range co
+r-re-spond-ing to \T1/zi4/m/n/10 object\T1/ptm/m/n/10 ,
+[304]
+Overfull \hbox (54.88098pt too wide) in paragraph at lines 18608--18617
+[][][]\T1/zi4/m/n/10 corSpatial[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variog
+ram[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.default[][][]\T1/ptm/m/n
+/10 , [][]\T1/zi4/m/n/10 Variogram.corExp[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 Variogram.corGaus[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.corLin
+[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [305]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [306]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [307]
+Overfull \hbox (6.09778pt too wide) in paragraph at lines 18818--18823
+\T1/ptm/m/n/10 semi-variogram val-ues are cal-cu-lated and this ar-gu-ment is u
+sed as the \T1/zi4/m/n/10 length.out
+
+Overfull \hbox (4.82787pt too wide) in paragraph at lines 18823--18833
+\T1/ptm/m/n/10 num-ber of ob-ser-va-tions per group, with pos-si-bly vary-ing d
+is-tance in-ter-val lengths.
+[308] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [309]
+Overfull \hbox (6.09778pt too wide) in paragraph at lines 18953--18958
+\T1/ptm/m/n/10 semi-variogram val-ues are cal-cu-lated and this ar-gu-ment is u
+sed as the \T1/zi4/m/n/10 length.out
+
+Overfull \hbox (4.82787pt too wide) in paragraph at lines 18958--18968
+\T1/ptm/m/n/10 num-ber of ob-ser-va-tions per group, with pos-si-bly vary-ing d
+is-tance in-ter-val lengths.
+[310] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [311]
+[312] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [313]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [314]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [315]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [316]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.31769pt too wide) in paragraph at lines 19451--19455
+[]\T1/ptm/m/n/10 optional sub-scripts ap-ply-ing re-spec-tively to the rows and
+ columns of the positive-
+
+Overfull \hbox (0.67793pt too wide) in paragraph at lines 19451--19455
+\T1/ptm/m/n/10 definite ma-trix rep-re-sented by \T1/zi4/m/n/10 object\T1/ptm/m
+/n/10 . When \T1/zi4/m/n/10 i \T1/ptm/m/n/10 (\T1/zi4/m/n/10 j\T1/ptm/m/n/10 ) 
+is omit-ted, all rows (columns)
+[317]
+No file Rd2.ind.
+[318] (./Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Rfn.[} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.set.seed} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.naresid} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.loess} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.predict.lm} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.histogram} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.bwplot} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dotplot} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.splom} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.xyplot} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.selfStart} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.try} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.getOption} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nls} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nlm} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.terms} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.contrasts} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.model.matrix} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as.matrix} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.logLik} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.warning} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.tryCatch} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.lm} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.logical} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.list} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.model.matrix.default} has been referenced but d
+oes not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.table} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.summary} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.optim} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nlminb} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.fitted} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.resid} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.na.fail} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.update.formula} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.napredict} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dist} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.coef} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.predict} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.all.vars} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.formula} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.BIC} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.AIC} has been referenced but does not exist, re
+placed by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/us
+r/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive
+/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on Rd2.pdf (318 pages, 880836 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
+Scanning input file Rd2.idx.....done (1741 entries accepted, 14 rejected).
+Sorting entries.................done (19895 comparisons).
+Generating output file Rd2.ind.....done (1702 lines written, 28 warnings).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo))
+(/home/aviral/projects/r/share/texmf/tex/latex/Rd.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu)))
+Writing index file Rd2.idx
+(./Rd2.aux) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./Rd2.out) (./Rd2.out)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] [3] [4] [5] [6])
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [7]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [8]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd) [9]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [10]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [11]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [12]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [13] [14]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [15] [16] [17]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [18]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [19]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [20]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [21]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [22]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [23]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [24] [25]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [26]
+Overfull \hbox (12.45pt too wide) in paragraph at lines 1204--1206
+[]\T1/ptm/m/n/10 `\T1/zi4/m/n/10 http://stat.gamma.rug.nl/snijders/multilevel.h
+tm\T1/ptm/m/n/10 ', the first edi-tion of [][]$\T1/zi4/m/n/10 http : / / www . 
+stats .
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [27]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [28]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [29] [30]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [31] [32]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [33] [34]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [35]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [36]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [37]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.28784pt too wide) in paragraph at lines 1932--1934
+[]\T1/ptm/m/n/10 an ob-ject in-her-it-ing from class \T1/zi4/m/n/10 "[][]varFun
+c[][][]" \T1/ptm/m/n/10 rep-re-sent-ing a vari-ance func-tion struc-
+[38] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [39]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (18.6999pt too wide) in paragraph at lines 2064--2070
+\T1/ptm/m/n/10 ner to the \T1/zi4/m/n/10 displayLevel \T1/ptm/m/n/10 group-ing 
+fac-tor. If equal to \T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 , \T1/zi4/m/n/10 attr(ob
+ject, "outer")
+[40] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [41]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [42] [43]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [44]
+Overfull \hbox (2.26099pt too wide) in paragraph at lines 2328--2334
+[][][]\T1/zi4/m/n/10 ACF.lme[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corARMA[]
+[][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corClasses[][][]\T1/ptm/m/n/10 , [][]\T
+1/zi4/m/n/10 Dim.corSpatial[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Initialize
+.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 summary.corStruct[][][] 
+[45] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [46]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [47] [48]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (12.84106pt too wide) in paragraph at lines 2603--2610
+[][][]\T1/zi4/m/n/10 corAR1[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corARMA[][
+][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corCAR1[][][]\T1/ptm/m/n/10 , [][]\T1/zi
+4/m/n/10 corCompSymm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corExp[][][]\T1/p
+tm/m/n/10 , [][]\T1/zi4/m/n/10 corGaus[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10
+ corLin[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corRatio[][][]\T1/ptm/m/n/10 ,
+ [][]\T1/zi4/m/n/10 corSpher[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corSymm[]
+[][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [49] [50]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [51] [52]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [53]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [54]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [55]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [56] [57]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [58]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [59]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [60]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [61]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [62]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [63]
+Overfull \hbox (1.8773pt too wide) in paragraph at lines 3521--3524
+[]\T1/ptm/m/n/10 an ob-ject of class \T1/zi4/m/n/10 corRatio\T1/ptm/m/n/10 , al
+so in-her-it-ing from class \T1/zi4/m/n/10 corSpatial\T1/ptm/m/n/10 , rep-re-se
+nt-ing a ra-tio-nal quadratic
+[64] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [65]
+Overfull \hbox (2.24986pt too wide) in paragraph at lines 3625--3633
+\T1/ptm/m/n/10 Avail-able types in-clude \T1/zi4/m/n/10 "spherical"\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 "exponential"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "gaussian"\T1/
+ptm/m/n/10 , \T1/zi4/m/n/10 "linear"\T1/ptm/m/n/10 ,
+[66] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [67] [68]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [69] [70]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [71]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [72]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (37.26843pt too wide) in paragraph at lines 4055--4060
+\T1/ptm/m/n/10 Classes which al-ready have meth-ods for this func-tion in-clude
+: \T1/zi4/m/n/10 "[][]corSpatial[][][]"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "[][]cor
+Struct[][][]"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "pdCompSymm"\T1/ptm/m/n/10 ,
+[73] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [74] [75]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [76]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [77]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [78]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [79]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [80]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (62.33864pt too wide) in paragraph at lines 4512--4517
+\T1/ptm/m/n/10 trix), \T1/zi4/m/n/10 fitted \T1/ptm/m/n/10 (fit-ted val-ues), a
+nd \T1/zi4/m/n/10 residuals \T1/ptm/m/n/10 (resid-u-als). De-faults to \T1/zi4/
+m/n/10 attr(object, "glsFit")\T1/ptm/m/n/10 . 
+[81] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [82] [83]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [84]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [85]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [86]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [87]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [88]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [89]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [90]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [91]
+Overfull \hbox (26.94876pt too wide) in paragraph at lines 5117--5122
+\T1/ptm/m/n/10 sary, and the unique lev-els are used to de-fine the groups. De-
+faults to \T1/zi4/m/n/10 formula(object)\T1/ptm/m/n/10 . 
+[92] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [93]
+Overfull \hbox (3.58858pt too wide) in paragraph at lines 5235--5239
+\T1/ptm/m/n/10 Classes which al-ready have meth-ods for this func-tion in-clude
+ \T1/zi4/m/n/10 corStruct\T1/ptm/m/n/10 , \T1/zi4/m/n/10 corSpatial\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 data.frame\T1/ptm/m/n/10 ,
+
+Overfull \hbox (38.34094pt too wide) in paragraph at lines 5271--5275
+[][][]\T1/zi4/m/n/10 getCovariate.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m
+/n/10 getCovariate.data.frame[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getCovar
+iate.varFunc[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getCovariateFormula[][][]
+ 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [94]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [95]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [96]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [97]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [98]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [99]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [100]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [101]
+Overfull \hbox (12.86096pt too wide) in paragraph at lines 5712--5715
+[][][]\T1/zi4/m/n/10 getGroupsFormula[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 
+getGroups.data.frame[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroups.gls[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroups.lmList[][][]\T1/ptm/m/n/10 , []
+[]\T1/zi4/m/n/10 getGroups.lme[][][] 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [102]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [103] [104]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [105]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [106]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [107]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [108]
+Overfull \hbox (60.84094pt too wide) in paragraph at lines 6100--6105
+[][][]\T1/zi4/m/n/10 getGroupsFormula.gls[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 getGroupsFormula.lmList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroupsF
+ormula.lme[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroupsFormula.reStruct[]
+[][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [109]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [110]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (2.69841pt too wide) in paragraph at lines 6228--6234
+[]\T1/ptm/m/n/10 For mod-els fit by [][]\T1/zi4/m/n/10 lme[][][] \T1/ptm/m/n/10
+ the \T1/zi4/m/n/10 type \T1/ptm/m/n/10 ar-gu-ment spec-i-fies the type of vari
+ance-covariance
+[111] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [112]
+[113]
+Overfull \hbox (38.92102pt too wide) in paragraph at lines 6374--6385
+[][][]\T1/zi4/m/n/10 corClasses[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 glsCon
+trol[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 glsObject[][][]\T1/ptm/m/n/10 , [
+][]\T1/zi4/m/n/10 glsStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.gls[]
+[][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 predict.gls[][][]\T1/ptm/m/n/10 , [][]\
+T1/zi4/m/n/10 qqnorm.gls[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 residuals.gls
+[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [114]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 6441--6443
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [115]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [116]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [117]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [118]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [119] [120]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [121]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 6862--6864
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [122]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [123]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [124] [125]
+Overfull \hbox (34.401pt too wide) in paragraph at lines 7138--7145
+[][][]\T1/zi4/m/n/10 formula[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 gapply[][
+][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 gsummary[][][]\T1/ptm/m/n/10 , [][]\T1/z
+i4/m/n/10 lme[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.nffGroupedData[][][
+]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.nfnGroupedData[][][]\T1/ptm/m/n/10 , 
+[][]\T1/zi4/m/n/10 plot.nmGroupedData[][][]\T1/ptm/m/n/10 ,
+[126] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [127]
+Overfull \hbox (26.94876pt too wide) in paragraph at lines 7213--7218
+\T1/ptm/m/n/10 sary, and the unique lev-els are used to de-fine the groups. De-
+faults to \T1/zi4/m/n/10 formula(object)\T1/ptm/m/n/10 . 
+[128] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [129]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [130]
+Overfull \hbox (10.84094pt too wide) in paragraph at lines 7404--7409
+[][][]\T1/zi4/m/n/10 Initialize.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 Initialize.lmeStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Initialize.gl
+sStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Initialize.varFunc[][][]\T1/pt
+m/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [131]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [132]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [133]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [134]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [135]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [136] [137]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [138]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [139]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [140]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [141]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [142]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [143]
+Overfull \hbox (27.61867pt too wide) in paragraph at lines 8195--8199
+[]\T1/ptm/m/n/10 an op-tional data frame con-tain-ing the vari-ables named in \
+T1/zi4/m/n/10 fixed\T1/ptm/m/n/10 , \T1/zi4/m/n/10 random\T1/ptm/m/n/10 , \T1/z
+i4/m/n/10 correlation\T1/ptm/m/n/10 ,
+
+Overfull \hbox (79.44865pt too wide) in paragraph at lines 8199--8221
+[]\T1/ptm/m/n/10 optionally, any of the fol-low-ing: (i) a one-sided for-mula o
+f the form \T1/zi4/m/n/10 ~ x1 + ... + xn | g1/.../gm\T1/ptm/m/n/10 ,
+[144] [145]
+Overfull \hbox (28.92102pt too wide) in paragraph at lines 8319--8336
+[][][]\T1/zi4/m/n/10 corClasses[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme.lm
+List[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme.groupedData[][][]\T1/ptm/m/n/
+10 , [][]\T1/zi4/m/n/10 lmeControl[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme
+Object[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lmeStruct[][][]\T1/ptm/m/n/10 ,
+ [][]\T1/zi4/m/n/10 lmList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdClasses[]
+[][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (59.44865pt too wide) in paragraph at lines 8372--8394
+[]\T1/ptm/m/n/10 optionally, any of the fol-low-ing: (i) a one-sided for-mula o
+f the form \T1/zi4/m/n/10 ~x1+...+xn | g1/.../gm\T1/ptm/m/n/10 ,
+[146] [147] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[148] [149] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[150]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 8686--8688
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+[151] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [152]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [153]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [154] [155]
+Overfull \hbox (6.781pt too wide) in paragraph at lines 8960--8967
+[][][]\T1/zi4/m/n/10 lm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme.lmList[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.lmList[][][]\T1/ptm/m/n/10 , [][]\T1
+/zi4/m/n/10 pooledSD[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 predict.lmList[][
+][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 residuals.lmList[][][]\T1/ptm/m/n/10 , [
+][]\T1/zi4/m/n/10 summary.lmList[][][] 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [156]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [157]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [158]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.39696pt too wide) in paragraph at lines 9154--9157
+[]\T1/ptm/m/n/10 This method func-tion ex-tracts the log-a-rithm of the de-ter-
+mi-nant of a square-root fac-tor of the positive-
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [159]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [160]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [161]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [162]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [163]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [164]
+Overfull \hbox (42.38098pt too wide) in paragraph at lines 9492--9499
+[][][]\T1/zi4/m/n/10 lme[][][]\T1/ptm/m/n/10 ,[][]\T1/zi4/m/n/10 gls[][][]\T1/p
+tm/m/n/10 , [][]\T1/zi4/m/n/10 logLik.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/z
+i4/m/n/10 logLik.glsStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 logLik.lmeS
+truct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 logLik.lmList[][][]\T1/ptm/m/n/1
+0 , [][]\T1/zi4/m/n/10 logLik.reStruct[][][]\T1/ptm/m/n/10 ,
+[165] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [166]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (8.6081pt too wide) in paragraph at lines 9623--9630
+\T1/ptm/m/n/10 eval-u-ated at \T1/zi4/m/n/10 coef(object)\T1/ptm/m/n/10 . The \
+T1/zi4/m/n/10 settings \T1/ptm/m/n/10 at-tribute of \T1/zi4/m/n/10 object \T1/p
+tm/m/n/10 de-ter-mines whether the log-likelihood,
+[167] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [168]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [169]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [170]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [171]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [172]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [173]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [174]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (44.76736pt too wide) in paragraph at lines 10139--10141
+[]\T1/ptm/m/n/10 a ma-trix ob-tained by bind-ing to-gether, column-wise, the mo
+del ma-tri-ces for each el-e-ment of \T1/zi4/m/n/10 formula(object)\T1/ptm/m/n/
+10 . 
+[175] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [176]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [177]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [178]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [179]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [180]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [181]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [182]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [183]
+Overfull \hbox (104.90858pt too wide) in paragraph at lines 10650--10676
+[]\T1/ptm/m/n/10 optionally, any of the fol-low-ing: (i) a two-sided for-mula o
+f the form \T1/zi4/m/n/10 r1+...+rn~x1+...+xm | g1/.../gQ\T1/ptm/m/n/10 ,
+
+Overfull \hbox (18.82831pt too wide) in paragraph at lines 10650--10676
+\T1/zi4/m/n/10 x1+...+xm \T1/ptm/m/n/10 spec-i-fy-ing the random-effects model 
+for these pa-ram-e-ters and \T1/zi4/m/n/10 g1/.../gQ
+
+Overfull \hbox (26.78831pt too wide) in paragraph at lines 10650--10676
+\T1/ptm/m/n/10 mul-ti-ple lev-els of group-ing; (ii) a two-sided for-mula of th
+e form \T1/zi4/m/n/10 r1+...+rn~x1+..+xm\T1/ptm/m/n/10 ,
+
+Overfull \hbox (14.22804pt too wide) in paragraph at lines 10650--10676
+\T1/ptm/m/n/10 for-mula, or list of two-sided for-mu-las (i.e. a non-\T1/zi4/m/
+n/10 NULL \T1/ptm/m/n/10 value for \T1/zi4/m/n/10 formula(random)\T1/ptm/m/n/10
+ ),
+[184]
+Overfull \hbox (19.63843pt too wide) in paragraph at lines 10676--10683
+[]\T1/ptm/m/n/10 an op-tional one-sided for-mula of the form \T1/zi4/m/n/10 ~g1
+ \T1/ptm/m/n/10 (sin-gle level of nest-ing) or \T1/zi4/m/n/10 ~g1/.../gQ
+[185]
+Overfull \hbox (8.92102pt too wide) in paragraph at lines 10788--10794
+[][][]\T1/zi4/m/n/10 nlmeControl[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 nlme.
+nlsList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 nlmeObject[][][]\T1/ptm/m/n/10
+ , [][]\T1/zi4/m/n/10 nlsList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 nlmeStru
+ct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdClasses[][][]\T1/ptm/m/n/10 , [][
+]\T1/zi4/m/n/10 reStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 varFunc[][][]
+\T1/ptm/m/n/10 ,
+[186] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (19.63843pt too wide) in paragraph at lines 10845--10852
+[]\T1/ptm/m/n/10 an op-tional one-sided for-mula of the form \T1/zi4/m/n/10 ~g1
+ \T1/ptm/m/n/10 (sin-gle level of nest-ing) or \T1/zi4/m/n/10 ~g1/.../gQ
+[187] [188] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[189]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 11027--11029
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+[190] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (7.53009pt too wide) in paragraph at lines 11071--11079
+\T1/ptm/m/n/10 for the generic func-tions \T1/zi4/m/n/10 anova\T1/ptm/m/n/10 , 
+\T1/zi4/m/n/10 coef\T1/ptm/m/n/10 , \T1/zi4/m/n/10 fitted\T1/ptm/m/n/10 , \T1/z
+i4/m/n/10 fixed.effects\T1/ptm/m/n/10 , \T1/zi4/m/n/10 formula\T1/ptm/m/n/10 , 
+\T1/zi4/m/n/10 getGroups\T1/ptm/m/n/10 , \T1/zi4/m/n/10 getResponse\T1/ptm/m/n/
+10 ,
+[191] [192] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [193] [194]
+Overfull \hbox (3.4899pt too wide) in paragraph at lines 11299--11305
+\T1/ptm/m/n/10 tor. Generic func-tions such as \T1/zi4/m/n/10 coef\T1/ptm/m/n/1
+0 , \T1/zi4/m/n/10 fixed.effects\T1/ptm/m/n/10 , \T1/zi4/m/n/10 lme\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 pairs\T1/ptm/m/n/10 , \T1/zi4/m/n/10 plot\T1/ptm/m/n/10 , \
+T1/zi4/m/n/10 predict\T1/ptm/m/n/10 , \T1/zi4/m/n/10 random.effects\T1/ptm/m/n/
+10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [195]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [196]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [197]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [198]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [199]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [200]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [201]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [202] [203]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [204]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (4.19801pt too wide) in paragraph at lines 12005--12011
+\T1/ptm/m/n/10 fac-tors may be present in \T1/zi4/m/n/10 form\T1/ptm/m/n/10 , t
+he for-mu-las needs to be eval-u-ated on a data.frame
+[205] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (7.14749pt too wide) in paragraph at lines 12076--12078
+[]\T1/ptm/m/n/10 general positive-definite ma-trix, with no ad-di-tional struc-
+ture, us-ing a log-Cholesky
+[206] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [207]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [208] [209]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [210]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [211]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [212]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [213]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [214] [215]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [216]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [217] [218]
+Overfull \hbox (35.94104pt too wide) in paragraph at lines 12857--12864
+[][][]\T1/zi4/m/n/10 pdClasses[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdCompS
+ymm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdDiag[][][]\T1/ptm/m/n/10 , [][]\
+T1/zi4/m/n/10 pdIdent[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdNatural[][][]\
+T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdSymm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 reStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 solve.pdMat[][][]\T1/ptm/
+m/n/10 , [][]\T1/zi4/m/n/10 summary.pdMat[][][] 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [219]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [220]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [221]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [222]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [223]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [224]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [225]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [226]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [227]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [228]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [229] [230]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [231]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [232]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [233] [234]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [235]
+Overfull \hbox (4.97841pt too wide) in paragraph at lines 13959--13966
+[]\T1/ptm/m/n/10 an op-tional log-i-cal func-tion or func-tion. If \T1/zi4/m/n/
+10 TRUE \T1/ptm/m/n/10 and ei-ther \T1/zi4/m/n/10 inner \T1/ptm/m/n/10 or \T1/z
+i4/m/n/10 innerGroups
+
+Overfull \hbox (5.46863pt too wide) in paragraph at lines 13967--13970
+[]\T1/ptm/m/n/10 this ar-gu-ment is in-cluded for con-sis-tency with the \T1/zi
+4/m/n/10 plot.nfnGroupedData \T1/ptm/m/n/10 method
+[236] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [237]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [238]
+Overfull \hbox (47.8088pt too wide) in paragraph at lines 14147--14157
+\T1/ptm/m/n/10 els of the Trel-lis plot. If equal to \T1/zi4/m/n/10 TRUE\T1/ptm
+/m/n/10 , the \T1/zi4/m/n/10 displayLevel \T1/ptm/m/n/10 el-e-ment \T1/zi4/m/n/
+10 attr(object, "outer")
+[239] [240] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[241] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [242]
+[243] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (47.3479pt too wide) in paragraph at lines 14492--14494
+[]\T1/ptm/m/n/10 an op-tional nu-meric vec-tor with the lim-its for the y-axis.
+ De-faults to \T1/zi4/m/n/10 c(0, max(x$variog))\T1/ptm/m/n/10 . 
+[244] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [245]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [246]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [247]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [248]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [249]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [250] [251]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [252]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [253] [254]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [255] [256]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [257]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [258]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [259]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [260] [261]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [262]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [263]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (2.26843pt too wide) in paragraph at lines 15691--15695
+\T1/ptm/m/n/10 Classes which al-ready have meth-ods for this func-tion in-clude
+: \T1/zi4/m/n/10 corStruct\T1/ptm/m/n/10 , \T1/zi4/m/n/10 modelStruct\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 reStruct\T1/ptm/m/n/10 ,
+[264] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [265]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [266]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [267]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [268]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [269]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [270]
+Overfull \hbox (62.33864pt too wide) in paragraph at lines 16129--16134
+\T1/ptm/m/n/10 trix), \T1/zi4/m/n/10 fitted \T1/ptm/m/n/10 (fit-ted val-ues), a
+nd \T1/zi4/m/n/10 residuals \T1/ptm/m/n/10 (resid-u-als). De-faults to \T1/zi4/
+m/n/10 attr(object, "glsFit")\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [271]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [272] [273]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [274]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (18.01868pt too wide) in paragraph at lines 16376--16385
+\T1/ptm/m/n/10 stan-dard er-ror) us-ing dif-fer-ent stan-dard er-rors for each 
+\T1/zi4/m/n/10 lm \T1/ptm/m/n/10 fit, and \T1/zi4/m/n/10 "pooled.pearson"
+[275] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [276]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (15.01903pt too wide) in paragraph at lines 16506--16524
+[]\T1/ptm/m/n/10 any of the fol-low-ing: (i) a one-sided for-mula of the form \
+T1/zi4/m/n/10 ~x1+...+xn | g1/.../gm\T1/ptm/m/n/10 ,
+[277] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [278]
+[279] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [280]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [281]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [282]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [283]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (31.45937pt too wide) in paragraph at lines 16955--16959
+\T1/ptm/m/n/10 with \T1/zi4/m/n/10 object\T1/ptm/m/n/10 , to be used in the \T1
+/zi4/m/n/10 print.summary \T1/ptm/m/n/10 method. De-faults to \T1/zi4/m/n/10 cl
+ass(object)[1]\T1/ptm/m/n/10 . 
+[284] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (5.55797pt too wide) in paragraph at lines 17017--17021
+[]\T1/ptm/m/n/10 an ob-ject in-her-it-ing from class \T1/zi4/m/n/10 summary.gls
+ \T1/ptm/m/n/10 with all com-po-nents in-cluded in \T1/zi4/m/n/10 object \T1/pt
+m/m/n/10 (see [][]\T1/zi4/m/n/10 glsObject[][][]
+[285] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (25.94797pt too wide) in paragraph at lines 17063--17067
+\T1/ptm/m/n/10 cluded as com-po-nents of \T1/zi4/m/n/10 object\T1/ptm/m/n/10 . 
+The re-turned ob-ject is suit-able for print-ing with the \T1/zi4/m/n/10 print.
+summary.lme
+
+Overfull \hbox (33.14851pt too wide) in paragraph at lines 17087--17090
+[]\T1/ptm/m/n/10 an op-tional log-i-cal value used to con-trol the amount of ou
+t-put in the \T1/zi4/m/n/10 print.summary.lme
+
+Overfull \hbox (5.55797pt too wide) in paragraph at lines 17096--17100
+[]\T1/ptm/m/n/10 an ob-ject in-her-it-ing from class \T1/zi4/m/n/10 summary.lme
+ \T1/ptm/m/n/10 with all com-po-nents in-cluded in \T1/zi4/m/n/10 object \T1/pt
+m/m/n/10 (see [][]\T1/zi4/m/n/10 lmeObject[][][]
+[286] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [287]
+[288] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [289]
+Overfull \hbox (19.88002pt too wide) in paragraph at lines 17339--17347
+\T1/ptm/m/n/10 sec-ond di-men-sion is given by \T1/zi4/m/n/10 "Value"\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 "Std. Error"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "t value"\T1/
+ptm/m/n/10 , and \T1/zi4/m/n/10 "Pr(>|t|)"\T1/ptm/m/n/10 ,
+[290] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (8.0899pt too wide) in paragraph at lines 17424--17433
+\T1/ptm/m/n/10 pends on the method func-tion: \T1/zi4/m/n/10 "Blocked" \T1/ptm/
+m/n/10 for \T1/zi4/m/n/10 pdBlocked\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Compound Sy
+mmetry"
+
+Overfull \hbox (21.89084pt too wide) in paragraph at lines 17424--17433
+\T1/zi4/m/n/10 pdNatural\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "General Positive-Defin
+ite" \T1/ptm/m/n/10 for \T1/zi4/m/n/10 pdSymm\T1/ptm/m/n/10 , and \T1/zi4/m/n/1
+0 data.class(object)
+[291] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (115.03085pt too wide) in paragraph at lines 17489--17497
+\T1/zi4/m/n/10 "Exponential of variance covariate" \T1/ptm/m/n/10 for \T1/zi4/m
+/n/10 varExp\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Different standard deviations per 
+stratum"
+
+Overfull \hbox (48.45078pt too wide) in paragraph at lines 17489--17497
+\T1/ptm/m/n/10 for \T1/zi4/m/n/10 varIdent\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Powe
+r of variance covariate" \T1/ptm/m/n/10 for \T1/zi4/m/n/10 varPower\T1/ptm/m/n/
+10 , and \T1/zi4/m/n/10 data.class(object)
+
+Overfull \hbox (39.77748pt too wide) in paragraph at lines 17503--17505
+[]\T1/ptm/m/n/10 an ob-ject sim-i-lar to \T1/zi4/m/n/10 object\T1/ptm/m/n/10 , 
+with an ad-di-tional at-tribute \T1/zi4/m/n/10 structName\T1/ptm/m/n/10 , in-he
+r-it-ing from class \T1/zi4/m/n/10 summary.varFunc\T1/ptm/m/n/10 . 
+[292] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [293]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [294]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [295]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [296]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [297] [298]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [299]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [300]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [301]
+Overfull \hbox (8.01746pt too wide) in paragraph at lines 18073--18075
+[]\T1/ptm/m/n/10 a \T1/zi4/m/n/10 varFixed \T1/ptm/m/n/10 ob-ject rep-re-sent-i
+ng a fixed vari-ance func-tion struc-ture, also in-her-it-ing from class \T1/zi
+4/m/n/10 varFunc\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [302]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [303] [304]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (60.36096pt too wide) in paragraph at lines 18279--18289
+[][][]\T1/zi4/m/n/10 Variogram.corExp[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 
+Variogram.corGaus[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.corLin[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.corRatio[][][]\T1/ptm/m/n/10 , 
+[][]\T1/zi4/m/n/10 Variogram.corSpatial[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [305] [306]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [307]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [308]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [309]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (0.69778pt too wide) in paragraph at lines 18558--18562
+\T1/zi4/m/n/10 FUN\T1/ptm/m/n/10 , us-ing the es-ti-mated co-ef-fi-cients cor-r
+e-spond-ing to \T1/zi4/m/n/10 object\T1/ptm/m/n/10 , at the dis-tances de-fined
+ by \T1/zi4/m/n/10 distance\T1/ptm/m/n/10 . 
+
+Overfull \hbox (1.29861pt too wide) in paragraph at lines 18585--18588
+[]\T1/ptm/m/n/10 a func-tion of two ar-gu-ments, the dis-tance and the range co
+r-re-spond-ing to \T1/zi4/m/n/10 object\T1/ptm/m/n/10 ,
+[310]
+Overfull \hbox (54.88098pt too wide) in paragraph at lines 18608--18617
+[][][]\T1/zi4/m/n/10 corSpatial[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variog
+ram[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.default[][][]\T1/ptm/m/n
+/10 , [][]\T1/zi4/m/n/10 Variogram.corExp[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 Variogram.corGaus[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.corLin
+[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [311]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [312]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [313]
+Overfull \hbox (6.09778pt too wide) in paragraph at lines 18818--18823
+\T1/ptm/m/n/10 semi-variogram val-ues are cal-cu-lated and this ar-gu-ment is u
+sed as the \T1/zi4/m/n/10 length.out
+
+Overfull \hbox (4.82787pt too wide) in paragraph at lines 18823--18833
+\T1/ptm/m/n/10 num-ber of ob-ser-va-tions per group, with pos-si-bly vary-ing d
+is-tance in-ter-val lengths.
+[314] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [315]
+Overfull \hbox (6.09778pt too wide) in paragraph at lines 18953--18958
+\T1/ptm/m/n/10 semi-variogram val-ues are cal-cu-lated and this ar-gu-ment is u
+sed as the \T1/zi4/m/n/10 length.out
+
+Overfull \hbox (4.82787pt too wide) in paragraph at lines 18958--18968
+\T1/ptm/m/n/10 num-ber of ob-ser-va-tions per group, with pos-si-bly vary-ing d
+is-tance in-ter-val lengths.
+[316] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [317]
+[318] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [319]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [320]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [321]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [322]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.31769pt too wide) in paragraph at lines 19451--19455
+[]\T1/ptm/m/n/10 optional sub-scripts ap-ply-ing re-spec-tively to the rows and
+ columns of the positive-
+
+Overfull \hbox (0.67793pt too wide) in paragraph at lines 19451--19455
+\T1/ptm/m/n/10 definite ma-trix rep-re-sented by \T1/zi4/m/n/10 object\T1/ptm/m
+/n/10 . When \T1/zi4/m/n/10 i \T1/ptm/m/n/10 (\T1/zi4/m/n/10 j\T1/ptm/m/n/10 ) 
+is omit-ted, all rows (columns)
+[323] (./Rd2.ind [324] [325] [326] [327]
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 295.
+
+[328] [329] [330] [331] [332] [333] [334] [335]) (./Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Rfn.[} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.set.seed} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.naresid} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.loess} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.predict.lm} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.histogram} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.bwplot} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dotplot} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.splom} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.xyplot} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.selfStart} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.try} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.getOption} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nls} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nlm} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.terms} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.contrasts} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.model.matrix} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as.matrix} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.logLik} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.warning} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.tryCatch} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.lm} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.logical} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.list} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.model.matrix.default} has been referenced but d
+oes not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.table} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.summary} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.optim} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nlminb} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.fitted} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.resid} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.na.fail} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.update.formula} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.napredict} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dist} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.coef} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.predict} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.all.vars} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.formula} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.BIC} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.AIC} has been referenced but does not exist, re
+placed by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/us
+r/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive
+/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on Rd2.pdf (335 pages, 978770 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
+Scanning input file Rd2.idx.....done (1741 entries accepted, 14 rejected).
+Sorting entries.................done (19895 comparisons).
+Generating output file Rd2.ind.....done (1702 lines written, 28 warnings).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo))
+(/home/aviral/projects/r/share/texmf/tex/latex/Rd.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.10, 2016/02/22 Text macros for Inconsolata (msharpe)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 366.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu)))
+Writing index file Rd2.idx
+(./Rd2.aux) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+(./Rd2.out) (./Rd2.out)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] [3] [4] [5] [6])
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [7]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [8]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd) [9]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [10]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [11]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [12]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [13] [14]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [15] [16] [17]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [18]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [19]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [20]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [21]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [22]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [23]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [24] [25]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [26]
+Overfull \hbox (12.45pt too wide) in paragraph at lines 1204--1206
+[]\T1/ptm/m/n/10 `\T1/zi4/m/n/10 http://stat.gamma.rug.nl/snijders/multilevel.h
+tm\T1/ptm/m/n/10 ', the first edi-tion of [][]$\T1/zi4/m/n/10 http : / / www . 
+stats .
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [27]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [28]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [29] [30]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [31] [32]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [33] [34]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [35]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [36]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [37]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.28784pt too wide) in paragraph at lines 1932--1934
+[]\T1/ptm/m/n/10 an ob-ject in-her-it-ing from class \T1/zi4/m/n/10 "[][]varFun
+c[][][]" \T1/ptm/m/n/10 rep-re-sent-ing a vari-ance func-tion struc-
+[38] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [39]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (18.6999pt too wide) in paragraph at lines 2064--2070
+\T1/ptm/m/n/10 ner to the \T1/zi4/m/n/10 displayLevel \T1/ptm/m/n/10 group-ing 
+fac-tor. If equal to \T1/zi4/m/n/10 TRUE\T1/ptm/m/n/10 , \T1/zi4/m/n/10 attr(ob
+ject, "outer")
+[40] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [41]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [42] [43]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [44]
+Overfull \hbox (2.26099pt too wide) in paragraph at lines 2328--2334
+[][][]\T1/zi4/m/n/10 ACF.lme[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corARMA[]
+[][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corClasses[][][]\T1/ptm/m/n/10 , [][]\T
+1/zi4/m/n/10 Dim.corSpatial[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Initialize
+.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 summary.corStruct[][][] 
+[45] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [46]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [47] [48]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (12.84106pt too wide) in paragraph at lines 2603--2610
+[][][]\T1/zi4/m/n/10 corAR1[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corARMA[][
+][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corCAR1[][][]\T1/ptm/m/n/10 , [][]\T1/zi
+4/m/n/10 corCompSymm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corExp[][][]\T1/p
+tm/m/n/10 , [][]\T1/zi4/m/n/10 corGaus[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10
+ corLin[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corRatio[][][]\T1/ptm/m/n/10 ,
+ [][]\T1/zi4/m/n/10 corSpher[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 corSymm[]
+[][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [49] [50]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [51] [52]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [53]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [54]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [55]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [56] [57]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [58]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [59]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [60]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [61]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [62]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [63]
+Overfull \hbox (1.8773pt too wide) in paragraph at lines 3521--3524
+[]\T1/ptm/m/n/10 an ob-ject of class \T1/zi4/m/n/10 corRatio\T1/ptm/m/n/10 , al
+so in-her-it-ing from class \T1/zi4/m/n/10 corSpatial\T1/ptm/m/n/10 , rep-re-se
+nt-ing a ra-tio-nal quadratic
+[64] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [65]
+Overfull \hbox (2.24986pt too wide) in paragraph at lines 3625--3633
+\T1/ptm/m/n/10 Avail-able types in-clude \T1/zi4/m/n/10 "spherical"\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 "exponential"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "gaussian"\T1/
+ptm/m/n/10 , \T1/zi4/m/n/10 "linear"\T1/ptm/m/n/10 ,
+[66] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [67] [68]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [69] [70]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [71]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [72]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (37.26843pt too wide) in paragraph at lines 4055--4060
+\T1/ptm/m/n/10 Classes which al-ready have meth-ods for this func-tion in-clude
+: \T1/zi4/m/n/10 "[][]corSpatial[][][]"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "[][]cor
+Struct[][][]"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "pdCompSymm"\T1/ptm/m/n/10 ,
+[73] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [74] [75]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [76]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [77]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [78]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [79]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [80]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (62.33864pt too wide) in paragraph at lines 4512--4517
+\T1/ptm/m/n/10 trix), \T1/zi4/m/n/10 fitted \T1/ptm/m/n/10 (fit-ted val-ues), a
+nd \T1/zi4/m/n/10 residuals \T1/ptm/m/n/10 (resid-u-als). De-faults to \T1/zi4/
+m/n/10 attr(object, "glsFit")\T1/ptm/m/n/10 . 
+[81] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [82] [83]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [84]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [85]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [86]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [87]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [88]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [89]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [90]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [91]
+Overfull \hbox (26.94876pt too wide) in paragraph at lines 5117--5122
+\T1/ptm/m/n/10 sary, and the unique lev-els are used to de-fine the groups. De-
+faults to \T1/zi4/m/n/10 formula(object)\T1/ptm/m/n/10 . 
+[92] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [93]
+Overfull \hbox (3.58858pt too wide) in paragraph at lines 5235--5239
+\T1/ptm/m/n/10 Classes which al-ready have meth-ods for this func-tion in-clude
+ \T1/zi4/m/n/10 corStruct\T1/ptm/m/n/10 , \T1/zi4/m/n/10 corSpatial\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 data.frame\T1/ptm/m/n/10 ,
+
+Overfull \hbox (38.34094pt too wide) in paragraph at lines 5271--5275
+[][][]\T1/zi4/m/n/10 getCovariate.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m
+/n/10 getCovariate.data.frame[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getCovar
+iate.varFunc[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getCovariateFormula[][][]
+ 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [94]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [95]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [96]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [97]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [98]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [99]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [100]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [101]
+Overfull \hbox (12.86096pt too wide) in paragraph at lines 5712--5715
+[][][]\T1/zi4/m/n/10 getGroupsFormula[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 
+getGroups.data.frame[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroups.gls[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroups.lmList[][][]\T1/ptm/m/n/10 , []
+[]\T1/zi4/m/n/10 getGroups.lme[][][] 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [102]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [103] [104]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [105]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [106]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [107]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [108]
+Overfull \hbox (60.84094pt too wide) in paragraph at lines 6100--6105
+[][][]\T1/zi4/m/n/10 getGroupsFormula.gls[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 getGroupsFormula.lmList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroupsF
+ormula.lme[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 getGroupsFormula.reStruct[]
+[][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [109]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [110]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (2.69841pt too wide) in paragraph at lines 6228--6234
+[]\T1/ptm/m/n/10 For mod-els fit by [][]\T1/zi4/m/n/10 lme[][][] \T1/ptm/m/n/10
+ the \T1/zi4/m/n/10 type \T1/ptm/m/n/10 ar-gu-ment spec-i-fies the type of vari
+ance-covariance
+[111] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [112]
+[113]
+Overfull \hbox (38.92102pt too wide) in paragraph at lines 6374--6385
+[][][]\T1/zi4/m/n/10 corClasses[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 glsCon
+trol[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 glsObject[][][]\T1/ptm/m/n/10 , [
+][]\T1/zi4/m/n/10 glsStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.gls[]
+[][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 predict.gls[][][]\T1/ptm/m/n/10 , [][]\
+T1/zi4/m/n/10 qqnorm.gls[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 residuals.gls
+[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [114]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 6441--6443
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [115]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [116]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [117]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [118]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [119] [120]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [121]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 6862--6864
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [122]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [123]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [124] [125]
+Overfull \hbox (34.401pt too wide) in paragraph at lines 7138--7145
+[][][]\T1/zi4/m/n/10 formula[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 gapply[][
+][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 gsummary[][][]\T1/ptm/m/n/10 , [][]\T1/z
+i4/m/n/10 lme[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.nffGroupedData[][][
+]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.nfnGroupedData[][][]\T1/ptm/m/n/10 , 
+[][]\T1/zi4/m/n/10 plot.nmGroupedData[][][]\T1/ptm/m/n/10 ,
+[126] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [127]
+Overfull \hbox (26.94876pt too wide) in paragraph at lines 7213--7218
+\T1/ptm/m/n/10 sary, and the unique lev-els are used to de-fine the groups. De-
+faults to \T1/zi4/m/n/10 formula(object)\T1/ptm/m/n/10 . 
+[128] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [129]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [130]
+Overfull \hbox (10.84094pt too wide) in paragraph at lines 7404--7409
+[][][]\T1/zi4/m/n/10 Initialize.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 Initialize.lmeStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Initialize.gl
+sStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Initialize.varFunc[][][]\T1/pt
+m/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [131]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [132]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [133]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [134]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [135]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [136] [137]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [138]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [139]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [140]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [141]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [142]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [143]
+Overfull \hbox (27.61867pt too wide) in paragraph at lines 8195--8199
+[]\T1/ptm/m/n/10 an op-tional data frame con-tain-ing the vari-ables named in \
+T1/zi4/m/n/10 fixed\T1/ptm/m/n/10 , \T1/zi4/m/n/10 random\T1/ptm/m/n/10 , \T1/z
+i4/m/n/10 correlation\T1/ptm/m/n/10 ,
+
+Overfull \hbox (79.44865pt too wide) in paragraph at lines 8199--8221
+[]\T1/ptm/m/n/10 optionally, any of the fol-low-ing: (i) a one-sided for-mula o
+f the form \T1/zi4/m/n/10 ~ x1 + ... + xn | g1/.../gm\T1/ptm/m/n/10 ,
+[144] [145]
+Overfull \hbox (28.92102pt too wide) in paragraph at lines 8319--8336
+[][][]\T1/zi4/m/n/10 corClasses[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme.lm
+List[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme.groupedData[][][]\T1/ptm/m/n/
+10 , [][]\T1/zi4/m/n/10 lmeControl[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme
+Object[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lmeStruct[][][]\T1/ptm/m/n/10 ,
+ [][]\T1/zi4/m/n/10 lmList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdClasses[]
+[][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (59.44865pt too wide) in paragraph at lines 8372--8394
+[]\T1/ptm/m/n/10 optionally, any of the fol-low-ing: (i) a one-sided for-mula o
+f the form \T1/zi4/m/n/10 ~x1+...+xn | g1/.../gm\T1/ptm/m/n/10 ,
+[146] [147] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[148] [149] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[150]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 8686--8688
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+[151] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [152]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [153]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [154] [155]
+Overfull \hbox (6.781pt too wide) in paragraph at lines 8960--8967
+[][][]\T1/zi4/m/n/10 lm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 lme.lmList[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 plot.lmList[][][]\T1/ptm/m/n/10 , [][]\T1
+/zi4/m/n/10 pooledSD[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 predict.lmList[][
+][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 residuals.lmList[][][]\T1/ptm/m/n/10 , [
+][]\T1/zi4/m/n/10 summary.lmList[][][] 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [156]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [157]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [158]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.39696pt too wide) in paragraph at lines 9154--9157
+[]\T1/ptm/m/n/10 This method func-tion ex-tracts the log-a-rithm of the de-ter-
+mi-nant of a square-root fac-tor of the positive-
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [159]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [160]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [161]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [162]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [163]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [164]
+Overfull \hbox (42.38098pt too wide) in paragraph at lines 9492--9499
+[][][]\T1/zi4/m/n/10 lme[][][]\T1/ptm/m/n/10 ,[][]\T1/zi4/m/n/10 gls[][][]\T1/p
+tm/m/n/10 , [][]\T1/zi4/m/n/10 logLik.corStruct[][][]\T1/ptm/m/n/10 , [][]\T1/z
+i4/m/n/10 logLik.glsStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 logLik.lmeS
+truct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 logLik.lmList[][][]\T1/ptm/m/n/1
+0 , [][]\T1/zi4/m/n/10 logLik.reStruct[][][]\T1/ptm/m/n/10 ,
+[165] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [166]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (8.6081pt too wide) in paragraph at lines 9623--9630
+\T1/ptm/m/n/10 eval-u-ated at \T1/zi4/m/n/10 coef(object)\T1/ptm/m/n/10 . The \
+T1/zi4/m/n/10 settings \T1/ptm/m/n/10 at-tribute of \T1/zi4/m/n/10 object \T1/p
+tm/m/n/10 de-ter-mines whether the log-likelihood,
+[167] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [168]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [169]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [170]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [171]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [172]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [173]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [174]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (44.76736pt too wide) in paragraph at lines 10139--10141
+[]\T1/ptm/m/n/10 a ma-trix ob-tained by bind-ing to-gether, column-wise, the mo
+del ma-tri-ces for each el-e-ment of \T1/zi4/m/n/10 formula(object)\T1/ptm/m/n/
+10 . 
+[175] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [176]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [177]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [178]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [179]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [180]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [181]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [182]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [183]
+Overfull \hbox (104.90858pt too wide) in paragraph at lines 10650--10676
+[]\T1/ptm/m/n/10 optionally, any of the fol-low-ing: (i) a two-sided for-mula o
+f the form \T1/zi4/m/n/10 r1+...+rn~x1+...+xm | g1/.../gQ\T1/ptm/m/n/10 ,
+
+Overfull \hbox (18.82831pt too wide) in paragraph at lines 10650--10676
+\T1/zi4/m/n/10 x1+...+xm \T1/ptm/m/n/10 spec-i-fy-ing the random-effects model 
+for these pa-ram-e-ters and \T1/zi4/m/n/10 g1/.../gQ
+
+Overfull \hbox (26.78831pt too wide) in paragraph at lines 10650--10676
+\T1/ptm/m/n/10 mul-ti-ple lev-els of group-ing; (ii) a two-sided for-mula of th
+e form \T1/zi4/m/n/10 r1+...+rn~x1+..+xm\T1/ptm/m/n/10 ,
+
+Overfull \hbox (14.22804pt too wide) in paragraph at lines 10650--10676
+\T1/ptm/m/n/10 for-mula, or list of two-sided for-mu-las (i.e. a non-\T1/zi4/m/
+n/10 NULL \T1/ptm/m/n/10 value for \T1/zi4/m/n/10 formula(random)\T1/ptm/m/n/10
+ ),
+[184]
+Overfull \hbox (19.63843pt too wide) in paragraph at lines 10676--10683
+[]\T1/ptm/m/n/10 an op-tional one-sided for-mula of the form \T1/zi4/m/n/10 ~g1
+ \T1/ptm/m/n/10 (sin-gle level of nest-ing) or \T1/zi4/m/n/10 ~g1/.../gQ
+[185]
+Overfull \hbox (8.92102pt too wide) in paragraph at lines 10788--10794
+[][][]\T1/zi4/m/n/10 nlmeControl[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 nlme.
+nlsList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 nlmeObject[][][]\T1/ptm/m/n/10
+ , [][]\T1/zi4/m/n/10 nlsList[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 nlmeStru
+ct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdClasses[][][]\T1/ptm/m/n/10 , [][
+]\T1/zi4/m/n/10 reStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 varFunc[][][]
+\T1/ptm/m/n/10 ,
+[186] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (19.63843pt too wide) in paragraph at lines 10845--10852
+[]\T1/ptm/m/n/10 an op-tional one-sided for-mula of the form \T1/zi4/m/n/10 ~g1
+ \T1/ptm/m/n/10 (sin-gle level of nest-ing) or \T1/zi4/m/n/10 ~g1/.../gQ
+[187] [188] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[189]
+Overfull \hbox (52.90775pt too wide) in paragraph at lines 11027--11029
+[]\T1/ptm/m/n/10 relative step for nu-mer-i-cal deriva-tives cal-cu-la-tions. D
+e-fault is \T1/zi4/m/n/10 .Machine$double.eps^(1/3)\T1/ptm/m/n/10 . 
+[190] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (7.53009pt too wide) in paragraph at lines 11071--11079
+\T1/ptm/m/n/10 for the generic func-tions \T1/zi4/m/n/10 anova\T1/ptm/m/n/10 , 
+\T1/zi4/m/n/10 coef\T1/ptm/m/n/10 , \T1/zi4/m/n/10 fitted\T1/ptm/m/n/10 , \T1/z
+i4/m/n/10 fixed.effects\T1/ptm/m/n/10 , \T1/zi4/m/n/10 formula\T1/ptm/m/n/10 , 
+\T1/zi4/m/n/10 getGroups\T1/ptm/m/n/10 , \T1/zi4/m/n/10 getResponse\T1/ptm/m/n/
+10 ,
+[191] [192] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [193] [194]
+Overfull \hbox (3.4899pt too wide) in paragraph at lines 11299--11305
+\T1/ptm/m/n/10 tor. Generic func-tions such as \T1/zi4/m/n/10 coef\T1/ptm/m/n/1
+0 , \T1/zi4/m/n/10 fixed.effects\T1/ptm/m/n/10 , \T1/zi4/m/n/10 lme\T1/ptm/m/n/
+10 , \T1/zi4/m/n/10 pairs\T1/ptm/m/n/10 , \T1/zi4/m/n/10 plot\T1/ptm/m/n/10 , \
+T1/zi4/m/n/10 predict\T1/ptm/m/n/10 , \T1/zi4/m/n/10 random.effects\T1/ptm/m/n/
+10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [195]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [196]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [197]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [198]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [199]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [200]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [201]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [202] [203]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [204]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (4.19801pt too wide) in paragraph at lines 12005--12011
+\T1/ptm/m/n/10 fac-tors may be present in \T1/zi4/m/n/10 form\T1/ptm/m/n/10 , t
+he for-mu-las needs to be eval-u-ated on a data.frame
+[205] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (7.14749pt too wide) in paragraph at lines 12076--12078
+[]\T1/ptm/m/n/10 general positive-definite ma-trix, with no ad-di-tional struc-
+ture, us-ing a log-Cholesky
+[206] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [207]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [208] [209]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [210]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [211]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [212]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [213]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [214] [215]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [216]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [217] [218]
+Overfull \hbox (35.94104pt too wide) in paragraph at lines 12857--12864
+[][][]\T1/zi4/m/n/10 pdClasses[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdCompS
+ymm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdDiag[][][]\T1/ptm/m/n/10 , [][]\
+T1/zi4/m/n/10 pdIdent[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdNatural[][][]\
+T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 pdSymm[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 reStruct[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 solve.pdMat[][][]\T1/ptm/
+m/n/10 , [][]\T1/zi4/m/n/10 summary.pdMat[][][] 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [219]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [220]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [221]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [222]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [223]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [224]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [225]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [226]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [227]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [228]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [229] [230]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [231]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [232]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [233] [234]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [235]
+Overfull \hbox (4.97841pt too wide) in paragraph at lines 13959--13966
+[]\T1/ptm/m/n/10 an op-tional log-i-cal func-tion or func-tion. If \T1/zi4/m/n/
+10 TRUE \T1/ptm/m/n/10 and ei-ther \T1/zi4/m/n/10 inner \T1/ptm/m/n/10 or \T1/z
+i4/m/n/10 innerGroups
+
+Overfull \hbox (5.46863pt too wide) in paragraph at lines 13967--13970
+[]\T1/ptm/m/n/10 this ar-gu-ment is in-cluded for con-sis-tency with the \T1/zi
+4/m/n/10 plot.nfnGroupedData \T1/ptm/m/n/10 method
+[236] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [237]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [238]
+Overfull \hbox (47.8088pt too wide) in paragraph at lines 14147--14157
+\T1/ptm/m/n/10 els of the Trel-lis plot. If equal to \T1/zi4/m/n/10 TRUE\T1/ptm
+/m/n/10 , the \T1/zi4/m/n/10 displayLevel \T1/ptm/m/n/10 el-e-ment \T1/zi4/m/n/
+10 attr(object, "outer")
+[239] [240] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+[241] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [242]
+[243] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (47.3479pt too wide) in paragraph at lines 14492--14494
+[]\T1/ptm/m/n/10 an op-tional nu-meric vec-tor with the lim-its for the y-axis.
+ De-faults to \T1/zi4/m/n/10 c(0, max(x$variog))\T1/ptm/m/n/10 . 
+[244] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [245]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [246]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [247]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [248]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [249]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [250] [251]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [252]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [253] [254]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [255] [256]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [257]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [258]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [259]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [260] [261]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [262]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [263]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (2.26843pt too wide) in paragraph at lines 15691--15695
+\T1/ptm/m/n/10 Classes which al-ready have meth-ods for this func-tion in-clude
+: \T1/zi4/m/n/10 corStruct\T1/ptm/m/n/10 , \T1/zi4/m/n/10 modelStruct\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 reStruct\T1/ptm/m/n/10 ,
+[264] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [265]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [266]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [267]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [268]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [269]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [270]
+Overfull \hbox (62.33864pt too wide) in paragraph at lines 16129--16134
+\T1/ptm/m/n/10 trix), \T1/zi4/m/n/10 fitted \T1/ptm/m/n/10 (fit-ted val-ues), a
+nd \T1/zi4/m/n/10 residuals \T1/ptm/m/n/10 (resid-u-als). De-faults to \T1/zi4/
+m/n/10 attr(object, "glsFit")\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [271]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [272] [273]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [274]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (18.01868pt too wide) in paragraph at lines 16376--16385
+\T1/ptm/m/n/10 stan-dard er-ror) us-ing dif-fer-ent stan-dard er-rors for each 
+\T1/zi4/m/n/10 lm \T1/ptm/m/n/10 fit, and \T1/zi4/m/n/10 "pooled.pearson"
+[275] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [276]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (15.01903pt too wide) in paragraph at lines 16506--16524
+[]\T1/ptm/m/n/10 any of the fol-low-ing: (i) a one-sided for-mula of the form \
+T1/zi4/m/n/10 ~x1+...+xn | g1/.../gm\T1/ptm/m/n/10 ,
+[277] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [278]
+[279] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [280]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [281]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [282]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [283]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (31.45937pt too wide) in paragraph at lines 16955--16959
+\T1/ptm/m/n/10 with \T1/zi4/m/n/10 object\T1/ptm/m/n/10 , to be used in the \T1
+/zi4/m/n/10 print.summary \T1/ptm/m/n/10 method. De-faults to \T1/zi4/m/n/10 cl
+ass(object)[1]\T1/ptm/m/n/10 . 
+[284] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (5.55797pt too wide) in paragraph at lines 17017--17021
+[]\T1/ptm/m/n/10 an ob-ject in-her-it-ing from class \T1/zi4/m/n/10 summary.gls
+ \T1/ptm/m/n/10 with all com-po-nents in-cluded in \T1/zi4/m/n/10 object \T1/pt
+m/m/n/10 (see [][]\T1/zi4/m/n/10 glsObject[][][]
+[285] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (25.94797pt too wide) in paragraph at lines 17063--17067
+\T1/ptm/m/n/10 cluded as com-po-nents of \T1/zi4/m/n/10 object\T1/ptm/m/n/10 . 
+The re-turned ob-ject is suit-able for print-ing with the \T1/zi4/m/n/10 print.
+summary.lme
+
+Overfull \hbox (33.14851pt too wide) in paragraph at lines 17087--17090
+[]\T1/ptm/m/n/10 an op-tional log-i-cal value used to con-trol the amount of ou
+t-put in the \T1/zi4/m/n/10 print.summary.lme
+
+Overfull \hbox (5.55797pt too wide) in paragraph at lines 17096--17100
+[]\T1/ptm/m/n/10 an ob-ject in-her-it-ing from class \T1/zi4/m/n/10 summary.lme
+ \T1/ptm/m/n/10 with all com-po-nents in-cluded in \T1/zi4/m/n/10 object \T1/pt
+m/m/n/10 (see [][]\T1/zi4/m/n/10 lmeObject[][][]
+[286] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [287]
+[288] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [289]
+Overfull \hbox (19.88002pt too wide) in paragraph at lines 17339--17347
+\T1/ptm/m/n/10 sec-ond di-men-sion is given by \T1/zi4/m/n/10 "Value"\T1/ptm/m/
+n/10 , \T1/zi4/m/n/10 "Std. Error"\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "t value"\T1/
+ptm/m/n/10 , and \T1/zi4/m/n/10 "Pr(>|t|)"\T1/ptm/m/n/10 ,
+[290] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (8.0899pt too wide) in paragraph at lines 17424--17433
+\T1/ptm/m/n/10 pends on the method func-tion: \T1/zi4/m/n/10 "Blocked" \T1/ptm/
+m/n/10 for \T1/zi4/m/n/10 pdBlocked\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Compound Sy
+mmetry"
+
+Overfull \hbox (21.89084pt too wide) in paragraph at lines 17424--17433
+\T1/zi4/m/n/10 pdNatural\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "General Positive-Defin
+ite" \T1/ptm/m/n/10 for \T1/zi4/m/n/10 pdSymm\T1/ptm/m/n/10 , and \T1/zi4/m/n/1
+0 data.class(object)
+[291] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (115.03085pt too wide) in paragraph at lines 17489--17497
+\T1/zi4/m/n/10 "Exponential of variance covariate" \T1/ptm/m/n/10 for \T1/zi4/m
+/n/10 varExp\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Different standard deviations per 
+stratum"
+
+Overfull \hbox (48.45078pt too wide) in paragraph at lines 17489--17497
+\T1/ptm/m/n/10 for \T1/zi4/m/n/10 varIdent\T1/ptm/m/n/10 , \T1/zi4/m/n/10 "Powe
+r of variance covariate" \T1/ptm/m/n/10 for \T1/zi4/m/n/10 varPower\T1/ptm/m/n/
+10 , and \T1/zi4/m/n/10 data.class(object)
+
+Overfull \hbox (39.77748pt too wide) in paragraph at lines 17503--17505
+[]\T1/ptm/m/n/10 an ob-ject sim-i-lar to \T1/zi4/m/n/10 object\T1/ptm/m/n/10 , 
+with an ad-di-tional at-tribute \T1/zi4/m/n/10 structName\T1/ptm/m/n/10 , in-he
+r-it-ing from class \T1/zi4/m/n/10 summary.varFunc\T1/ptm/m/n/10 . 
+[292] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [293]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [294]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [295]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [296]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [297] [298]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [299]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [300]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [301]
+Overfull \hbox (8.01746pt too wide) in paragraph at lines 18073--18075
+[]\T1/ptm/m/n/10 a \T1/zi4/m/n/10 varFixed \T1/ptm/m/n/10 ob-ject rep-re-sent-i
+ng a fixed vari-ance func-tion struc-ture, also in-her-it-ing from class \T1/zi
+4/m/n/10 varFunc\T1/ptm/m/n/10 . 
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [302]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [303] [304]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (60.36096pt too wide) in paragraph at lines 18279--18289
+[][][]\T1/zi4/m/n/10 Variogram.corExp[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 
+Variogram.corGaus[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.corLin[][]
+[]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.corRatio[][][]\T1/ptm/m/n/10 , 
+[][]\T1/zi4/m/n/10 Variogram.corSpatial[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [305] [306]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [307]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [308]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [309]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (0.69778pt too wide) in paragraph at lines 18558--18562
+\T1/zi4/m/n/10 FUN\T1/ptm/m/n/10 , us-ing the es-ti-mated co-ef-fi-cients cor-r
+e-spond-ing to \T1/zi4/m/n/10 object\T1/ptm/m/n/10 , at the dis-tances de-fined
+ by \T1/zi4/m/n/10 distance\T1/ptm/m/n/10 . 
+
+Overfull \hbox (1.29861pt too wide) in paragraph at lines 18585--18588
+[]\T1/ptm/m/n/10 a func-tion of two ar-gu-ments, the dis-tance and the range co
+r-re-spond-ing to \T1/zi4/m/n/10 object\T1/ptm/m/n/10 ,
+[310]
+Overfull \hbox (54.88098pt too wide) in paragraph at lines 18608--18617
+[][][]\T1/zi4/m/n/10 corSpatial[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variog
+ram[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.default[][][]\T1/ptm/m/n
+/10 , [][]\T1/zi4/m/n/10 Variogram.corExp[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n
+/10 Variogram.corGaus[][][]\T1/ptm/m/n/10 , [][]\T1/zi4/m/n/10 Variogram.corLin
+[][][]\T1/ptm/m/n/10 ,
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [311]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [312]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [313]
+Overfull \hbox (6.09778pt too wide) in paragraph at lines 18818--18823
+\T1/ptm/m/n/10 semi-variogram val-ues are cal-cu-lated and this ar-gu-ment is u
+sed as the \T1/zi4/m/n/10 length.out
+
+Overfull \hbox (4.82787pt too wide) in paragraph at lines 18823--18833
+\T1/ptm/m/n/10 num-ber of ob-ser-va-tions per group, with pos-si-bly vary-ing d
+is-tance in-ter-val lengths.
+[314] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [315]
+Overfull \hbox (6.09778pt too wide) in paragraph at lines 18953--18958
+\T1/ptm/m/n/10 semi-variogram val-ues are cal-cu-lated and this ar-gu-ment is u
+sed as the \T1/zi4/m/n/10 length.out
+
+Overfull \hbox (4.82787pt too wide) in paragraph at lines 18958--18968
+\T1/ptm/m/n/10 num-ber of ob-ser-va-tions per group, with pos-si-bly vary-ing d
+is-tance in-ter-val lengths.
+[316] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [317]
+[318] (/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [319]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [320]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [321]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def) [322]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def)
+Overfull \hbox (1.31769pt too wide) in paragraph at lines 19451--19455
+[]\T1/ptm/m/n/10 optional sub-scripts ap-ply-ing re-spec-tively to the rows and
+ columns of the positive-
+
+Overfull \hbox (0.67793pt too wide) in paragraph at lines 19451--19455
+\T1/ptm/m/n/10 definite ma-trix rep-re-sented by \T1/zi4/m/n/10 object\T1/ptm/m
+/n/10 . When \T1/zi4/m/n/10 i \T1/ptm/m/n/10 (\T1/zi4/m/n/10 j\T1/ptm/m/n/10 ) 
+is omit-ted, all rows (columns)
+[323] (./Rd2.ind [324] [325] [326] [327]
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 295.
+
+[328] [329] [330] [331] [332] [333] [334] [335]) (./Rd2.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information)pdfTeX warning (dest): name
+{Rfn.[} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.set.seed} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.naresid} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.loess} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.predict.lm} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.histogram} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.bwplot} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dotplot} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.splom} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.xyplot} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.selfStart} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.try} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.getOption} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nls} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nlm} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.terms} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.contrasts} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.model.matrix} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.as.matrix} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.logLik} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.warning} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.tryCatch} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.lm} has been referenced but does not exist, rep
+laced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.logical} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.list} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.model.matrix.default} has been referenced but d
+oes not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.table} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.summary} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.optim} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.nlminb} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.fitted} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.resid} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.na.fail} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.update.formula} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.napredict} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.dist} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.coef} has been referenced but does not exist, r
+eplaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.predict} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.all.vars} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.formula} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Rfn.BIC} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{Rfn.AIC} has been referenced but does not exist, re
+placed by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{/us
+r/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive
+/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on Rd2.pdf (335 pages, 978943 bytes).
+Transcript written on Rd2.log.
+Saving output to 'nlme-manual.pdf' ...
+Done
+You may want to clean up by 'rm -rf /tmp/aviral/RtmpvZumew/Rd2pdf39152253e123'

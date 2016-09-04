@@ -1,0 +1,221 @@
+* using log directory ‘/home/aviral/projects/r/tests/survival.Rcheck’
+* using R version 3.3.0 (2016-05-03)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* checking for file ‘survival/DESCRIPTION’ ... OK
+* this is package ‘survival’ version ‘2.39-2’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* skipping installation test
+* checking installed package size ... NOTE
+  installed size is  5.1Mb
+  sub-directories of 1Mb or more:
+    data   1.4Mb
+    doc    2.1Mb
+* checking package directory ... OK
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking line endings in Makefiles ... OK
+* checking for GNU extensions in Makefiles ... OK
+* checking compiled code ... NOTE
+Note: information on .o files is not available
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... OK
+* checking for unstated dependencies in ‘tests’ ... OK
+* checking tests ... OK
+  Running ‘aareg.R’
+  Comparing ‘aareg.Rout’ to ‘aareg.Rout.save’ ... OK
+  Running ‘anova.R’
+  Comparing ‘anova.Rout’ to ‘anova.Rout.save’ ... OK
+  Running ‘bladder.R’
+  Comparing ‘bladder.Rout’ to ‘bladder.Rout.save’ ... OK
+  Running ‘book1.R’
+  Comparing ‘book1.Rout’ to ‘book1.Rout.save’ ... OK
+  Running ‘book2.R’
+  Comparing ‘book2.Rout’ to ‘book2.Rout.save’ ... OK
+  Running ‘book3.R’
+  Comparing ‘book3.Rout’ to ‘book3.Rout.save’ ... OK
+  Running ‘book4.R’
+  Comparing ‘book4.Rout’ to ‘book4.Rout.save’ ... OK
+  Running ‘book5.R’
+  Comparing ‘book5.Rout’ to ‘book5.Rout.save’ ... OK
+  Running ‘book6.R’
+  Comparing ‘book6.Rout’ to ‘book6.Rout.save’ ... OK
+  Running ‘book7.R’
+  Comparing ‘book7.Rout’ to ‘book7.Rout.save’ ... OK
+  Running ‘cancer.R’
+  Comparing ‘cancer.Rout’ to ‘cancer.Rout.save’ ... OK
+  Running ‘clogit.R’
+  Comparing ‘clogit.Rout’ to ‘clogit.Rout.save’ ... OK
+  Running ‘concordance.R’
+  Comparing ‘concordance.Rout’ to ‘concordance.Rout.save’ ... OK
+  Running ‘counting.R’
+  Comparing ‘counting.Rout’ to ‘counting.Rout.save’ ... OK
+  Running ‘coxsurv.R’
+  Comparing ‘coxsurv.Rout’ to ‘coxsurv.Rout.save’ ... OK
+  Running ‘coxsurv2.R’
+  Comparing ‘coxsurv2.Rout’ to ‘coxsurv2.Rout.save’ ... OK
+  Running ‘coxsurv3.R’
+  Comparing ‘coxsurv3.Rout’ to ‘coxsurv3.Rout.save’ ... OK
+  Running ‘coxsurv4.R’
+  Comparing ‘coxsurv4.Rout’ to ‘coxsurv4.Rout.save’ ... OK
+  Running ‘detail.R’
+  Comparing ‘detail.Rout’ to ‘detail.Rout.save’ ... OK
+  Running ‘difftest.R’
+  Comparing ‘difftest.Rout’ to ‘difftest.Rout.save’ ... OK
+  Running ‘doaml.R’
+  Comparing ‘doaml.Rout’ to ‘doaml.Rout.save’ ... OK
+  Running ‘doweight.R’
+  Comparing ‘doweight.Rout’ to ‘doweight.Rout.save’ ... OK
+  Running ‘expected.R’
+  Comparing ‘expected.Rout’ to ‘expected.Rout.save’ ... OK
+  Running ‘expected2.R’
+  Comparing ‘expected2.Rout’ to ‘expected2.Rout.save’ ... OK
+  Running ‘factor.R’
+  Comparing ‘factor.Rout’ to ‘factor.Rout.save’ ... OK
+  Running ‘factor2.R’
+  Comparing ‘factor2.Rout’ to ‘factor2.Rout.save’ ... OK
+  Running ‘finegray.R’
+  Comparing ‘finegray.Rout’ to ‘finegray.Rout.save’ ... OK
+  Running ‘fr_cancer.R’
+  Comparing ‘fr_cancer.Rout’ to ‘fr_cancer.Rout.save’ ... OK
+  Running ‘fr_kidney.R’
+  Comparing ‘fr_kidney.Rout’ to ‘fr_kidney.Rout.save’ ... OK
+  Running ‘fr_lung.R’
+  Comparing ‘fr_lung.Rout’ to ‘fr_lung.Rout.save’ ... OK
+  Running ‘fr_ovarian.R’
+  Comparing ‘fr_ovarian.Rout’ to ‘fr_ovarian.Rout.save’ ... OK
+  Running ‘fr_rat1.R’
+  Comparing ‘fr_rat1.Rout’ to ‘fr_rat1.Rout.save’ ... OK
+  Running ‘fr_rat2.R’
+  Comparing ‘fr_rat2.Rout’ to ‘fr_rat2.Rout.save’ ... OK
+  Running ‘fr_resid.R’
+  Comparing ‘fr_resid.Rout’ to ‘fr_resid.Rout.save’ ... OK
+  Running ‘fr_simple.R’
+  Comparing ‘fr_simple.Rout’ to ‘fr_simple.Rout.save’ ... OK
+  Running ‘frailty.R’
+  Comparing ‘frailty.Rout’ to ‘frailty.Rout.save’ ... OK
+  Running ‘frank.R’
+  Comparing ‘frank.Rout’ to ‘frank.Rout.save’ ... OK
+  Running ‘infcox.R’
+  Comparing ‘infcox.Rout’ to ‘infcox.Rout.save’ ... OK
+  Running ‘jasa.R’
+  Comparing ‘jasa.Rout’ to ‘jasa.Rout.save’ ... OK
+  Running ‘model.matrix.R’
+  Comparing ‘model.matrix.Rout’ to ‘model.matrix.Rout.save’ ... OK
+  Running ‘mrtest.R’
+  Comparing ‘mrtest.Rout’ to ‘mrtest.Rout.save’ ... OK
+  Running ‘mstate.R’
+  Comparing ‘mstate.Rout’ to ‘mstate.Rout.save’ ... OK
+  Running ‘nested.R’
+  Comparing ‘nested.Rout’ to ‘nested.Rout.save’ ... OK
+  Running ‘ovarian.R’
+  Comparing ‘ovarian.Rout’ to ‘ovarian.Rout.save’ ... OK
+  Running ‘plot.R’
+  Running ‘prednew.R’
+  Comparing ‘prednew.Rout’ to ‘prednew.Rout.save’ ... OK
+  Running ‘pspline.R’
+  Comparing ‘pspline.Rout’ to ‘pspline.Rout.save’ ... OK
+  Running ‘pyear.R’
+  Comparing ‘pyear.Rout’ to ‘pyear.Rout.save’ ... OK
+  Running ‘quantile.R’
+  Comparing ‘quantile.Rout’ to ‘quantile.Rout.save’ ... OK
+  Running ‘r_capacitor.R’
+  Comparing ‘r_capacitor.Rout’ to ‘r_capacitor.Rout.save’ ... OK
+  Running ‘r_donnell.R’
+  Comparing ‘r_donnell.Rout’ to ‘r_donnell.Rout.save’ ... OK
+  Running ‘r_lung.R’
+  Comparing ‘r_lung.Rout’ to ‘r_lung.Rout.save’ ... OK
+  Running ‘r_peterson.R’
+  Comparing ‘r_peterson.Rout’ to ‘r_peterson.Rout.save’ ... OK
+  Running ‘r_resid.R’
+  Comparing ‘r_resid.Rout’ to ‘r_resid.Rout.save’ ... OK
+  Running ‘r_sas.R’
+  Comparing ‘r_sas.Rout’ to ‘r_sas.Rout.save’ ... OK
+  Running ‘r_scale.R’
+  Comparing ‘r_scale.Rout’ to ‘r_scale.Rout.save’ ... OK
+  Running ‘r_stanford.R’
+  Comparing ‘r_stanford.Rout’ to ‘r_stanford.Rout.save’ ... OK
+  Running ‘r_strata.R’
+  Comparing ‘r_strata.Rout’ to ‘r_strata.Rout.save’ ... OK
+  Running ‘r_tdist.R’
+  Comparing ‘r_tdist.Rout’ to ‘r_tdist.Rout.save’ ... OK
+  Running ‘r_user.R’
+  Comparing ‘r_user.Rout’ to ‘r_user.Rout.save’ ... OK
+  Running ‘ratetable.R’
+  Comparing ‘ratetable.Rout’ to ‘ratetable.Rout.save’ ... OK
+  Running ‘rounding.R’
+  Comparing ‘rounding.Rout’ to ‘rounding.Rout.save’ ... OK
+  Running ‘singtest.R’
+  Comparing ‘singtest.Rout’ to ‘singtest.Rout.save’ ... OK
+  Running ‘strata2.R’
+  Comparing ‘strata2.Rout’ to ‘strata2.Rout.save’ ... OK
+  Running ‘stratatest.R’
+  Comparing ‘stratatest.Rout’ to ‘stratatest.Rout.save’ ... OK
+  Running ‘summary_survfit.R’
+  Comparing ‘summary_survfit.Rout’ to ‘summary_survfit.Rout.save’ ... OK
+  Running ‘surv.R’
+  Comparing ‘surv.Rout’ to ‘surv.Rout.save’ ... OK
+  Running ‘survfit2.R’
+  Comparing ‘survfit2.Rout’ to ‘survfit2.Rout.save’ ... OK
+  Running ‘survreg2.R’
+  Comparing ‘survreg2.Rout’ to ‘survreg2.Rout.save’ ... OK
+  Running ‘survtest.R’
+  Comparing ‘survtest.Rout’ to ‘survtest.Rout.save’ ... OK
+  Running ‘testci.R’
+  Comparing ‘testci.Rout’ to ‘testci.Rout.save’ ... OK
+  Running ‘testci2.R’
+  Comparing ‘testci2.Rout’ to ‘testci2.Rout.save’ ... OK
+  Running ‘testnull.R’
+  Comparing ‘testnull.Rout’ to ‘testnull.Rout.save’ ... OK
+  Running ‘testreg.R’
+  Comparing ‘testreg.Rout’ to ‘testreg.Rout.save’ ... OK
+  Running ‘tiedtime.R’
+  Comparing ‘tiedtime.Rout’ to ‘tiedtime.Rout.save’ ... OK
+  Running ‘tmerge.R’
+  Running ‘tt.R’
+  Comparing ‘tt.Rout’ to ‘tt.Rout.save’ ... OK
+  Running ‘turnbull.R’
+  Comparing ‘turnbull.Rout’ to ‘turnbull.Rout.save’ ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... OK
+* DONE
+Status: 2 NOTEs

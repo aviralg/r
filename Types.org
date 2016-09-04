@@ -1,0 +1,162 @@
+* Annotations
+
+- Annotations are syntactic metadata. 
+- They provide information that is not part of the program itself. 
+- They have no direct effect on the operation of the code they annotate.
+- There are two ways to specify annotations:
+  1. Using `@:' notation.
+     x @:some_annotation <- 34
+     x @:some_annotation(2, l = 3) <- 56
+     x @:some_annotation[5, 6, 7] <- 78
+     x @:(2, 4, "d" = 34) <- 77
+     x @:[a, b, c = 7, d] <- 99
+     
+  2. Using `@| |@' notation.
+     x @| some_annotation |@ <- 34
+     x @| some_annotation(2, l = 3) |@ <- 56
+     x @| some_annotation[5, 6, 7] |@ <- 78
+     x @| (2, 4, "d" = 34) |@ <- 77
+     x @| [a, b, c = 7, d] |@ <- 99
+     x @| function() { 2 } |@ <- 9
+     x @| <any_arbitrary_r_syntax> |@ <- 89
+
+- The 2nd form is a superset of the first form. Since its delimited, it can accept a greater variety of annotations without confusing the parser.
+
+* Atomic Types
+** numeric 
+- can be specified as `num' or `numeric'.
+- Example:
+#+BEGIN_QUOTE
+x @:num <- 34
+x  @| numeric |@ <- 45
+#+END_QUOTE
+
+** integer
+- can be specified as `int' or `integer'.
+- Example:
+#+BEGIN_QUOTE
+x @:int <- 34L
+x  @| integer |@ <- 45L
+#+END_QUOTE
+
+** logical
+- can be specified as `bool' or `logical'.
+- Example:
+#+BEGIN_QUOTE
+x @:bool <- TRUE
+x  @| logical |@ <- FALSE
+#+END_QUOTE
+
+** character
+- can be specified as `char' or `character'.
+- Example:
+#+BEGIN_QUOTE
+x @:char <- "character"
+x  @| character |@ <- ""
+#+END_QUOTE
+
+** complex
+- can be specified as 'cplx` or `complex'.
+- Example:
+#+BEGIN_QUOTE
+x @:cplx <- 1 + 2i
+x  @| complex |@ <- sqrt(-1 + 0i)
+#+END_QUOTE
+
+** void
+- absence of value, indicates side effects, added for function types
+- Example:
+#+BEGIN_QUOTE
+x @| void -> void |@ <- function() { }
+#+END_QUOTE
+
+* Composite Types
+** Vector
+- sequence of values of a specified type and length.
+- Example:
+#+BEGIN_QUOTE
+x @:int[23] <- vector("numeric", 23)
+x @| bool[4] |@ <- logical(4)
+x @:character[5] <- vector("character", 5)
+#+END_QUOTE
+
+** Matrix
+- Matrices are two-dimensional arrays.
+- Examples:
+#+BEGIN_QUOTE
+matrix @:num[4, 3] <- array(
+  1:12, 
+  dim = c(4, 3),
+  dimnames = list(
+    c("one", "two", "three", "four"),
+    c("ein", "zwei", "drei"))
+)
+id3 @:numeric[3, 3] <- diag(3)
+#+END_QUOTE
+
+** Array
+- Arrays hold multidimensional rectangular data. “Rectangular” means that each row is the same length, and likewise for each column and other dimensions.
+- Examples:
+#+BEGIN_QUOTE
+three_d_array @| num[4, 3, 2] |@ <- array(
+  1:24,
+  dim = c(4, 3, 2),
+  dimnames = list(
+    c("one", "two", "three", "four"),
+    c("ein", "zwei", "drei"),
+    c("un", "deux")
+  )
+)
+#+END_QUOTE
+
+** List
+- A list is a generic vector containing other objects.
+- Examples:
+#+BEGIN_QUOTE
+x@| {num[3], char[5], bool[5], int[1]} |@ <- list(
+  c(2, 3, 5), 
+  c("aa", "bb", "cc", "dd", "ee"), 
+  c(TRUE, FALSE, TRUE, FALSE, FALSE), 
+  3)
+#+END_QUOTE
+
+** Data Frame
+- A data frame is a list of vectors of equal length.
+- Examples:
+#+BEGIN_QUOTE
+df @| { num[3], char[3], bool[3] } |@  <- data.frame(
+  c(2, 3, 5), 
+  c("aa", "bb", "cc"), 
+  c(TRUE, FALSE, TRUE)) 
+#+END_QUOTE
+
+** Union Types
+- A union type represents a set of permitted types
+- Examples:
+#+BEGIN_QUOTE
+x @| int | char |@ <- 34
+x <- "union type"
+#+END_QUOTE
+
+** Function Type
+- A function type specifies the input and output type of functions
+- Examples:
+#+BEGIN_QUOTE
+f1 @| (int, numeric) -> num |@ <- function(x, y) { 
+    x + y 
+}
+
+f2 @| void -> int |@ <- function() { 
+    1L 
+}
+
+f3 @| (numeric | logical, int) -> num |@ <- function(x, y) { 
+    x + y 
+}
+
+f4 @| int -> (int -> int) |@ <- function(x) {
+    function(y) {
+        x + y
+    }
+}
+#+END_QUOTE
